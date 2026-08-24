@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avi Seth</title>
+<meta name="description" content="Avi Seth — AI engineer in Copenhagen. Sole engineer at Crispa. Ten years of work from IIT Bombay to Virginia Tech to a Danish fintech, plus a live index of open-source activity, packages and research.">
+<link rel="canonical" href="https://aviseth.fyi/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Avi Seth">
+<meta property="og:description" content="AI engineer in Copenhagen. A live index of what I build.">
+<meta property="og:url" content="https://aviseth.fyi/">
+<meta name="theme-color" content="#FBFAF7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2317171A'/%3E%3Ctext x='16' y='23' font-family='monospace' font-size='19' font-weight='700' fill='%23FBFAF7' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  // Dark is opt-in and remembered. Applied before first paint so there is no flash.
+  try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t } catch (e) {}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <div class="bar__in">
+    <a class="bar__id" href="/">Avi&nbsp;Seth</a>
+    <nav class="bar__nav" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#source">Source</a>
+      <a href="#research">Research</a>
+      <a href="#writing">Writing</a>
+      <a href="#offclock">Off the clock</a>
+    </nav>
+    <button class="bar__theme" type="button" id="theme" aria-label="Switch colour scheme"><span id="theme-label">Dark</span></button>
+  </div>
+</header>
+
+<div class="ticker" id="ticker" aria-label="Live activity">
+  <div class="ticker__tag"><span class="dot" aria-hidden="true"></span>Live</div>
+  <div class="ticker__window">
+    <div class="ticker__track" id="ticker-track">
+      <span class="ticker__item ticker__item--wait">Fetching&nbsp;index&hellip;</span>
+    </div>
+  </div>
+</div>
+<noscript><p class="noscript">The live index needs JavaScript. Everything written below is here without it.</p></noscript>
+
+<main id="main">
+
+<section class="hero wrap">
+  <h1>I build the whole stack for a fintech in Copenhagen<span class="accent">.</span></h1>
+  <p class="hero__sub">Extraction pipelines, auth, infrastructure, the model layer. Sole engineer &mdash; everything that runs, I wrote or own. Before this: privacy research at Virginia Tech, ML delivery in New York, computer vision at IIT Bombay.</p>
+  <dl class="meta">
+    <div><dt>Role</dt><dd>AI Engineer, <a href="https://crispa.ai">Crispa</a></dd></div>
+    <div><dt>Based</dt><dd>Copenhagen, DK</dd></div>
+    <div><dt>Working since</dt><dd>2019 &middot; MS CS, Virginia Tech</dd></div>
+    <div><dt>Write to</dt><dd><a href="mailto:avi.seth8@gmail.com">avi.seth8@gmail.com</a></dd></div>
+  </dl>
+</section>
+
+<section class="band" id="index">
+  <div class="band__in">
+    <ul class="stats">
+      <li><span class="stats__n" data-stat="repos">&mdash;</span><span class="stats__k">Repos</span></li>
+      <li><span class="stats__n" data-stat="stars">&mdash;</span><span class="stats__k">Stars</span></li>
+      <li><span class="stats__n" data-stat="forks">&mdash;</span><span class="stats__k">Forks</span></li>
+      <li><span class="stats__n" data-stat="releases">&mdash;</span><span class="stats__k">Releases</span></li>
+      <li><span class="stats__n" data-stat="packages">&mdash;</span><span class="stats__k">Packages</span></li>
+      <li><span class="stats__n" data-stat="citations">&mdash;</span><span class="stats__k">Citations</span></li>
+    </ul>
+    <p class="band__foot"><span id="synced">Syncing&hellip;</span> &middot; GitHub, PyPI, npm and Crossref, refreshed every three hours. <a href="data/feed.json">Raw feed</a>.</p>
+  </div>
+</section>
+
+<!-- ── 01 work ─────────────────────────────────────────────────────────── -->
+<section class="sec wrap" id="work">
+  <div class="sec__head">
+    <span class="sec__no">01</span>
+    <h2>Selected work</h2>
+    <span class="sec__note">Five things worth reading about. The full ledger is further down.</span>
+  </div>
+
+  <a class="row" href="https://crispa.ai">
+    <span class="row__no">01</span>
+    <span class="row__main">
+      <span class="row__title">Crispa <span class="row__kind">Product &middot; 2025&ndash;</span></span>
+      <span class="row__sum">Accounting software for Danish companies. I am the engineering team.</span>
+      <span class="row__body">Document extraction over Danish invoices and bank statements, running on Claude models behind an eval harness so accuracy is a number rather than a feeling. Underneath it: OAuth against the accounting platforms, an e-invoicing integration, the CI/CD, and the security work &mdash; ERST registration and the ISO 27001 / 27701 track are both mine to land.</span>
+      <span class="tags"><i>Python</i><i>Claude</i><i>Postgres</i><i>OAuth2</i><i>ISO 27001</i></span>
+    </span>
+    <span class="row__go" aria-hidden="true">&#8599;</span>
+  </a>
+
+  <a class="row" href="https://github.com/aviseth/street-coverage-mapper">
+    <span class="row__no">02</span>
+    <span class="row__main">
+      <span class="row__title">street-coverage-mapper <span class="row__kind">Open source</span></span>
+      <span class="row__sum">How much of a city have you actually walked?</span>
+      <span class="row__body">Takes a Google Fit, Apple Health or Strava export, snaps the GPS traces onto the real street graph, and works out which streets you have covered and which you have not. It works for any city because it derives the matching tolerances from the city's own geometry instead of hardcoding them for one place. Falls out to Kepler.gl.</span>
+      <span class="tags"><i>Python</i><i>GeoPandas</i><i>OSMnx</i><i>Kepler.gl</i></span>
+    </span>
+    <span class="row__go" aria-hidden="true">&#8599;</span>
+  </a>
+
+  <a class="row" href="https://pypi.org/project/portalkit/">
+    <span class="row__no">03</span>
+    <span class="row__main">
+      <span class="row__title">portalkit <span class="row__kind">PyPI &middot; Open source</span></span>
+      <span class="row__sum">One Python API for four incompatible open-data portals.</span>
+      <span class="row__body">Cities publish their data on Socrata, CKAN, ArcGIS or OpenDataSoft, and each one has a different idea of what a dataset is. portalkit puts a single interface over all four and hands you a pandas or geopandas frame at the end of it, so the boring half of any civic-data project stops being the whole project.</span>
+      <span class="tags"><i>Python</i><i>pandas</i><i>geopandas</i><i>Socrata</i><i>CKAN</i><i>ArcGIS</i></span>
+    </span>
+    <span class="row__go" aria-hidden="true">&#8599;</span>
+  </a>
+
+  <a class="row" href="https://doi.org/10.1109/BigData55660.2022.10020861">
+    <span class="row__no">04</span>
+    <span class="row__main">
+      <span class="row__title">PriED <span class="row__kind">Research &middot; Virginia Tech</span></span>
+      <span class="row__sum">Sharing industrial process data without sharing what the data reveals.</span>
+      <span class="row__body">Manufacturers want to pool process data and cannot, because the data leaks the process. PriED learns a task-specific VAE-LSTM representation that keeps what a downstream model needs and drops what a competitor would want, with a bilinear-attention search engine on top to pick which shared data is worth using at all. Published at IEEE Big Data 2022; the wider work became my master's thesis.</span>
+      <span class="tags"><i>PyTorch</i><i>VAE-LSTM</i><i>Differential privacy</i><i>IEEE Big Data 2022</i></span>
+    </span>
+    <span class="row__go" aria-hidden="true">&#8599;</span>
+  </a>
+
+  <a class="row" href="https://aaec-vt.shinyapps.io/HamptonRoads/">
+    <span class="row__no">05</span>
+    <span class="row__main">
+      <span class="row__title">Hampton Roads &amp; NDVI dashboards <span class="row__kind">Public policy &middot; DSPG</span></span>
+      <span class="row__sum">Two dashboards built to put a number on quality of life in Virginia.</span>
+      <span class="row__body">I led a Data Science for the Public Good team of fifteen undergraduates through a summer of it. One dashboard maps the issues facing African American communities across Hampton Roads; the other tracks vegetation index over time, because tree cover turns out to be a decent proxy for a lot of things a city would rather not measure directly. Both were built for policymakers to actually open.</span>
+      <span class="tags"><i>R</i><i>Shiny</i><i>Tableau</i><i>NDVI</i><i>Urban policy</i></span>
+    </span>
+    <span class="row__go" aria-hidden="true">&#8599;</span>
+  </a>
+</section>
+
+<!-- ── 02 experience ───────────────────────────────────────────────────── -->
+<section class="sec wrap" id="experience">
+  <div class="sec__head">
+    <span class="sec__no">02</span>
+    <h2>Experience</h2>
+    <span class="sec__note">Copenhagen &middot; New York &middot; Blacksburg &middot; Hamburg &middot; Mumbai &middot; Pune</span>
+  </div>
+
+  <div class="cv">
+    <div class="cv__item">
+      <div class="cv__when"><span class="cv__now">2025 &mdash; now</span></div>
+      <div>
+        <div class="cv__role">AI Engineer <span class="cv__where">Copenhagen</span></div>
+        <div class="cv__org"><a href="https://crispa.ai">Crispa</a></div>
+        <p class="cv__what">Sole engineer on an accounting platform for Danish companies. Document extraction, the model layer and its eval harness, OAuth integrations, e-invoicing, infrastructure and CI/CD. Currently driving ERST registration and ISO 27001 / 27701 certification.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2025 &mdash; 2025</div>
+      <div>
+        <div class="cv__role">AI Software Engineer <span class="cv__where">New York</span></div>
+        <div class="cv__org">Ingram Technologies (Goveni)</div>
+        <p class="cv__what">GenAI systems built on Model Context Protocol, retrieval-augmented pipelines, and scalable APIs. Internal tooling and latency work on GenAI infrastructure, including the Fabrile agent platform.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2024 &mdash; 2025</div>
+      <div>
+        <div class="cv__role">Machine Learning Software Engineer <span class="cv__where">New York</span></div>
+        <div class="cv__org">IntraEdge</div>
+        <p class="cv__what">ML pipelines on AWS SageMaker, Bedrock and CDK. Applied LLMs and NLP to data problems across recruiting, healthcare, finance and education, and got the resulting systems into production alongside data and platform teams.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2023 &mdash; 2024</div>
+      <div>
+        <div class="cv__role">Research Assistant <span class="cv__where">Blacksburg, VA</span></div>
+        <div class="cv__org">The PLAN Lab, Virginia Tech</div>
+        <p class="cv__what">Built PriED, a privacy-preserving data-sharing framework using VAE-LSTM in PyTorch, plus a task-specific search engine using bilinear attention and reinforcement learning to choose which shared data was worth training on. Federated learning and differential privacy for the multi-party case; distributed experiments on EC2 under Docker and Kubernetes.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2022</div>
+      <div>
+        <div class="cv__role">Data Scientist, Master's Intern <span class="cv__where">New York</span></div>
+        <div class="cv__org">Gastrograph AI &mdash; Analytical Flavor Systems</div>
+        <p class="cv__what">A food-preference generalisation model that took demographic accuracy from 43% to 84% using XGBoost and neural network ensembles, with ICA feature extraction and Bayesian hyperparameter optimisation. The company was later acquired by NielsenIQ.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2021 &mdash; 2022</div>
+      <div>
+        <div class="cv__role">Graduate Research Assistant, Python Developer <span class="cv__where">Blacksburg, VA</span></div>
+        <div class="cv__org">Advanced Research Computing, Virginia Tech</div>
+        <p class="cv__what">Open OnDemand applications that put HPC in reach of researchers who did not want to learn a scheduler &mdash; web front ends for RStudio, MATLAB and CAD tools over a distributed cluster. Engagement rose about 30%. Presented as <em>Dashboards OnDemand</em> at ISAIC 2021.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2021</div>
+      <div>
+        <div class="cv__role">Graduate Team Leader <span class="cv__where">Blacksburg, VA</span></div>
+        <div class="cv__org">Data Science for the Public Good, Virginia Tech</div>
+        <p class="cv__what">Ran a team of fifteen undergraduates and worked alongside three other graduate leads on public-policy data. Led the Hampton Roads analysis and built the NDVI dashboard &mdash; my first proper encounter with cities as a data problem, and the reason I still care about them.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2020</div>
+      <div>
+        <div class="cv__role">Computer Vision Intern <span class="cv__where">Pune</span></div>
+        <div class="cv__org">AI India Innovation Center</div>
+        <p class="cv__what">Mask detection and social-distancing monitoring for CCTV hardware with almost no compute budget, which is mostly a study in what you give up to make a model fit. Shipped with a Python GUI over live video feeds.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2019 &mdash; 2020</div>
+      <div>
+        <div class="cv__role">Research Intern <span class="cv__where">Mumbai</span></div>
+        <div class="cv__org">Indian Institute of Technology Bombay</div>
+        <p class="cv__what">A Bayesian FlowNet model over CNNs and LSTMs for enhancing drone and CCTV footage by modelling how frames transition, so the output holds together across time rather than frame by frame.</p>
+      </div>
+    </div>
+
+    <div class="cv__item">
+      <div class="cv__when">2019</div>
+      <div>
+        <div class="cv__role">Data Scientist Intern <span class="cv__where">Hamburg</span></div>
+        <div class="cv__org">Arqaam GmbH</div>
+        <p class="cv__what">11,500 survey responses from conflict zones across the Middle East, turned into human development and livelihood indices that policy people could act on. R pipelines for the cleaning, feature engineering and trend analysis.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="sub">Education</h3>
+  <div class="cv">
+    <div class="cv__item">
+      <div class="cv__when">2021 &mdash; 2023</div>
+      <div>
+        <div class="cv__role">MS, Computer Science <span class="cv__where">GPA 4.00</span></div>
+        <div class="cv__org">Virginia Tech</div>
+        <p class="cv__what">Thesis: <a href="https://vtechworks.lib.vt.edu/items/5594874e-03b8-4598-8ea5-a0269059a807">Data Sharing and Retrieval of Similar Manufacturing Processes</a>. Advanced ML, trustworthy ML, deep learning, human&ndash;AI interaction.</p>
+      </div>
+    </div>
+    <div class="cv__item">
+      <div class="cv__when">2016 &mdash; 2020</div>
+      <div>
+        <div class="cv__role">BTech, Computer Science and Engineering <span class="cv__where">Mumbai</span></div>
+        <div class="cv__org">NMIMS &mdash; Mukesh Patel School of Technology Management &amp; Engineering</div>
+        <p class="cv__what">Final-year project on efficient feature detection from low-resolution camera sources. Part of the NMIMS team that won the Government of India's Smart India Hackathon in 2019, for an autonomous invoice-processing system.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 03 source ───────────────────────────────────────────────────────── -->
+<section class="sec wrap" id="source">
+  <div class="sec__head">
+    <span class="sec__no">03</span>
+    <h2>Open source</h2>
+    <span class="sec__note">Straight from the API. Nothing here is curated to flatter.</span>
+  </div>
+
+  <p class="lede">Public repositories, sorted by stars and then by last push. The ones with any signal &mdash; a star, a fork, or a push in the last year &mdash; come first.</p>
+
+  <div class="tablewrap">
+    <table class="tbl" id="repos">
+      <thead><tr><th>Repository</th><th>Language</th><th class="num">Stars</th><th class="num">Forks</th><th class="num">Pushed</th></tr></thead>
+      <tbody><tr><td colspan="5" class="tbl__wait">Loading&hellip;</td></tr></tbody>
+    </table>
+  </div>
+
+  <h3 class="sub">Recent activity</h3>
+  <ol class="log" id="log"><li class="log__empty"><span class="log__wait">Loading&hellip;</span></li></ol>
+
+  <h3 class="sub">Merged into other people's projects</h3>
+  <ol class="log" id="prs"><li class="log__empty"><span class="log__wait">Loading&hellip;</span></li></ol>
+
+  <h3 class="sub">Published packages</h3>
+  <div id="pkgs"><p class="empty">Loading&hellip;</p></div>
+</section>
+
+<!-- ── 04 research ─────────────────────────────────────────────────────── -->
+<section class="sec wrap" id="research">
+  <div class="sec__head">
+    <span class="sec__no">04</span>
+    <h2>Research</h2>
+    <span class="sec__note">Citation counts are live from Crossref where a DOI exists, and from Scholar otherwise. Both are labelled.</span>
+  </div>
+
+  <ol class="papers">
+    <li data-doi="10.1109/BigData55660.2022.10020861">
+      <a href="https://doi.org/10.1109/BigData55660.2022.10020861">Task-Driven Privacy-Preserving Data-Sharing Framework for the Industrial Internet</a>
+      <span class="papers__meta">IEEE Big Data &middot; 2022 &middot; Shojaee, Zeng, Wahed, <b>Seth</b>, Jin, Lourentzou</span>
+      <span class="papers__cite"><span class="c">&mdash;</span> <em>citations</em></span>
+    </li>
+    <li data-doi="10.1109/ICSCAN.2019.8878706">
+      <a href="https://doi.org/10.1109/ICSCAN.2019.8878706">A Comprehensive Review of Convolutional Neural Network based Image Enhancement Techniques</a>
+      <span class="papers__meta">IEEE ICSCAN &middot; 2019 &middot; Singh, <b>Seth</b>, Sandhu, Samdani</span>
+      <span class="papers__cite"><span class="c">&mdash;</span> <em>citations</em></span>
+    </li>
+    <li data-scholar="0">
+      <a href="https://vtechworks.lib.vt.edu/items/5594874e-03b8-4598-8ea5-a0269059a807">Data Sharing and Retrieval of Similar Manufacturing Processes</a>
+      <span class="papers__meta">MS thesis, Virginia Tech &middot; 2023 &middot; <b>Seth</b>, sole author</span>
+      <span class="papers__cite"><span class="c">&mdash;</span> <em>citations</em></span>
+    </li>
+    <li data-scholar="1">
+      <a href="https://scholar.google.com/citations?user=7vtdRCQAAAAJ">Road Incidents and Closures Classification in a Connected Vehicular Environment</a>
+      <span class="papers__meta">Preprint &middot; 2021 &middot; Oza, Abhyankar, <b>Seth</b>, Sharma</span>
+      <span class="papers__cite"><span class="c">&mdash;</span> <em>citations</em></span>
+    </li>
+    <li data-scholar="0">
+      <a href="https://scholar.google.com/citations?user=7vtdRCQAAAAJ">Dashboards OnDemand: scalable dashboards for HPC systems</a>
+      <span class="papers__meta">ISAIC 2021, Beijing &middot; <b>Seth</b>, sole author</span>
+      <span class="papers__cite"><span class="c">&mdash;</span> <em>citations</em></span>
+    </li>
+  </ol>
+
+  <dl class="meta" id="scholar">
+    <div><dt>Scholar total</dt><dd data-scholar-stat="citations">&mdash;</dd></div>
+    <div><dt>h-index</dt><dd data-scholar-stat="hIndex">&mdash;</dd></div>
+    <div><dt>i10-index</dt><dd data-scholar-stat="i10Index">&mdash;</dd></div>
+    <div><dt>As of</dt><dd data-scholar-stat="capturedAt">&mdash;</dd></div>
+  </dl>
+</section>
+
+<!-- ── 05 writing ──────────────────────────────────────────────────────── -->
+<section class="sec wrap" id="writing">
+  <div class="sec__head">
+    <span class="sec__no">05</span>
+    <h2>Writing</h2>
+    <span class="sec__note">Mostly cricket. I make no apology for this.</span>
+  </div>
+
+  <p class="lede">Essays about a game that rewards patience, which is roughly the same reason I like it and the same reason nobody else will read a five-day sport's defence written at this length.</p>
+
+  <ol class="log">
+    <li>
+      <span class="log__date">2026&#8209;07&#8209;01</span>
+      <span class="log__what">
+        <a href="https://medium.com/@aviseth/the-lad-who-couldnt-sit-at-home-and-have-a-pint-in-peace-5083440ced1b">The lad who couldn't sit at home and have a pint in peace</a>
+        <span class="log__blurb">A send-off for Ben Stokes, and for the version of English test cricket he talked everyone into.</span>
+      </span>
+    </li>
+    <li>
+      <span class="log__date">2025&#8209;08&#8209;15</span>
+      <span class="log__what">
+        <a href="https://medium.com/@aviseth/its-a-monday-morning-936905161352">It's a Monday morning&hellip;</a>
+        <span class="log__blurb">On being tired of having to write things down, and writing them down anyway.</span>
+      </span>
+    </li>
+    <li>
+      <span class="log__date">2022&#8209;07&#8209;27</span>
+      <span class="log__what">
+        <a href="https://medium.com/@aviseth/number-33-4a430b7365da">Number 33</a>
+        <span class="log__blurb">A lot of people fall in love with the game. Some fall in love with a player.</span>
+      </span>
+    </li>
+    <li>
+      <span class="log__date">2022&#8209;01&#8209;07</span>
+      <span class="log__what">
+        <a href="https://medium.com/@aviseth/test-cricket-mon-amour-3daa7d242e37">Test cricket, mon amour</a>
+        <span class="log__blurb">Peter George, 24, makes his test debut in 2010. His first wicket is Sachin Tendulkar. Then nothing.</span>
+      </span>
+    </li>
+    <li>
+      <span class="log__date">2020&#8209;06&#8209;18</span>
+      <span class="log__what">
+        <a href="https://medium.com/@aviseth/who-is-the-greatest-odi-batsman-of-all-time-8add8d896a47">Who is the greatest ODI batsman of all time?</a>
+        <span class="log__blurb">The least controversial question in cricket, until it wasn't. Settled &mdash; or at least argued &mdash; with statistics.</span>
+      </span>
+    </li>
+  </ol>
+
+  <h3 class="sub">Elsewhere</h3>
+  <ol class="log">
+    <li>
+      <span class="log__date">2025&#8209;10&#8209;21</span>
+      <span class="log__what">
+        <a href="https://codetv.dev/series/web-dev-challenge/s2/e11-build-a-hotline">Web Dev Challenge &mdash; code-powered phone hotline</a>
+        <span class="log__where">CodeTV, S2 E11</span>
+        <span class="log__blurb">Four hours, two people, one working phone hotline.</span>
+      </span>
+    </li>
+    <li>
+      <span class="log__date">2022</span>
+      <span class="log__what">
+        <a href="https://observablehq.com/@3e787c1af6c5a437/a-comparative-overview-of-dimension-reduction-methods">A comparative overview of dimension reduction methods</a>
+        <span class="log__where">Observable</span>
+        <span class="log__blurb">PCA, MDS and t-SNE, side by side, in a notebook you can poke at.</span>
+      </span>
+    </li>
+  </ol>
+</section>
+
+<!-- ── 06 off the clock ────────────────────────────────────────────────── -->
+<section class="sec wrap" id="offclock">
+  <div class="sec__head">
+    <span class="sec__no">06</span>
+    <h2>Off the clock</h2>
+    <span class="sec__note">The two things I will talk about for too long.</span>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3><span>Cricket</span>A statistical argument that never ends</h3>
+      <p>I have written five essays about it and expect to write more. The appeal is not the drama &mdash; it is that cricket produces more usable data per hour than almost any other sport, and still cannot settle its own arguments. Averages hide era. Strike rates hide conditions. Everyone knows the numbers and nobody agrees.</p>
+      <p>Some of that turned into actual work: the ODI piece is a statistical analysis rather than an opinion, and it is the reason I first learned to be careful with a mean.</p>
+    </div>
+
+    <div class="card">
+      <h3><span>Cities</span>Urban planning and public transport</h3>
+      <p>Cities are the largest systems most people ever interact with, and they are legible if you measure the right things &mdash; which is why <a href="https://github.com/aviseth/street-coverage-mapper">street-coverage-mapper</a> exists, and why the DSPG summer mapping vegetation index against quality of life in Virginia stuck with me more than most of my research.</p>
+      <p>Mostly it shows up as opinions about frequency over coverage, level boarding, and why a city that measures parking but not headway will keep getting the answer it deserves. Copenhagen has spoiled me.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div class="foot__l">
+      <p class="foot__name">Avi Seth &middot; Copenhagen</p>
+      <p class="foot__note">Written by hand. The numbers are not &mdash; they come straight from the APIs and are as accurate, or as unflattering, as the APIs say.</p>
+    </div>
+    <nav class="foot__r" aria-label="Elsewhere">
+      <a href="https://github.com/aviseth">GitHub</a>
+      <a href="https://www.linkedin.com/in/aviseth/">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=7vtdRCQAAAAJ">Scholar</a>
+      <a href="https://medium.com/@aviseth">Medium</a>
+      <a href="mailto:avi.seth8@gmail.com">Email</a>
+    </nav>
+    <p class="foot__stamp"><span id="stamp">&mdash;</span> &middot; <a href="https://github.com/aviseth/aviseth.fyi">source</a></p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

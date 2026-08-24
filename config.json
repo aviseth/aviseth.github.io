@@ -1,0 +1,29 @@
+{
+  "github": "aviseth",
+  "excludeRepos": [
+    "aviseth",
+    "aviseth.github.io"
+  ],
+  "excludeForks": true,
+  "pypiPackages": [
+    "importcost",
+    "portalkit",
+    "flakerate"
+  ],
+  "npmPackages": [],
+  "crossref": {
+    "dois": [
+      "10.1109/BigData55660.2022.10020861",
+      "10.1109/ICSCAN.2019.8878706"
+    ]
+  },
+  "scholar": {
+    "id": "7vtdRCQAAAAJ",
+    "citations": 53,
+    "hIndex": 2,
+    "i10Index": 2,
+    "capturedAt": "2026-08-24"
+  },
+  "eventLimit": 24,
+  "repoLimit": 100
+}
