@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:14:54.760Z",
+  "generatedAt": "2026-08-24T12:15:48.319Z",
   "warnings": [
     "pypistats unavailable for importcost — download count omitted this build",
     "pypistats unavailable for portalkit — download count omitted this build",
@@ -129,14 +129,14 @@
         "topics": [],
         "license": null,
         "createdAt": "2026-08-24T12:00:55Z",
-        "pushedAt": "2026-08-24T12:14:16Z"
+        "pushedAt": "2026-08-24T12:14:55Z"
       },
       {
         "name": "cricket-batter-ranking",
         "description": null,
         "url": "https://github.com/aviseth/cricket-batter-ranking",
         "homepage": null,
-        "language": null,
+        "language": "JavaScript",
         "stars": 0,
         "forks": 0,
         "openIssues": 0,
