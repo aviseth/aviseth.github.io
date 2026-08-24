@@ -547,3 +547,79 @@ tr[hidden] { display: none; }
   font-variant-numeric: tabular-nums; white-space: nowrap;
 }
 .log--contrib li { align-items: baseline; }
+
+/* ── essays ──────────────────────────────────────────────────────────────
+   Standalone long-form pages under /writing/. Same rules as everything else:
+   one measure, hard rules, the accent used sparingly.
+   ─────────────────────────────────────────────────────────────────────── */
+
+.essay { padding-block: clamp(2.5rem, 5vw, 4rem); }
+.essay__head { border-bottom: 2px solid var(--rule); padding-bottom: 1.4rem; margin-bottom: 2.2rem; }
+.essay__kicker {
+  font: 500 .74rem/1 var(--mono); letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); display: block; margin-bottom: .9rem;
+}
+.essay__head h1 {
+  margin: 0 0 .8rem; font-weight: 800; letter-spacing: -.03em;
+  font-size: clamp(1.7rem, 4.4vw, 2.7rem); line-height: 1.08; max-width: 20ch;
+}
+.essay__dek { margin: 0; max-width: var(--measure); color: var(--ink-2); font-size: 1.06rem; line-height: 1.6; }
+.essay__meta {
+  margin-top: 1.2rem; font: 500 .74rem/1.5 var(--mono);
+  letter-spacing: .04em; color: var(--ink-3);
+}
+.essay__meta a { color: var(--ink-2); }
+
+.essay__body { max-width: var(--measure); }
+.essay__body p { font-size: 1.02rem; line-height: 1.72; margin: 0 0 1.25rem; }
+.essay__body h2 {
+  margin: clamp(2.4rem, 4.5vw, 3.2rem) 0 1rem; font-weight: 700;
+  font-size: 1.22rem; letter-spacing: -.015em;
+  padding-bottom: .55rem; border-bottom: 1px solid var(--hair);
+}
+.essay__body h3 { margin: 2rem 0 .7rem; font-size: 1.02rem; font-weight: 700; }
+.essay__body ul, .essay__body ol { padding-left: 1.15rem; margin: 0 0 1.25rem; }
+.essay__body li { margin-bottom: .5rem; line-height: 1.65; }
+.essay__body strong { font-weight: 600; }
+.essay__body a { color: var(--ink); text-decoration-color: var(--accent); text-underline-offset: .18em; }
+
+/* a figure that is really a number, set like one */
+.stat {
+  border-top: 2px solid var(--rule); border-bottom: 1px solid var(--hair);
+  margin: 2rem 0; padding: 1.1rem 0;
+}
+.stat__n {
+  display: block; font: 700 clamp(2rem,6vw,3rem)/1 var(--mono);
+  letter-spacing: -.03em; color: var(--accent);
+}
+.stat__c { display: block; margin-top: .55rem; font-size: .95rem; color: var(--ink-2); max-width: 52ch; }
+
+/* tables of results, monospaced because they are data */
+.etable { width: 100%; border-collapse: collapse; margin: 1.6rem 0; font: 500 .82rem/1.5 var(--mono); }
+.etable th, .etable td { text-align: right; padding: .5rem .55rem; border-bottom: 1px solid var(--hair); }
+.etable th:first-child, .etable td:first-child { text-align: left; }
+.etable thead th { border-bottom: 2px solid var(--rule); color: var(--ink-3); font-weight: 500;
+  text-transform: uppercase; letter-spacing: .09em; font-size: .7rem; }
+.etable tbody tr:hover { background: var(--raised); }
+.etable .num { font-variant-numeric: tabular-nums; }
+.etable-wrap { overflow-x: auto; }
+
+.callout {
+  border-left: 2px solid var(--accent); background: var(--raised);
+  padding: 1rem 1.15rem; margin: 1.8rem 0;
+}
+.callout p { margin: 0; font-size: .97rem; }
+.callout p + p { margin-top: .7rem; }
+
+.essay__foot {
+  margin-top: clamp(2.6rem, 5vw, 3.6rem); padding-top: 1.2rem;
+  border-top: 2px solid var(--rule);
+  font: 500 .78rem/1.6 var(--mono); color: var(--ink-3);
+}
+.essay__foot a { color: var(--ink-2); }
+.backlink {
+  display: inline-block; margin-bottom: 1.6rem;
+  font: 500 .74rem/1 var(--mono); letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink-3); text-decoration: none;
+}
+.backlink:hover { color: var(--accent); }

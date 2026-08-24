@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ranking Test batsmen, and admitting what the numbers cannot settle — Avi Seth</title>
+<meta name="description" content="A multi-factor ranking of modern Test batsmen built from 1.72 million deliveries: entry context, adjustable weights, and an impact model honest enough to say that most of its own rankings are noise.">
+<link rel="canonical" href="https://aviseth.github.io/writing/batter-ranking/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ranking Test batsmen, and admitting what the numbers cannot settle">
+<meta property="og:description" content="1.72 million deliveries, eleven factors, and the uncomfortable finding that 104 of 152 batsmen cannot be told apart from average.">
+<meta property="og:url" content="https://aviseth.github.io/writing/batter-ranking/">
+<meta name="theme-color" content="#FBFAF7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2317171A'/%3E%3Ctext x='16' y='23' font-family='monospace' font-size='19' font-weight='700' fill='%23FBFAF7' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/style.css">
+<script>
+  try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t } catch (e) {}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <div class="bar__in">
+    <a class="bar__id" href="/">Avi&nbsp;Seth</a>
+    <nav class="bar__nav" aria-label="Sections">
+      <a href="/#work">Work</a>
+      <a href="/#experience">Experience</a>
+      <a href="/#source">Source</a>
+      <a href="/#research">Research</a>
+      <a href="/#writing">Writing</a>
+      <a href="/#offclock">Off the clock</a>
+    </nav>
+    <button class="bar__theme" type="button" id="theme" aria-label="Switch colour scheme"><span id="theme-label">Dark</span></button>
+  </div>
+</header>
+
+<main id="main">
+<article class="essay wrap">
+
+  <a class="backlink" href="/#writing">&larr; Writing</a>
+
+  <header class="essay__head">
+    <span class="essay__kicker">Cricket &middot; 2026&#8209;08&#8209;24</span>
+    <h1>Ranking Test batsmen, and admitting what the numbers cannot settle</h1>
+    <p class="essay__dek">I built a ranking of modern Test batsmen out of 1.72 million deliveries. The interesting part is not the order it produces. It is how much of that order turns out to be noise, and how hard the thing fights you when you try to make it honest.</p>
+    <p class="essay__meta">
+      <a href="https://github.com/aviseth/cricket-batter-ranking">Source</a> &middot;
+      Cricsheet, 890 Tests, 2001&ndash;2026
+    </p>
+  </header>
+
+  <div class="essay__body">
+
+    <p>A batting average is a strange number. It is a total divided by the number of times you got out, and it treats every one of those dismissals as interchangeable. Forty against Steyn and Philander at Newlands with the score 20 for 3 counts exactly the same as forty on a Nagpur road at 300 for 2 against a part-time off-spinner. Everyone who watches cricket knows these are different innings. The average does not.</p>
+
+    <p>So the obvious project is to build something that does know. I had ball-by-ball data for every men's Test since 2001 &mdash; 890 matches, 1.72 million deliveries, 32,704 individual batting innings &mdash; which is enough to reconstruct not just what a batsman scored but the situation he walked into.</p>
+
+    <h2>The thing a scorecard cannot tell you</h2>
+
+    <p>The centrepiece is entry context, and it is the one measure that genuinely requires ball-by-ball data. A scorecard tells you a batsman came in at number four. It does not tell you whether number four meant 12 for 2 in the eighth over or 240 for 2 after tea on day one. Those are different jobs given to the same person on the same line of the teamsheet.</p>
+
+    <p>Walking each innings delivery by delivery recovers the score on the board at the moment each batsman arrived. Sorting by runs per wicket at that point splits the innings into four situations: <strong>opening</strong>, <strong>collapse</strong> (under 20 runs per wicket &mdash; the roof is falling in), <strong>rebuild</strong>, and <strong>platform</strong> (35 and above &mdash; someone else has done the hard part). Across the data those come out at 6,633 / 7,712 / 7,995 / 10,364 innings respectively, so none of them is a rare edge case.</p>
+
+    <p>The gap between a batsman's collapse average and his platform average is one of the more revealing things in the dataset, and it does not correlate with reputation as neatly as you would hope.</p>
+
+    <h2>Eleven factors, and the problem with all of them</h2>
+
+    <p>The ranking blends eleven measures: batting average, versatility across regions, versatility against pace and spin, away average, average by entry pressure, average against strong attacks, impact, an era index, volume, average on hard pitches, and fourth-innings average. Each is scored 0&ndash;100 within the cohort and combined with a weight.</p>
+
+    <p>And here is where the project nearly fell over, because the weights are made up. Not arbitrary &mdash; defensible, argued-over, tuned &mdash; but there is no fact of the matter about whether a big away hundred is worth more or less than ten years of showing up. That is a question about what you value in a cricketer, not a question about cricket.</p>
+
+    <p>The honest response is to stop pretending. So the ranking ships with the weights exposed: eleven sliders and five presets, recomputing live. The default weighting puts Joe Root first, Steve Smith second, Harry Brook third. Then you start moving things:</p>
+
+    <div class="etable-wrap">
+    <table class="etable">
+      <thead><tr><th>Weighting</th><th>Rewards</th><th>Top three</th></tr></thead>
+      <tbody>
+        <tr><td>Original</td><td>the shipped blend</td><td>Root, Smith, Brook</td></tr>
+        <tr><td>Peak quality</td><td>average 22%, volume 2%</td><td><strong>Brook</strong>, Root, Smith</td></tr>
+        <tr><td>Weight of runs</td><td>volume 22%, impact 16%</td><td>Root, Smith, Williamson</td></tr>
+        <tr><td>Adversity</td><td>collapses, away, strong attacks</td><td><strong>Brook</strong>, Root, Smith</td></tr>
+        <tr><td>Equal</td><td>every factor alike</td><td>Root, Smith, Brook</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p>Root holds first place under three of the five. He loses it only when volume is deliberately discounted &mdash; and then he loses it to Brook, whose short career is precisely what discounting volume flatters. Alastair Cook climbs six places when accumulation is rewarded. Jonathan Trott climbs five when adversity is. None of this is a bug. It is the ranking telling you that the answer depends on the question, which is the correct answer.</p>
+
+    <h2>Impact: runs above what the situation asked for</h2>
+
+    <p>The measure I find most defensible is the one that ignores the composite entirely. A Poisson model predicts how many runs an average Test batsman would make from a given batting position, in a given match situation, against a given quality of attack, on a given pitch. A batsman's impact is what he actually made, minus that.</p>
+
+    <p>It is fitted only on innings that ended in a dismissal. A not-out is censored data &mdash; the batsman was not finished &mdash; and including those innings drags the expectation down for everybody. The model says an easier pitch is worth about +0.15 in log-runs and a weaker attack about +0.13, which is roughly the size of effect you would guess, and it is reassuring when a model agrees with the obvious before you ask it anything hard.</p>
+
+    <div class="etable-wrap">
+    <table class="etable">
+      <thead><tr><th>#</th><th>Batsman</th><th class="num">Impact / inn</th><th class="num">95% interval</th><th class="num">Inns</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td>KC Sangakkara</td><td class="num">+20.0</td><td class="num">+11.2 … +30.7</td><td class="num">151</td></tr>
+        <tr><td class="num">2</td><td>HC Brook</td><td class="num">+17.9</td><td class="num">+4.9 … +30.4</td><td class="num">66</td></tr>
+        <tr><td class="num">3</td><td>Mohammad Yousuf</td><td class="num">+17.4</td><td class="num">+4.6 … +30.3</td><td class="num">54</td></tr>
+        <tr><td class="num">4</td><td>S Chanderpaul</td><td class="num">+15.8</td><td class="num">+8.5 … +22.2</td><td class="num">132</td></tr>
+        <tr><td class="num">5</td><td>SPD Smith</td><td class="num">+15.4</td><td class="num">+9.2 … +21.7</td><td class="num">222</td></tr>
+        <tr><td class="num">6</td><td>AB de Villiers</td><td class="num">+14.2</td><td class="num">+7.6 … +20.8</td><td class="num">175</td></tr>
+        <tr><td class="num">7</td><td>JE Root</td><td class="num">+14.2</td><td class="num">+9.1 … +19.3</td><td class="num">304</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p>Two corrections were needed before that table meant anything. The first run had Daniel Vettori ninth, on a career average of 35.9. He was not misplaced by a bug: expectation is adjusted for batting position, and a number eight who bats well clears a number eight's bar far more easily than a number four clears his. Comparing those two outperformances is comparing nothing. The pool is now restricted to specialist batsmen.</p>
+
+    <p>The second was subtler. I had opposition Elo and attack quality both in the model, and Elo's coefficient came out negative &mdash; implying that facing a stronger team made scoring <em>easier</em>. They correlate at r = 0.66, which is enough to make both coefficients unstable. Attack quality is the direct measure of what a batsman actually faces; Elo also contains the opponent's <em>batting</em>, which has no bearing on how hard it is to score runs. Dropping Elo fixed the sign and cost nothing.</p>
+
+    <h2>What the error bars did to the whole thing</h2>
+
+    <p>Then I put bootstrap confidence intervals on every player, by resampling each batsman's own innings, and the result rather deflated the exercise.</p>
+
+    <div class="stat">
+      <span class="stat__n">104 / 152</span>
+      <span class="stat__c">Qualified batsmen whose 95% interval for impact includes zero &mdash; that is, whose contribution above an average Test batsman cannot be distinguished from nothing at all on the evidence available.</span>
+    </div>
+
+    <p>Two thirds of the list. Not because those players are bad &mdash; the pool is already restricted to men with 45-plus Test innings, which is a career most cricketers never get &mdash; but because a batting career is a small sample of a noisy process, and telling two good batsmen apart takes more innings than most careers contain.</p>
+
+    <p>Brook's interval runs from +4.9 to +30.4. Root's, on 304 innings, runs from +9.1 to +19.3. Brook's point estimate is higher; Root's is far better established. Anyone who tells you confidently which of them is better is telling you about themselves.</p>
+
+    <div class="callout">
+      <p>The site now says this out loud: where two players' intervals overlap, the ranking between them is not meaningful.</p>
+      <p>Which covers most pairs on the page. A ranking that hides this is more satisfying to read and worse at being true.</p>
+    </div>
+
+    <h2>What is missing</h2>
+
+    <p>The obvious question &mdash; how do these players compare with Tendulkar, Lara, Dravid, Ponting &mdash; is one I cannot currently answer, and I would rather say so than fudge it. Ball-by-ball data begins in 2001. Before that there are scorecards, which carry fall-of-wickets and therefore enough to reconstruct entry context and a context-adjusted average, if not the finer measures.</p>
+
+    <p>I had that working once: 253 Tests from 1989 to 2000, merged with the modern data on one benchmark, with the ball-by-ball-only measures dropped from <em>both</em> eras so the moderns got no advantage the older players could not answer. Then the machine it was built on was reclaimed with the work unpushed, which is a lesson about version control rather than about cricket, and the source it was scraped from is no longer reachable from where I rebuild. The code to merge and score it is straightforward. The data is the problem.</p>
+
+    <p>For what it is worth, the answer that version gave was that the moderns hold their own without dominating, and that the turn-of-century attacks rate as genuinely brutal once you benchmark them against every batsman who faced them. I am not going to quote the numbers from memory. That is exactly the kind of thing this whole project is supposed to be against.</p>
+
+  </div>
+
+  <footer class="essay__foot">
+    <p>Built from <a href="https://cricsheet.org">Cricsheet</a> ball-by-ball data. Code and full method: <a href="https://github.com/aviseth/cricket-batter-ranking">github.com/aviseth/cricket-batter-ranking</a>.</p>
+  </footer>
+
+</article>
+</main>
+
+<footer class="foot">
+  <div class="foot__in">
+    <div class="foot__l">
+      <p class="foot__name">Avi Seth &middot; Copenhagen</p>
+      <p class="foot__note">Written by hand. The numbers are not &mdash; they come straight from the data and are as accurate, or as unflattering, as the data says.</p>
+    </div>
+    <nav class="foot__r" aria-label="Elsewhere">
+      <a href="https://github.com/aviseth">GitHub</a>
+      <a href="https://www.linkedin.com/in/aviseth/">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=7vtdRCQAAAAJ">Scholar</a>
+      <a href="https://medium.com/@aviseth">Medium</a>
+      <a href="mailto:avi.seth8@gmail.com">Email</a>
+    </nav>
+    <p class="foot__stamp"><a href="https://github.com/aviseth/aviseth.github.io">source</a></p>
+  </div>
+</footer>
+
+<script>
+  // Theme toggle, same contract as the index: the button names the scheme you
+  // would switch TO, and the choice is remembered.
+  (function () {
+    var root = document.documentElement;
+    var label = document.getElementById('theme-label');
+    var isDark = function () { return root.dataset.theme === 'dark' };
+    var paint = function () { if (label) label.textContent = isDark() ? 'Light' : 'Dark' };
+    paint();
+    var btn = document.getElementById('theme');
+    if (btn) btn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      root.dataset.theme = next;
+      try { localStorage.setItem('theme', next) } catch (e) {}
+      paint();
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.setAttribute('content', next === 'dark' ? '#16161A' : '#FBFAF7');
+    });
+  })();
+</script>
+
+</body>
+</html>
