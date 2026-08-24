@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:59:31.463Z",
+  "generatedAt": "2026-08-24T21:44:17.721Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
@@ -15,7 +15,7 @@
       "url": "https://github.com/aviseth",
       "followers": 13,
       "following": 9,
-      "publicRepos": 63,
+      "publicRepos": 64,
       "createdAt": "2016-05-26T15:27:38Z"
     },
     "repos": [
@@ -118,6 +118,20 @@
         "pushedAt": "2018-04-24T14:07:12Z"
       },
       {
+        "name": "consequence",
+        "description": "See what your code would do before it does it. A plan mode, a policy layer and an audit log for filesystem, process, network and database side effects.",
+        "url": "https://github.com/aviseth/consequence",
+        "homepage": null,
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "topics": [],
+        "license": "MIT",
+        "createdAt": "2026-08-24T12:06:05Z",
+        "pushedAt": "2026-08-24T21:36:07Z"
+      },
+      {
         "name": "cricket-batter-ranking",
         "description": null,
         "url": "https://github.com/aviseth/cricket-batter-ranking",
@@ -130,20 +144,6 @@
         "license": null,
         "createdAt": "2026-08-24T12:11:48Z",
         "pushedAt": "2026-08-24T14:52:13Z"
-      },
-      {
-        "name": "consequence",
-        "description": "See what your code would do before it does it. A plan mode, a policy layer and an audit log for filesystem, process, network and database side effects.",
-        "url": "https://github.com/aviseth/consequence",
-        "homepage": null,
-        "language": "Python",
-        "stars": 0,
-        "forks": 0,
-        "openIssues": 0,
-        "topics": [],
-        "license": "MIT",
-        "createdAt": "2026-08-24T12:06:05Z",
-        "pushedAt": "2026-08-24T13:44:37Z"
       },
       {
         "name": "configtrace",
@@ -569,6 +569,42 @@
     "releases": [],
     "events": [
       {
+        "repo": "dj-stripe",
+        "at": "2026-08-24T21:29:23Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "dj-stripe",
+        "at": "2026-08-24T21:29:18Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "dj-stripe",
+        "at": "2026-08-24T21:29:13Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "dj-stripe",
+        "at": "2026-08-24T21:29:08Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "openai-python",
+        "at": "2026-08-24T21:25:21Z",
+        "url": "https://github.com/openai/openai-python",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "apscheduler",
+        "at": "2026-08-24T20:26:14Z",
+        "url": "https://github.com/agronholm/apscheduler",
+        "kind": "pr-merged"
+      },
+      {
         "repo": "warehouse",
         "at": "2026-08-24T14:59:14Z",
         "url": "https://github.com/pypi/warehouse",
@@ -602,8 +638,19 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19480,
+        "repoStars": 19481,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
+      },
+      {
+        "kind": "merged",
+        "title": "Declare the documented psycopg extra (#1133)",
+        "url": "https://github.com/agronholm/apscheduler/pull/1134",
+        "repo": "agronholm/apscheduler",
+        "number": 1134,
+        "at": "2026-08-24T20:26:14Z",
+        "state": "closed",
+        "repoStars": 7613,
+        "repoDescription": "Task scheduling library for Python"
       },
       {
         "kind": "merged",
@@ -651,14 +698,14 @@
       },
       {
         "kind": "open-pr",
-        "title": "Declare the documented psycopg extra (#1133)",
-        "url": "https://github.com/agronholm/apscheduler/pull/1134",
-        "repo": "agronholm/apscheduler",
-        "number": 1134,
-        "at": "2026-08-23T23:50:15Z",
+        "title": "perf(lib): stop pulling openai.types.beta into every import openai",
+        "url": "https://github.com/openai/openai-python/pull/3727",
+        "repo": "openai/openai-python",
+        "number": 3727,
+        "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 7613,
-        "repoDescription": "Task scheduling library for Python"
+        "repoStars": 31449,
+        "repoDescription": "The official Python library for the OpenAI API"
       },
       {
         "kind": "open-pr",
@@ -712,7 +759,7 @@
         "number": 20441,
         "at": "2026-08-24T14:59:14Z",
         "state": "open",
-        "repoStars": 4133,
+        "repoStars": 4134,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -747,6 +794,50 @@
         "state": "open",
         "repoStars": 3333,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
+      },
+      {
+        "kind": "open-pr",
+        "title": "Pin the ruff pre-commit hook to v0.16.4",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2246",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2246,
+        "at": "2026-08-24T21:29:23Z",
+        "state": "open",
+        "repoStars": 1791,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
+      },
+      {
+        "kind": "open-pr",
+        "title": "Require Django 5.2.17 as the minimum",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2245",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2245,
+        "at": "2026-08-24T21:29:18Z",
+        "state": "open",
+        "repoStars": 1791,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
+      },
+      {
+        "kind": "open-pr",
+        "title": "Fall back to dj-stripe's own default Stripe API version",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2244",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2244,
+        "at": "2026-08-24T21:29:13Z",
+        "state": "open",
+        "repoStars": 1791,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
+      },
+      {
+        "kind": "open-pr",
+        "title": "Stop enums raising KeyError on values Stripe has added",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2243",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2243,
+        "at": "2026-08-24T21:29:08Z",
+        "state": "open",
+        "repoStars": 1791,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
         "kind": "open-pr",
@@ -844,15 +935,15 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16139,
+        "repoStars": 16140,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
     "contributionSummary": {
-      "total": 23,
-      "merged": 5,
-      "projects": 3,
-      "reach": 24854
+      "total": 28,
+      "merged": 6,
+      "projects": 4,
+      "reach": 32468
     },
     "totals": {
       "repos": 39,
