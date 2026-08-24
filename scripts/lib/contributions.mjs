@@ -80,3 +80,26 @@ export function summarise (list = []) {
     reach: merged.reduce((s, c) => s + (c.repoStars || 0), 0)
   }
 }
+
+/**
+ * Drop anything in a private repository, whatever the config says.
+ *
+ * The scheduled build uses the Actions GITHUB_TOKEN, which is scoped to this
+ * repository alone and can only ever see public data. But the README tells you
+ * to run the builder locally with a personal token, and that one CAN read your
+ * employer's private repos — at which point private repo names and PR titles
+ * would be written into a public feed.json. `excludeOwners` guards against that
+ * by name; this guards against it by fact, including for orgs nobody remembered
+ * to list.
+ *
+ * A repo whose metadata could not be fetched is kept: the usual cause is a rate
+ * limit, and silently dropping real public work is the worse failure.
+ */
+export function dropPrivate (list = [], meta = new Map()) {
+  const kept = [], removed = []
+  for (const c of list) {
+    if (meta.get(c.repo)?.private === true) removed.push(c.repo)
+    else kept.push(c)
+  }
+  return { kept, removed: [...new Set(removed)] }
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { searchQueries, normalise, rank, dedupe, summarise } from './lib/contributions.mjs'
+import { searchQueries, normalise, rank, dedupe, summarise, dropPrivate } from './lib/contributions.mjs'
 import assert from 'node:assert/strict'
 
 const qs = searchQueries('aviseth', ['Crispa-ai'], ['vtech-tut/github-tutorial'])
@@ -44,5 +44,19 @@ const s = summarise([
 ])
 assert.deepEqual(s, { total: 4, merged: 3, projects: 2, reach: 250 },
   'projects counts distinct repos merged into; reach sums their stars')
+
+const meta = new Map([
+  ['acme/secret', { private: true }],
+  ['pallets/flask', { private: false }],
+  ['other/unknown', undefined]
+])
+const dp = dropPrivate([
+  { repo: 'acme/secret', url: '1' },
+  { repo: 'pallets/flask', url: '2' },
+  { repo: 'no/metadata', url: '3' }
+], meta)
+assert.deepEqual(dp.kept.map(c => c.repo), ['pallets/flask', 'no/metadata'],
+  'private dropped; unknown metadata kept rather than silently discarded')
+assert.deepEqual(dp.removed, ['acme/secret'])
 
 console.log('✓ contributions: queries, normalise, rank, dedupe, summarise all pass')

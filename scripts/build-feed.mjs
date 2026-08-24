@@ -14,7 +14,7 @@
  */
 
 import { mapEvents, eventsFromPushes } from './lib/events.mjs'
-import { searchQueries, normalise, rank, dedupe, summarise } from './lib/contributions.mjs'
+import { searchQueries, normalise, rank, dedupe, summarise, dropPrivate } from './lib/contributions.mjs'
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -139,14 +139,18 @@ async function otherPeoplesProjects (cfg) {
   const meta = new Map()
   for (const full of repos) {
     const r = await gh(`/repos/${full}`, { tolerate: true })
-    if (r) meta.set(full, { stars: r.stargazers_count, description: r.description, archived: r.archived })
+    if (r) meta.set(full, { stars: r.stargazers_count, description: r.description, archived: r.archived, private: r.private })
   }
-  for (const c of list) {
+
+  const { kept, removed } = dropPrivate(list, meta)
+  if (removed.length) warn(`dropped ${removed.length} private repo(s) from contributions: ${removed.join(', ')}`)
+
+  for (const c of kept) {
     const m = meta.get(c.repo)
     if (m) { c.repoStars = m.stars; c.repoDescription = m.description }
   }
 
-  const ranked = rank(list)
+  const ranked = rank(kept)
   return { list: ranked, summary: summarise(ranked) }
 }
 
