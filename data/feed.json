@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-24T12:28:13.234Z",
+  "generatedAt": "2026-08-24T12:43:29.550Z",
   "warnings": [
-    "pypistats unavailable for importcost — download count omitted this build",
-    "pypistats unavailable for portalkit — download count omitted this build",
-    "pypistats unavailable for flakerate — download count omitted this build",
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -118,34 +118,6 @@
         "pushedAt": "2018-04-24T14:07:12Z"
       },
       {
-        "name": "aviseth.fyi",
-        "description": null,
-        "url": "https://github.com/aviseth/aviseth.fyi",
-        "homepage": null,
-        "language": "JavaScript",
-        "stars": 0,
-        "forks": 0,
-        "openIssues": 0,
-        "topics": [],
-        "license": null,
-        "createdAt": "2026-08-24T12:00:55Z",
-        "pushedAt": "2026-08-24T12:27:37Z"
-      },
-      {
-        "name": "consequence",
-        "description": "See what your code would do before it does it. A plan mode, a policy layer and an audit log for filesystem, process, network and database side effects.",
-        "url": "https://github.com/aviseth/consequence",
-        "homepage": null,
-        "language": null,
-        "stars": 0,
-        "forks": 0,
-        "openIssues": 1,
-        "topics": [],
-        "license": "MIT",
-        "createdAt": "2026-08-24T12:06:05Z",
-        "pushedAt": "2026-08-24T12:19:12Z"
-      },
-      {
         "name": "cricket-batter-ranking",
         "description": null,
         "url": "https://github.com/aviseth/cricket-batter-ranking",
@@ -157,7 +129,21 @@
         "topics": [],
         "license": null,
         "createdAt": "2026-08-24T12:11:48Z",
-        "pushedAt": "2026-08-24T12:13:40Z"
+        "pushedAt": "2026-08-24T12:42:06Z"
+      },
+      {
+        "name": "consequence",
+        "description": "See what your code would do before it does it. A plan mode, a policy layer and an audit log for filesystem, process, network and database side effects.",
+        "url": "https://github.com/aviseth/consequence",
+        "homepage": null,
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "topics": [],
+        "license": "MIT",
+        "createdAt": "2026-08-24T12:06:05Z",
+        "pushedAt": "2026-08-24T12:41:33Z"
       },
       {
         "name": "configtrace",
@@ -270,6 +256,20 @@
         "license": null,
         "createdAt": "2026-08-07T21:03:16Z",
         "pushedAt": "2026-08-07T21:03:17Z"
+      },
+      {
+        "name": "aviseth.github.io-old",
+        "description": "Danish",
+        "url": "https://github.com/aviseth/aviseth.github.io-old",
+        "homepage": null,
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "topics": [],
+        "license": null,
+        "createdAt": "2026-06-29T18:23:18Z",
+        "pushedAt": "2026-06-29T18:23:35Z"
       },
       {
         "name": "bank-transaction-categorizer",
@@ -569,6 +569,12 @@
     "releases": [],
     "events": [
       {
+        "repo": "consequence",
+        "at": "2026-08-24T12:39:09Z",
+        "url": "https://github.com/aviseth/consequence",
+        "kind": "pr-merged"
+      },
+      {
         "repo": "Projects",
         "at": "2026-08-24T12:08:51Z",
         "url": "https://github.com/aviseth/Projects",
@@ -648,17 +654,6 @@
         "state": "closed",
         "repoStars": 1,
         "repoDescription": null
-      },
-      {
-        "kind": "merged",
-        "title": "test",
-        "url": "https://github.com/vtech-tut/github-tutorial/pull/11",
-        "repo": "vtech-tut/github-tutorial",
-        "number": 11,
-        "at": "2021-05-25T15:38:30Z",
-        "state": "closed",
-        "repoStars": 0,
-        "repoDescription": "A GitHub tutorial made for the VT-DSPG program."
       },
       {
         "kind": "open-pr",
@@ -857,23 +852,12 @@
         "state": "closed",
         "repoStars": 16139,
         "repoDescription": "Automatic headphone equalization from frequency responses"
-      },
-      {
-        "kind": "issue",
-        "title": "issue-avi",
-        "url": "https://github.com/vtech-tut/github-tutorial/issues/14",
-        "repo": "vtech-tut/github-tutorial",
-        "number": 14,
-        "at": "2021-05-25T15:49:50Z",
-        "state": "open",
-        "repoStars": 0,
-        "repoDescription": "A GitHub tutorial made for the VT-DSPG program."
       }
     ],
     "contributionSummary": {
-      "total": 25,
-      "merged": 6,
-      "projects": 4,
+      "total": 23,
+      "merged": 5,
+      "projects": 3,
       "reach": 24848
     },
     "totals": {
