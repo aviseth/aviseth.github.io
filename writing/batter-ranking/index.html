@@ -86,6 +86,49 @@ th.srt.act{color:var(--accent)}
   <div class="scrollcue">Scroll</div>
 </section>
 
+
+<!-- ============ SCROLLY ============ -->
+<div id="scrolly">
+  <div class="sticky">
+    <canvas id="viz"></canvas>
+    <div class="viz-hud">
+      <div class="hud-l">
+        <div class="hud-title" id="hudTitle">Every modern Test batsman</div>
+        <div class="hud-sub" id="hudSub">One dot = one career</div>
+      </div>
+      <div class="hud-r">
+        <div class="hud-big neutral" id="hudBig">153</div>
+        <div class="hud-cap" id="hudCap">men with at least forty-five Test innings since 2001</div>
+      </div>
+    </div>
+  </div>
+  <div class="steps">
+    <div class="step" data-step="0"><div class="step-inner">
+      <span class="lab">The population</span>
+      <p>Every dot is a batsman who has had a career since ball&#8209;by&#8209;ball records began &mdash; <strong>153 men with at least forty-five Test innings</strong>, which is already a filter most cricketers never pass.</p>
+      <p>Spread them along their career batting average. Low on the left.</p>
+    </div></div>
+
+    <div class="step" data-step="1"><div class="step-inner">
+      <span class="lab">Rank them</span>
+      <p>The average is one number among eleven. Add versatility across conditions, away record, scoring under pressure, record against strong attacks, fourth innings, volume &mdash; blend them, and the cloud becomes a ladder.</p>
+      <p>This is the ranking. <strong>Joe Root at the top</strong>, on a composite of 100.</p>
+    </div></div>
+
+    <div class="step" data-step="2"><div class="step-inner">
+      <span class="lab">Change the question</span>
+      <p>But that blend is invented. Weight batting quality heavily and discount longevity &mdash; a defensible choice, not a correction &mdash; and the ladder rearranges itself.</p>
+      <p><strong>118 of the 153 move.</strong> Brook goes to the top, because a short career is exactly what discounting volume flatters. Red is up, grey is down.</p>
+    </div></div>
+
+    <div class="step" data-step="3"><div class="step-inner">
+      <span class="lab">Now the error bars</span>
+      <p>Ask instead how many runs each man made above what his situation asked for, and resample his own innings to see how firm the answer is.</p>
+      <p><strong>104 of 152 intervals contain zero.</strong> Two thirds of the list cannot be told apart from an average Test batsman. Everything below is written in the shadow of that.</p>
+    </div></div>
+  </div>
+</div>
+
 <!-- ============ 1. ENTRY CONTEXT ============ -->
 <section class="blk" id="context">
   <div class="wrap">
@@ -516,6 +559,158 @@ function recompute(){
     if(window.__renderTable) window.__renderTable();
   }
   render();
+})();
+
+/* The scrolly runs after the weight desk on purpose: it reads PRESETS and normW,
+   which are const-declared there, so hoisting it above them would throw. */
+/* ============================================================ SCROLLY */
+(function scrolly(){
+  const cv = document.querySelector('#viz'); if(!cv) return;
+  const hudT=$('#hudTitle'), hudS=$('#hudSub'), hudB=$('#hudBig'), hudC=$('#hudCap');
+  // the alternative weighting the third step argues with
+  const PEAK = PRESETS.peak;
+  function rankUnder(w){
+    const nw = normW(w);
+    const comp = P.map(p=>{ let s=0; F.forEach((f,i)=>s+=nw[f]*(p.s[i]||0)); return s; });
+    const order = P.map((p,i)=>({p,sc:comp[i]})).sort((a,b)=>b.sc-a.sc);
+    const m = {}; order.forEach((o,i)=>m[o.p.n]=i+1); return m;
+  }
+  const peakRank = rankUnder(PEAK);
+  const movedPeak = P.filter(p=>peakRank[p.n]!==p.k45).length;
+  const imSorted = P.filter(p=>p.im).sort((a,b)=>b.im[0]-a.im[0]);
+  const imRank = {}; imSorted.forEach((p,i)=>imRank[p.n]=i+1);
+
+  let step = 0, W=0, H=0, raf=null;
+  const nodes = P.map(p=>({p, x:0,y:0, tx:0,ty:0, a:1, ta:1, lo:0,hi:0, mv:0}));
+  const avgs = P.map(p=>p.a).filter(v=>v!=null);
+  const aLo = Math.min.apply(null,avgs), aHi = Math.max.apply(null,avgs);
+
+  function layout(){
+    const g = fit(cv); W=g.w; H=g.h;
+    const padL = 62, padR = 34, padT = 96, padB = 54;
+    const iw = W-padL-padR, ih = H-padT-padB;
+    const N = P.length;
+    nodes.forEach((nd,i)=>{
+      const p = nd.p;
+      nd.lo = nd.hi = 0; nd.mv = 0; nd.ta = 1;
+      if(step===0){
+        const t = (p.a-aLo)/((aHi-aLo)||1);
+        nd.tx = padL + t*iw;
+        nd.ty = padT + ih*0.55 + ((i*37)%100/100 - .5) * Math.min(240, ih*0.6);
+      } else if(step===1 || step===2){
+        const r = step===1 ? p.k45 : peakRank[p.n];
+        // a ladder: rank down the page in three columns so 153 fit
+        const cols = W<760 ? 2 : 3, perCol = Math.ceil(N/cols);
+        const col = Math.floor((r-1)/perCol), row = (r-1)%perCol;
+        nd.tx = padL + col*(iw/cols) + 14;
+        nd.ty = padT + (row/(perCol-1))*ih;
+        if(step===2) nd.mv = p.k45 - peakRank[p.n];
+      } else {
+        if(!p.im){ nd.ta = 0; nd.tx = W/2; nd.ty = padT+ih/2; return; }
+        const r = imRank[p.n], M = imSorted.length;
+        const lo = Math.min.apply(null, imSorted.map(q=>q.im[1]));
+        const hi = Math.max.apply(null, imSorted.map(q=>q.im[2]));
+        const X = v => padL + (v-lo)/((hi-lo)||1) * iw;
+        nd.tx = X(p.im[0]);
+        nd.ty = padT + ((r-1)/(M-1))*ih;
+        nd.lo = X(p.im[1]); nd.hi = X(p.im[2]);
+        nd.zx = X(0);
+      }
+    });
+  }
+  function draw(){
+    const ctx = cv.getContext('2d');
+    ctx.clearRect(0,0,W,H);
+    // axis furniture per step
+    ctx.fillStyle = C.ink3; ctx.font = '11px ui-monospace,monospace'; ctx.textAlign='center';
+    if(step===0){
+      ctx.fillText('career batting average', W/2, H-16);
+      [20,30,40,50,60].forEach(v=>{
+        if(v<aLo||v>aHi) return;
+        const x = 62 + (v-aLo)/((aHi-aLo)||1)*(W-96);
+        ctx.strokeStyle=C.line; ctx.globalAlpha=.4;
+        ctx.beginPath(); ctx.moveTo(x,96); ctx.lineTo(x,H-54); ctx.stroke(); ctx.globalAlpha=1;
+        ctx.fillText(v, x, H-34);
+      });
+    }
+    if(step===3){
+      const z = nodes.find(n=>n.zx!=null);
+      if(z){ ctx.strokeStyle=C.rule; ctx.lineWidth=1.5;
+        ctx.beginPath(); ctx.moveTo(z.zx,88); ctx.lineTo(z.zx,H-54); ctx.stroke();
+        ctx.fillStyle=C.ink3; ctx.fillText('zero', z.zx, H-34); }
+      ctx.textAlign='center'; ctx.fillStyle=C.ink3;
+      ctx.fillText('runs above expectation, per innings', W/2, H-16);
+    }
+    nodes.forEach(nd=>{
+      if(nd.a<0.02) return;
+      const p = nd.p;
+      if(step===3 && p.im){
+        const spans = p.im[1]<=0 && p.im[2]>=0;
+        ctx.strokeStyle = withA(spans?C.ink3:C.data, .55*nd.a);
+        ctx.lineWidth = 1.3;
+        ctx.beginPath(); ctx.moveTo(nd.lo,nd.y); ctx.lineTo(nd.hi,nd.y); ctx.stroke();
+        ctx.fillStyle = withA(spans?C.ink3:C.accent, nd.a);
+        ctx.beginPath(); ctx.arc(nd.x,nd.y,2.8,0,6.2832); ctx.fill();
+        return;
+      }
+      let col = C.data, alpha = .5;
+      if(step===1 && p.k45<=10){ col = C.accent; alpha = .95; }
+      if(step===2){
+        if(nd.mv>0){ col = C.accent; alpha = .9; }
+        else if(nd.mv<0){ col = C.ink3; alpha = .5; }
+        else { col = C.dim; alpha = .35; }
+      }
+      ctx.fillStyle = withA(col, alpha*nd.a);
+      ctx.beginPath(); ctx.arc(nd.x,nd.y, step===0? 3.6 : 3.2, 0,6.2832); ctx.fill();
+    });
+    // name the leader on the ladder steps
+    if(step===1 || step===2){
+      const leadName = step===1 ? P.slice().sort((a,b)=>a.k45-b.k45)[0].n
+                                : P.slice().sort((a,b)=>peakRank[a.n]-peakRank[b.n])[0].n;
+      const nd = nodes.find(n=>n.p.n===leadName);
+      if(nd){ ctx.fillStyle=C.ink; ctx.font='12.5px Archivo,sans-serif'; ctx.textAlign='left';
+        ctx.fillText(leadName, nd.x+9, nd.y+4); }
+    }
+  }
+  function tick(){
+    let moving = false;
+    nodes.forEach(nd=>{
+      nd.x += (nd.tx-nd.x)*0.14; nd.y += (nd.ty-nd.y)*0.14; nd.a += (nd.ta-nd.a)*0.12;
+      if(Math.abs(nd.tx-nd.x)>0.4 || Math.abs(nd.ty-nd.y)>0.4 || Math.abs(nd.ta-nd.a)>0.01) moving = true;
+    });
+    draw();
+    raf = moving ? requestAnimationFrame(tick) : null;
+  }
+  function kick(){ if(!raf) raf = requestAnimationFrame(tick); }
+
+  const HUD = [
+    ['Every modern Test batsman','One dot = one career','153','men with at least forty-five Test innings since 2001'],
+    ['The composite ranking','Eleven factors, blended','1','Joe Root, on a composite of 100'],
+    ['Weighted for peak quality','Volume discounted to almost nothing', String(movedPeak),'of the 153 change position'],
+    ['Impact, with 95% intervals','Runs above what the situation asked for','104','of 152 intervals contain zero'],
+  ];
+  function setStep(s){
+    if(s===step) return;
+    step = s;
+    const hd = HUD[s];
+    hudT.textContent=hd[0]; hudS.textContent=hd[1]; hudB.textContent=hd[2]; hudC.textContent=hd[3];
+    hudB.classList.toggle('neutral', s===0 || s===1);
+    layout(); kick();
+  }
+  layout(); nodes.forEach(nd=>{ nd.x=nd.tx; nd.y=H+40; }); kick();
+
+  const steps = [].slice.call(document.querySelectorAll('#scrolly .step'));
+  if('IntersectionObserver' in window){
+    const io = new IntersectionObserver(es=>{
+      es.forEach(e=>{ if(e.isIntersecting) setStep(+e.target.dataset.step); });
+    }, {rootMargin:'-45% 0px -45% 0px'});
+    steps.forEach(s=>io.observe(s));
+  } else {
+    // without IO the narrative still reads; just show the final state
+    setStep(3);
+  }
+  addEventListener('resize', ()=>{ layout(); kick(); });
+  window.__scrollyRedraw = ()=>{ layout(); kick(); };
 })();
 
 /* ============================================================ 3. IMPACT */
