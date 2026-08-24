@@ -111,7 +111,7 @@ async function githubMirror (cfg) {
 async function otherPeoplesProjects (cfg) {
   const found = []
 
-  for (const { kind, q } of searchQueries(cfg.github, cfg.excludeOwners)) {
+  for (const { kind, q } of searchQueries(cfg.github, cfg.excludeOwners, cfg.excludeContributionRepos)) {
     const url = `https://api.github.com/search/issues?q=${encodeURIComponent(q)}` +
                 `&advanced_search=true&sort=updated&per_page=50`
     const res = await getJSON(url, {
@@ -250,7 +250,7 @@ async function pypi (names = []) {
     if (!stats) {
       await new Promise(r => setTimeout(r, 2500))
       stats = await getJSON(`https://pypistats.org/api/packages/${name}/recent`, { tolerate: true })
-      if (!stats) warn(`pypistats unavailable for ${name} — download count omitted this build`)
+      if (!stats) warn(`no pypistats data for ${name} yet — a newly published package takes a day or two to appear`)
     }
     const version = meta.info.version
     const files = meta.releases?.[version] || []

@@ -20,25 +20,27 @@ data/feed.json          generated — do not edit by hand
 No framework, no build step, no dependencies. `scripts/build-feed.mjs` is plain
 Node 22 using the built-in `fetch`.
 
-## Deploying it
+## Where it is deployed
 
-1. **Create the repo.** Public, named `aviseth.fyi` (any name works — the CNAME
-   file is what binds the domain).
+This repository is `aviseth/aviseth.github.io` — a GitHub **user site**, so it
+serves from the root of `https://aviseth.github.io/` with no subpath. Settings →
+Pages → Source is set to **GitHub Actions**; the workflow in
+`.github/workflows/refresh.yml` builds the feed and deploys on every push and
+every three hours.
 
-   ```bash
-   git init && git add -A
-   git commit -m "initial"
-   git branch -M main
-   git remote add origin git@github.com:aviseth/aviseth.fyi.git
-   git push -u origin main
-   ```
+One repository setting is required and is easy to miss: Settings → Actions →
+General → **Workflow permissions → Read and write**. Without it the step that
+commits the refreshed `data/feed.json` fails with a 403 while the rest of the
+run looks green.
 
-2. **Turn on Pages.** Settings → Pages → Source: **GitHub Actions**.
+## Moving it to a custom domain later
 
-3. **Point the domain.** `aviseth.fyi` is registered at WordPress.com, which
-   does let you set custom DNS records: **Domains → aviseth.fyi → DNS records**.
-   Add these six and delete any existing A record on `@` that points at
-   WordPress:
+`aviseth.fyi` is currently a free Gravatar domain, and Gravatar locks DNS
+management for the first year. Once that lifts — or once the domain is
+transferred to a registrar with real DNS control, such as Cloudflare or Porkbun
+— three steps connect it:
+
+1. At the registrar, delete any existing A record on `@` and add these:
 
    | Type  | Name | Value |
    |-------|------|-------|
@@ -48,21 +50,16 @@ Node 22 using the built-in `fetch`.
    | A     | @    | `185.199.111.153` |
    | CNAME | www  | `aviseth.github.io.` |
 
-   Optionally add the IPv6 AAAA records on `@` as well:
-   `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`,
-   `2606:50c0:8003::153`.
+   The IPv6 equivalents on `@` are optional: `2606:50c0:8000::153`,
+   `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
 
-   Then Settings → Pages → Custom domain → `aviseth.fyi`, and tick **Enforce
-   HTTPS** once the certificate is issued (usually under an hour, occasionally
-   24). The `CNAME` file in this repo already says `aviseth.fyi`, so Pages picks
-   it up on the first deploy.
+2. Add a file named `CNAME` at the repository root containing one line —
+   `aviseth.fyi` — and push it.
 
-   If WordPress.com is also *hosting* a site on that domain, disconnect it
-   first — the A records will not take effect while the domain is attached to a
-   WordPress site.
+3. Settings → Pages → Custom domain → `aviseth.fyi`, wait for the DNS check to
+   go green, then tick **Enforce HTTPS**.
 
-That's it. Free, and the first Action run replaces the seeded feed with real
-data within a couple of minutes.
+Also update `<link rel="canonical">` and `og:url` in `index.html` at that point.
 
 ## Running the feed builder locally
 
@@ -107,6 +104,29 @@ top; the `cv__now` class is what makes the current one red.
 
 **A project.** Copy a `.row` block in `index.html`. Four is about the right
 number; more than six and nobody reads any of them.
+
+## Contributions to other people's projects
+
+The Open source section lists work done in repositories you do not own. Four
+searches feed it — merged pull requests, open pull requests, pull requests you
+reviewed, and issues you opened — deduplicated, then ranked with merges first,
+then by the target repository's star count, then by date. Nothing to maintain:
+open a pull request somewhere and it appears within three hours.
+
+Three `config.json` keys shape it:
+
+- `excludeOwners` — organisations whose repositories do not count as other
+  people's projects. Employers belong here. Work you were paid for is not a
+  contribution to the commons, and listing it as one invites the obvious
+  objection.
+- `excludeContributionRepos` — individual `owner/name` repositories to drop.
+  Coursework, tutorial repos, anything where a merge says nothing about the
+  work. A star threshold would be the cruder tool: a real one-star project
+  still counts, a class exercise never does.
+- `extraContributions` — an array for work the search API cannot see: a patch
+  sent by email, a contribution made under a different handle, a maintainer's
+  public acknowledgement. Each entry takes `kind`, `title`, `url`, `repo` and
+  `at`, and renders marked "recorded by hand".
 
 ## Where the writing lives
 

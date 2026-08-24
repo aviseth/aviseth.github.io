@@ -11,8 +11,15 @@
 
 // `-user:{login}` drops your own repositories. Extra owners are dropped too,
 // so employer orgs do not get counted as "other people's projects".
-export function searchQueries (login, excludeOwners = []) {
-  const not = ['-user:' + login, ...excludeOwners.map(o => '-user:' + o)].join(' ')
+export function searchQueries (login, excludeOwners = [], excludeRepos = []) {
+  // `-repo:` drops specific repositories: coursework, tutorial forks, anything
+  // where the merge says nothing about the work. A star floor would be cruder —
+  // a real one-star project still counts, a class exercise never does.
+  const not = [
+    '-user:' + login,
+    ...excludeOwners.map(o => '-user:' + o),
+    ...excludeRepos.map(r => '-repo:' + r)
+  ].join(' ')
   return [
     { kind: 'merged',   q: `author:${login} type:pr is:merged ${not}` },
     { kind: 'open-pr',  q: `author:${login} type:pr is:open ${not}` },

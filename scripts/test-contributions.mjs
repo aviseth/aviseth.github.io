@@ -2,9 +2,11 @@
 import { searchQueries, normalise, rank, dedupe, summarise } from './lib/contributions.mjs'
 import assert from 'node:assert/strict'
 
-const qs = searchQueries('aviseth', ['Crispa-ai'])
+const qs = searchQueries('aviseth', ['Crispa-ai'], ['vtech-tut/github-tutorial'])
 assert.equal(qs.length, 4)
 assert.ok(qs[0].q.includes('-user:aviseth') && qs[0].q.includes('-user:Crispa-ai'), 'own and employer repos excluded')
+assert.ok(qs[0].q.includes('-repo:vtech-tut/github-tutorial'), 'named repos excluded')
+assert.ok(qs.every(x => x.q.includes('-repo:vtech-tut/github-tutorial')), 'exclusion applies to every search')
 assert.ok(qs[2].q.includes('reviewed-by:aviseth') && qs[2].q.includes('-author:aviseth'), 'reviews exclude self-authored')
 
 const raw = [
