@@ -130,17 +130,17 @@ in `localStorage`. If you would rather it follow the operating system, add a
 
 ## Two things worth knowing
 
-**The commit trail is the point, not a side effect.** The workflow commits
-`data/feed.json` on every refresh, so the repository accumulates a dated,
-tamper-evident record of stars, forks, downloads and citations over time. That
-history is worth more than any snapshot — it is a contemporaneous record rather
-than a reconstructed one.
+**The feed is committed, not just deployed.** The workflow writes
+`data/feed.json` back to the repository on every refresh rather than only into
+the build artifact. Three reasons: the page always has a source you can open and
+check, the site still renders if an API is down, and `git log -p data/feed.json`
+gives you the history of every number on the page.
 
-**Scholar is best-effort.** Google blocks datacentre IPs most of the time, so
-the Action will usually fail to scrape it and fall back to the snapshot in
-`config.json`. Update `scholar.citations`, `hIndex`, `i10Index` and `capturedAt`
-by hand every few months. The page shows the capture date, so a stale number is
-never presented as a live one.
+**Scholar figures are entered by hand.** Google Scholar has no API and blocks
+automated access from datacentre IPs, so the citation totals come from the
+snapshot in `config.json`. Update `scholar.citations`, `hIndex`, `i10Index` and
+`capturedAt` every few months. The page displays the capture date next to the
+numbers, so a stale figure is never presented as a live one.
 
 
 ## Why the activity log can look empty locally

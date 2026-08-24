@@ -25,5 +25,10 @@
     "capturedAt": "2026-08-24"
   },
   "eventLimit": 24,
-  "repoLimit": 100
+  "repoLimit": 100,
+  "excludeOwners": [
+    "Crispa-ai",
+    "ingram-technologies"
+  ],
+  "extraContributions": []
 }

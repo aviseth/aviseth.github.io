@@ -14,6 +14,7 @@
  */
 
 import { mapEvents, eventsFromPushes } from './lib/events.mjs'
+import { searchQueries, normalise, rank, dedupe, summarise } from './lib/contributions.mjs'
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -89,7 +90,8 @@ async function githubMirror (cfg) {
     repos: kept.slice(0, cfg.repoLimit || 100),
     releases: [],
     events,
-    externalPRs: [],
+    contributions: [],
+    contributionSummary: null,
     totals: {
       repos: kept.length,
       stars: kept.reduce((s, r) => s + r.stars, 0),
@@ -99,6 +101,53 @@ async function githubMirror (cfg) {
       languages: 0
     }
   }
+}
+
+/**
+ * Runs the contribution searches, then enriches each hit with the target
+ * repository's star count — "merged into a 12k-star project" and "merged into a
+ * 3-star project" are not the same claim, and only the API can tell them apart.
+ */
+async function otherPeoplesProjects (cfg) {
+  const found = []
+
+  for (const { kind, q } of searchQueries(cfg.github, cfg.excludeOwners)) {
+    const url = `https://api.github.com/search/issues?q=${encodeURIComponent(q)}` +
+                `&advanced_search=true&sort=updated&per_page=50`
+    const res = await getJSON(url, {
+      headers: {
+        accept: 'application/vnd.github+json',
+        ...(token ? { authorization: `Bearer ${token}` } : {})
+      },
+      tolerate: true
+    })
+    if (!res?.items) { warn(`contribution search "${kind}" unavailable (rate limit or no API access)`); continue }
+    found.push(...normalise(res.items, kind))
+    await new Promise(r => setTimeout(r, 2200))   // search API allows 30/min
+  }
+
+  // Anything GitHub cannot see — a patch sent by mail, work under another
+  // handle, a maintainer's public thank-you. Hand-listed in config.json.
+  for (const x of cfg.extraContributions || []) {
+    found.push({ ...x, kind: x.kind || 'merged', manual: true })
+  }
+
+  const list = dedupe(found)
+
+  // One repo lookup per distinct repository, not per item.
+  const repos = [...new Set(list.map(c => c.repo))]
+  const meta = new Map()
+  for (const full of repos) {
+    const r = await gh(`/repos/${full}`, { tolerate: true })
+    if (r) meta.set(full, { stars: r.stargazers_count, description: r.description, archived: r.archived })
+  }
+  for (const c of list) {
+    const m = meta.get(c.repo)
+    if (m) { c.repoStars = m.stars; c.repoDescription = m.description }
+  }
+
+  const ranked = rank(list)
+  return { list: ranked, summary: summarise(ranked) }
 }
 
 async function github (cfg) {
@@ -157,22 +206,9 @@ async function github (cfg) {
   let events = mapEvents(raw || [])
   if (!events.length) events = eventsFromPushes(kept)
 
-  // Merged PRs into repos Avi does not own — the contributions that actually count.
-  let externalPRs = []
-  const search = await getJSON(
-    `https://api.github.com/search/issues?q=${encodeURIComponent(`author:${cfg.github} type:pr is:merged -user:${cfg.github}`)}&sort=updated&per_page=30`,
-    { headers: { accept: 'application/vnd.github+json', ...(token ? { authorization: `Bearer ${token}` } : {}) }, tolerate: true }
-  )
-  if (search?.items) {
-    externalPRs = search.items.map(i => ({
-      title: i.title,
-      url: i.html_url,
-      repo: i.repository_url.replace('https://api.github.com/repos/', ''),
-      mergedAt: i.pull_request?.merged_at || i.closed_at
-    }))
-  } else {
-    warn('GitHub PR search unavailable (rate limit or no token) — external PR list left as-is')
-  }
+  // Work in other people's repositories. Four searches, not one — a merge is
+  // the strongest signal but an open PR, a review and an issue all count.
+  const contributions = await otherPeoplesProjects(cfg)
 
   return {
     profile: {
@@ -189,7 +225,8 @@ async function github (cfg) {
     repos: kept.slice(0, cfg.repoLimit || 100),
     releases,
     events: events.slice(0, cfg.eventLimit || 24),
-    externalPRs,
+    contributions: contributions.list,
+    contributionSummary: contributions.summary,
     totals: {
       repos: kept.length,
       stars: kept.reduce((s, r) => s + r.stars, 0),
@@ -260,7 +297,7 @@ async function npm (names = []) {
 async function crossref (dois = []) {
   const out = []
   for (const doi of dois) {
-    const r = await getJSON(`https://api.crossref.org/works/${doi}?mailto=avi@crispa.ai`, { tolerate: true })
+    const r = await getJSON(`https://api.crossref.org/works/${doi}?mailto=avi.seth8@gmail.com`, { tolerate: true })
     if (!r) { warn(`Crossref: ${doi} unavailable`); continue }
     const m = r.message
     out.push({

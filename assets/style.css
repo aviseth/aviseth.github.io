@@ -539,3 +539,11 @@ tr[hidden] { display: none; }
   .foot__in { grid-template-columns: 1fr; }
   .foot__r { flex-direction: row; flex-wrap: wrap; gap: 1rem; align-items: flex-start; }
 }
+
+/* Contribution list: the repo's own star count is the point, so give it weight. */
+.log__stars {
+  font: 500 .74rem/1 var(--mono);
+  color: var(--accent); margin-left: .55rem;
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.log--contrib li { align-items: baseline; }

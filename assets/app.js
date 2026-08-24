@@ -153,7 +153,7 @@
       repos: t.repos,
       stars: t.stars,
       forks: t.forks,
-      releases: t.releases,
+      merged: feed.github?.contributionSummary?.merged,
       packages: (feed.packages || []).length,
       citations: feed.scholar?.citations
     }
@@ -295,18 +295,53 @@
     }
   }
 
-  function renderPRs (feed) {
+  const CONTRIB_LABEL = { merged: 'merged', 'open-pr': 'in review', review: 'reviewed', issue: 'issue' }
+
+  function renderContributions (feed) {
     const list = $('#prs')
     if (!list) return
-    const prs = feed.github?.externalPRs || []
-    if (!prs.length) {
+    const items = feed.github?.contributions || []
+    const sum = feed.github?.contributionSummary
+
+    // Headline first: a count of merges into distinct projects says more than
+    // the list does, and it is the number people actually look for.
+    const line = $('#contrib-summary')
+    if (line && sum?.merged) {
+      const reach = sum.reach ? `, ${num(sum.reach)} stars between them` : ''
+      line.textContent = `${sum.merged} merged into ${sum.projects} ${sum.projects === 1 ? 'project' : 'projects'}${reach}. ` +
+        'My own repos and my employers\u2019 are excluded — this is only work done for other people.'
+    }
+
+    if (!items.length) {
       list.replaceChildren(emptyRow(feed.github?.mirror
-        ? 'Unavailable in this build \u2014 the pull-request search needs the GitHub API, which this build could not reach. The scheduled build fills it in.'
-        : 'None yet. This list fills itself the moment one lands.'))
+        ? 'Unavailable in this build \u2014 the search API needs GitHub credentials this build did not have. The scheduled build fills it in.'
+        : 'Nothing yet. Open a pull request on someone else\u2019s repository and it appears here within three hours.'))
       return
     }
+
     const frag = document.createDocumentFragment()
-    for (const p of prs) frag.append(logItem(day(p.mergedAt), 'merged', p.title, p.url, p.repo))
+    for (const c of items) {
+      const li = el('li')
+      li.append(el('span', 'log__date', day(c.at)))
+
+      const what = el('span', 'log__what')
+      what.append(el('span', 'log__k', CONTRIB_LABEL[c.kind] || c.kind))
+
+      const a = el('a', null, c.title || c.repo)
+      a.href = c.url; a.rel = 'noopener'
+      what.append(a)
+
+      const trail = el('span', 'log__repo', c.repo + (c.number ? ' #' + c.number : ''))
+      what.append(trail)
+
+      // Stars on the TARGET repo — the thing that separates a real
+      // contribution from a drive-by on an empty project.
+      if (c.repoStars) what.append(el('span', 'log__stars', '\u2605 ' + num(c.repoStars)))
+      if (c.manual) what.append(el('span', 'log__repo', '(recorded by hand)'))
+
+      li.append(what)
+      frag.append(li)
+    }
     list.replaceChildren(frag)
   }
 
@@ -385,7 +420,7 @@
     renderStats(feed)
     renderRepos(feed)
     renderLog(feed)
-    renderPRs(feed)
+    renderContributions(feed)
     renderPackages(feed)
     renderPapers(feed)
   }
