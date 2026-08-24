@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:55:17.188Z",
+  "generatedAt": "2026-08-24T13:08:49.467Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
@@ -118,6 +118,20 @@
         "pushedAt": "2018-04-24T14:07:12Z"
       },
       {
+        "name": "consequence",
+        "description": "See what your code would do before it does it. A plan mode, a policy layer and an audit log for filesystem, process, network and database side effects.",
+        "url": "https://github.com/aviseth/consequence",
+        "homepage": null,
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 1,
+        "topics": [],
+        "license": "MIT",
+        "createdAt": "2026-08-24T12:06:05Z",
+        "pushedAt": "2026-08-24T12:57:46Z"
+      },
+      {
         "name": "cricket-batter-ranking",
         "description": null,
         "url": "https://github.com/aviseth/cricket-batter-ranking",
@@ -130,20 +144,6 @@
         "license": null,
         "createdAt": "2026-08-24T12:11:48Z",
         "pushedAt": "2026-08-24T12:42:06Z"
-      },
-      {
-        "name": "consequence",
-        "description": "See what your code would do before it does it. A plan mode, a policy layer and an audit log for filesystem, process, network and database side effects.",
-        "url": "https://github.com/aviseth/consequence",
-        "homepage": null,
-        "language": null,
-        "stars": 0,
-        "forks": 0,
-        "openIssues": 0,
-        "topics": [],
-        "license": "MIT",
-        "createdAt": "2026-08-24T12:06:05Z",
-        "pushedAt": "2026-08-24T12:41:33Z"
       },
       {
         "name": "configtrace",
@@ -570,6 +570,12 @@
     "events": [
       {
         "repo": "consequence",
+        "at": "2026-08-24T13:07:00Z",
+        "url": "https://github.com/aviseth/consequence",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "consequence",
         "at": "2026-08-24T12:39:09Z",
         "url": "https://github.com/aviseth/consequence",
         "kind": "pr-merged"
@@ -591,12 +597,6 @@
         "at": "2026-08-24T11:58:49Z",
         "url": "https://github.com/aviseth/Projects",
         "kind": "pr-opened"
-      },
-      {
-        "repo": "configtrace",
-        "at": "2026-08-24T10:46:57Z",
-        "url": "https://github.com/aviseth/configtrace",
-        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -850,7 +850,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16139,
+        "repoStars": 16140,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
