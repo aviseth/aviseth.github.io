@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:22:40.787Z",
+  "generatedAt": "2026-08-24T15:00:55.795Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
@@ -15,7 +15,7 @@
       "url": "https://github.com/aviseth",
       "followers": 13,
       "following": 9,
-      "publicRepos": 62,
+      "publicRepos": 63,
       "createdAt": "2016-05-26T15:27:38Z"
     },
     "repos": [
@@ -118,6 +118,20 @@
         "pushedAt": "2018-04-24T14:07:12Z"
       },
       {
+        "name": "cricket-batter-ranking",
+        "description": null,
+        "url": "https://github.com/aviseth/cricket-batter-ranking",
+        "homepage": null,
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "topics": [],
+        "license": null,
+        "createdAt": "2026-08-24T12:11:48Z",
+        "pushedAt": "2026-08-24T14:52:13Z"
+      },
+      {
         "name": "consequence",
         "description": "See what your code would do before it does it. A plan mode, a policy layer and an audit log for filesystem, process, network and database side effects.",
         "url": "https://github.com/aviseth/consequence",
@@ -130,20 +144,6 @@
         "license": "MIT",
         "createdAt": "2026-08-24T12:06:05Z",
         "pushedAt": "2026-08-24T13:44:37Z"
-      },
-      {
-        "name": "cricket-batter-ranking",
-        "description": null,
-        "url": "https://github.com/aviseth/cricket-batter-ranking",
-        "homepage": null,
-        "language": "JavaScript",
-        "stars": 0,
-        "forks": 0,
-        "openIssues": 0,
-        "topics": [],
-        "license": null,
-        "createdAt": "2026-08-24T12:11:48Z",
-        "pushedAt": "2026-08-24T12:42:06Z"
       },
       {
         "name": "configtrace",
@@ -569,6 +569,12 @@
     "releases": [],
     "events": [
       {
+        "repo": "warehouse",
+        "at": "2026-08-24T14:59:14Z",
+        "url": "https://github.com/pypi/warehouse",
+        "kind": "pr-opened"
+      },
+      {
         "repo": "consequence",
         "at": "2026-08-24T13:44:37Z",
         "url": "https://github.com/aviseth/consequence",
@@ -596,7 +602,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19478,
+        "repoStars": 19479,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -708,6 +714,17 @@
         "state": "open",
         "repoStars": 4360,
         "repoDescription": "Prometheus instrumentation library for Python applications"
+      },
+      {
+        "kind": "open-pr",
+        "title": "Sort PSF sponsors by level and show the level as a badge",
+        "url": "https://github.com/pypi/warehouse/pull/20441",
+        "repo": "pypi/warehouse",
+        "number": 20441,
+        "at": "2026-08-24T14:59:14Z",
+        "state": "open",
+        "repoStars": 4133,
+        "repoDescription": "The Python Package Index"
       },
       {
         "kind": "open-pr",
@@ -838,15 +855,15 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16140,
+        "repoStars": 16139,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
     "contributionSummary": {
-      "total": 23,
+      "total": 24,
       "merged": 5,
       "projects": 3,
-      "reach": 24852
+      "reach": 24853
     },
     "totals": {
       "repos": 39,
