@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:00:55.795Z",
+  "generatedAt": "2026-08-24T15:56:07.212Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
@@ -602,7 +602,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19479,
+        "repoStars": 19480,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -648,17 +648,6 @@
         "state": "closed",
         "repoStars": 1,
         "repoDescription": null
-      },
-      {
-        "kind": "open-pr",
-        "title": "fix: a shortcut could not be assigned because of an unrelated conflict",
-        "url": "https://github.com/lwouis/alt-tab-macos/pull/5967",
-        "repo": "lwouis/alt-tab-macos",
-        "number": 5967,
-        "at": "2026-08-19T19:07:34Z",
-        "state": "open",
-        "repoStars": 16206,
-        "repoDescription": "Windows alt-tab on macOS "
       },
       {
         "kind": "open-pr",
@@ -860,10 +849,10 @@
       }
     ],
     "contributionSummary": {
-      "total": 24,
+      "total": 23,
       "merged": 5,
       "projects": 3,
-      "reach": 24853
+      "reach": 24854
     },
     "totals": {
       "repos": 39,
