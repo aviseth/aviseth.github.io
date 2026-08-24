@@ -1,4 +1,4 @@
-# aviseth.fyi
+# aviseth.github.io
 
 A personal site with a live index. The prose is written by hand; every number on
 the page comes straight from a public API and refreshes itself.
@@ -32,34 +32,6 @@ One repository setting is required and is easy to miss: Settings → Actions →
 General → **Workflow permissions → Read and write**. Without it the step that
 commits the refreshed `data/feed.json` fails with a 403 while the rest of the
 run looks green.
-
-## Moving it to a custom domain later
-
-`aviseth.fyi` is currently a free Gravatar domain, and Gravatar locks DNS
-management for the first year. Once that lifts — or once the domain is
-transferred to a registrar with real DNS control, such as Cloudflare or Porkbun
-— three steps connect it:
-
-1. At the registrar, delete any existing A record on `@` and add these:
-
-   | Type  | Name | Value |
-   |-------|------|-------|
-   | A     | @    | `185.199.108.153` |
-   | A     | @    | `185.199.109.153` |
-   | A     | @    | `185.199.110.153` |
-   | A     | @    | `185.199.111.153` |
-   | CNAME | www  | `aviseth.github.io.` |
-
-   The IPv6 equivalents on `@` are optional: `2606:50c0:8000::153`,
-   `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
-
-2. Add a file named `CNAME` at the repository root containing one line —
-   `aviseth.fyi` — and push it.
-
-3. Settings → Pages → Custom domain → `aviseth.fyi`, wait for the DNS check to
-   go green, then tick **Enforce HTTPS**.
-
-Also update `<link rel="canonical">` and `og:url` in `index.html` at that point.
 
 ## Running the feed builder locally
 
