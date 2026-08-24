@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:56:07.212Z",
+  "generatedAt": "2026-08-24T18:59:31.463Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
@@ -668,7 +668,7 @@
         "number": 2293,
         "at": "2026-08-20T10:24:26Z",
         "state": "open",
-        "repoStars": 4437,
+        "repoStars": 4438,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -679,7 +679,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4437,
+        "repoStars": 4438,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -690,7 +690,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4437,
+        "repoStars": 4438,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -811,7 +811,7 @@
         "number": 455,
         "at": "2026-08-13T09:47:25Z",
         "state": "open",
-        "repoStars": 106,
+        "repoStars": 107,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -822,7 +822,7 @@
         "number": 454,
         "at": "2026-08-13T09:47:23Z",
         "state": "open",
-        "repoStars": 106,
+        "repoStars": 107,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
