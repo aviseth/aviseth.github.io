@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-08-25T03:59:55.591Z",
-  "warnings": [],
+  "generatedAt": "2026-08-25T07:08:45.891Z",
+  "warnings": [
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -633,7 +637,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19483,
+        "repoStars": 19487,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -699,7 +703,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31452,
+        "repoStars": 31454,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -938,7 +942,7 @@
       "total": 28,
       "merged": 6,
       "projects": 4,
-      "reach": 32470
+      "reach": 32474
     },
     "totals": {
       "repos": 39,
@@ -973,11 +977,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 180,
-        "week": 180,
-        "month": 180
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -988,11 +988,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 105,
-        "week": 105,
-        "month": 105
-      }
+      "downloads": null
     }
   ],
   "citations": [
@@ -1018,7 +1014,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-25",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
