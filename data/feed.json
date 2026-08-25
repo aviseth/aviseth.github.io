@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-25T13:12:01.910Z",
+  "generatedAt": "2026-08-25T16:00:21.106Z",
   "warnings": [
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -566,6 +567,18 @@
     "releases": [],
     "events": [
       {
+        "repo": "social-docs",
+        "at": "2026-08-25T14:49:03Z",
+        "url": "https://github.com/python-social-auth/social-docs",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "social-core",
+        "at": "2026-08-25T14:48:52Z",
+        "url": "https://github.com/python-social-auth/social-core",
+        "kind": "pr-merged"
+      },
+      {
         "repo": "dj-stripe",
         "at": "2026-08-24T21:29:23Z",
         "url": "https://github.com/dj-stripe/dj-stripe",
@@ -635,7 +648,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19493,
+        "repoStars": 19494,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -646,7 +659,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7613,
+        "repoStars": 7614,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -684,6 +697,28 @@
       },
       {
         "kind": "merged",
+        "title": "chore: drop defunct pocket, runkeeper, echosign, and exacttarget backends",
+        "url": "https://github.com/python-social-auth/social-core/pull/1923",
+        "repo": "python-social-auth/social-core",
+        "number": 1923,
+        "at": "2026-08-25T14:48:52Z",
+        "state": "closed",
+        "repoStars": 919,
+        "repoDescription": "Python Social Auth - Core"
+      },
+      {
+        "kind": "merged",
+        "title": "docs: drop defunct pocket and runkeeper backend docs",
+        "url": "https://github.com/python-social-auth/social-docs/pull/484",
+        "repo": "python-social-auth/social-docs",
+        "number": 484,
+        "at": "2026-08-25T14:49:03Z",
+        "state": "closed",
+        "repoStars": 35,
+        "repoDescription": "Python Social Auth - Docs"
+      },
+      {
+        "kind": "merged",
         "title": "Adding Drowsiness Detection",
         "url": "https://github.com/dibyanshupatnaik/Software-Assisted-Driving-Aid/pull/2",
         "repo": "dibyanshupatnaik/Software-Assisted-Driving-Aid",
@@ -701,7 +736,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31455,
+        "repoStars": 31456,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -756,7 +791,7 @@
         "number": 20441,
         "at": "2026-08-24T14:59:14Z",
         "state": "open",
-        "repoStars": 4134,
+        "repoStars": 4135,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -871,17 +906,6 @@
       },
       {
         "kind": "open-pr",
-        "title": "chore: drop defunct pocket, runkeeper, echosign, and exacttarget backends",
-        "url": "https://github.com/python-social-auth/social-core/pull/1923",
-        "repo": "python-social-auth/social-core",
-        "number": 1923,
-        "at": "2026-08-20T10:23:39Z",
-        "state": "open",
-        "repoStars": 919,
-        "repoDescription": "Python Social Auth - Core"
-      },
-      {
-        "kind": "open-pr",
         "title": "Keep Field in the type shim so super() calls resolve",
         "url": "https://github.com/pylint-dev/pylint-django/pull/488",
         "repo": "pylint-dev/pylint-django",
@@ -899,7 +923,7 @@
         "number": 455,
         "at": "2026-08-13T09:47:25Z",
         "state": "open",
-        "repoStars": 107,
+        "repoStars": 108,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -910,19 +934,8 @@
         "number": 454,
         "at": "2026-08-13T09:47:23Z",
         "state": "open",
-        "repoStars": 107,
+        "repoStars": 108,
         "repoDescription": "Conformance Tests for MCP"
-      },
-      {
-        "kind": "open-pr",
-        "title": "docs: drop defunct pocket and runkeeper backend docs",
-        "url": "https://github.com/python-social-auth/social-docs/pull/484",
-        "repo": "python-social-auth/social-docs",
-        "number": 484,
-        "at": "2026-08-21T13:19:33Z",
-        "state": "open",
-        "repoStars": 35,
-        "repoDescription": "Python Social Auth - Docs"
       },
       {
         "kind": "issue",
@@ -932,15 +945,15 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16140,
+        "repoStars": 16141,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
     "contributionSummary": {
       "total": 28,
-      "merged": 6,
-      "projects": 4,
-      "reach": 32480
+      "merged": 8,
+      "projects": 6,
+      "reach": 33436
     },
     "totals": {
       "repos": 39,
@@ -990,11 +1003,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 105,
-        "week": 105,
-        "month": 105
-      }
+      "downloads": null
     }
   ],
   "citations": [
