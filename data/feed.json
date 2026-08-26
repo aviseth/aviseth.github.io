@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T09:57:30.799Z",
+  "generatedAt": "2026-08-26T13:17:31.386Z",
   "warnings": [],
   "github": {
     "profile": {
@@ -645,7 +645,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19505,
+        "repoStars": 19509,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -733,7 +733,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31463,
+        "repoStars": 31464,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -744,7 +744,7 @@
         "number": 2293,
         "at": "2026-08-20T10:24:26Z",
         "state": "open",
-        "repoStars": 4439,
+        "repoStars": 4440,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -755,7 +755,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4439,
+        "repoStars": 4440,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -766,7 +766,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4439,
+        "repoStars": 4440,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -950,7 +950,7 @@
       "total": 28,
       "merged": 8,
       "projects": 6,
-      "reach": 33447
+      "reach": 33451
     },
     "totals": {
       "repos": 39,
