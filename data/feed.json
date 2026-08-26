@@ -1,8 +1,7 @@
 {
-  "generatedAt": "2026-08-26T01:58:38.355Z",
+  "generatedAt": "2026-08-26T04:03:04.143Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -649,7 +648,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19495,
+        "repoStars": 19501,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -954,7 +953,7 @@
       "total": 28,
       "merged": 8,
       "projects": 6,
-      "reach": 33437
+      "reach": 33443
     },
     "totals": {
       "repos": 39,
@@ -985,7 +984,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 10,
+        "week": 190,
+        "month": 190
+      }
     },
     {
       "registry": "pypi",
