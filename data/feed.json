@@ -1,7 +1,6 @@
 {
-  "generatedAt": "2026-08-26T04:03:04.143Z",
+  "generatedAt": "2026-08-26T07:09:18.951Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -923,7 +922,7 @@
         "number": 455,
         "at": "2026-08-13T09:47:25Z",
         "state": "open",
-        "repoStars": 108,
+        "repoStars": 109,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -934,7 +933,7 @@
         "number": 454,
         "at": "2026-08-13T09:47:23Z",
         "state": "open",
-        "repoStars": 108,
+        "repoStars": 109,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -973,7 +972,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 6,
+        "week": 273,
+        "month": 273
+      }
     },
     {
       "registry": "pypi",
