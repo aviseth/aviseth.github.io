@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-26T16:34:54.195Z",
+  "generatedAt": "2026-08-26T20:03:54.126Z",
   "warnings": [
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -648,7 +649,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19516,
+        "repoStars": 19517,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -659,7 +660,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7614,
+        "repoStars": 7615,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -736,7 +737,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31464,
+        "repoStars": 31466,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -945,7 +946,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16142,
+        "repoStars": 16144,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -953,7 +954,7 @@
       "total": 28,
       "merged": 8,
       "projects": 6,
-      "reach": 33458
+      "reach": 33460
     },
     "totals": {
       "repos": 39,
@@ -988,11 +989,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 10,
-        "week": 190,
-        "month": 190
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
