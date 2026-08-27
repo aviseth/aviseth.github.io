@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-08-27T00:47:48.249Z",
+  "generatedAt": "2026-08-27T14:12:10.942Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -647,7 +649,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19518,
+        "repoStars": 19530,
         "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -658,7 +660,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7615,
+        "repoStars": 7617,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -669,7 +671,7 @@
         "number": 2240,
         "at": "2026-08-22T13:00:37Z",
         "state": "closed",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -680,7 +682,7 @@
         "number": 2234,
         "at": "2026-08-08T11:33:43Z",
         "state": "closed",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -691,7 +693,7 @@
         "number": 2235,
         "at": "2026-08-07T23:22:25Z",
         "state": "closed",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -735,7 +737,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31467,
+        "repoStars": 31475,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -746,7 +748,7 @@
         "number": 2293,
         "at": "2026-08-20T10:24:26Z",
         "state": "open",
-        "repoStars": 4441,
+        "repoStars": 4442,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -757,7 +759,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4441,
+        "repoStars": 4442,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -768,7 +770,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4441,
+        "repoStars": 4442,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -779,7 +781,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4361,
+        "repoStars": 4362,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -790,7 +792,7 @@
         "number": 20441,
         "at": "2026-08-24T14:59:14Z",
         "state": "open",
-        "repoStars": 4136,
+        "repoStars": 4138,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -812,7 +814,7 @@
         "number": 1842,
         "at": "2026-08-23T23:45:02Z",
         "state": "open",
-        "repoStars": 3333,
+        "repoStars": 3334,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -823,7 +825,7 @@
         "number": 1808,
         "at": "2026-08-20T10:20:51Z",
         "state": "open",
-        "repoStars": 3333,
+        "repoStars": 3334,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -834,7 +836,7 @@
         "number": 2246,
         "at": "2026-08-24T21:29:23Z",
         "state": "open",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -845,7 +847,7 @@
         "number": 2245,
         "at": "2026-08-24T21:29:18Z",
         "state": "open",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -856,7 +858,7 @@
         "number": 2244,
         "at": "2026-08-24T21:29:13Z",
         "state": "open",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -867,7 +869,7 @@
         "number": 2243,
         "at": "2026-08-24T21:29:08Z",
         "state": "open",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -878,7 +880,7 @@
         "number": 2239,
         "at": "2026-08-12T20:55:42Z",
         "state": "open",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -889,7 +891,7 @@
         "number": 2237,
         "at": "2026-08-10T11:55:14Z",
         "state": "open",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -900,7 +902,7 @@
         "number": 2236,
         "at": "2026-08-10T11:05:56Z",
         "state": "open",
-        "repoStars": 1791,
+        "repoStars": 1792,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -911,7 +913,7 @@
         "number": 488,
         "at": "2026-08-13T09:47:39Z",
         "state": "open",
-        "repoStars": 623,
+        "repoStars": 624,
         "repoDescription": "Pylint plugin for improving code analysis for when using Django"
       },
       {
@@ -944,7 +946,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16145,
+        "repoStars": 16148,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -952,7 +954,7 @@
       "total": 28,
       "merged": 8,
       "projects": 6,
-      "reach": 33461
+      "reach": 33478
     },
     "totals": {
       "repos": 39,
@@ -972,11 +974,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 6,
-        "week": 273,
-        "month": 273
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -987,11 +985,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 10,
-        "week": 190,
-        "month": 190
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1004,8 +998,8 @@
       "releaseCount": 1,
       "downloads": {
         "day": 6,
-        "week": 111,
-        "month": 111
+        "week": 117,
+        "month": 117
       }
     }
   ],
