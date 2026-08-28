@@ -1,7 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:25:35.665Z",
+  "generatedAt": "2026-08-28T15:22:36.172Z",
   "warnings": [
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -14,7 +13,7 @@
       "url": "https://github.com/aviseth",
       "followers": 13,
       "following": 9,
-      "publicRepos": 64,
+      "publicRepos": 66,
       "createdAt": "2016-05-26T15:27:38Z"
     },
     "repos": [
@@ -115,6 +114,20 @@
         "license": null,
         "createdAt": "2018-04-24T14:05:50Z",
         "pushedAt": "2018-04-24T14:07:12Z"
+      },
+      {
+        "name": "greenwash",
+        "description": "Find required CI checks that can go green without doing the work.",
+        "url": "https://github.com/aviseth/greenwash",
+        "homepage": null,
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "topics": [],
+        "license": "MIT",
+        "createdAt": "2026-08-28T13:37:56Z",
+        "pushedAt": "2026-08-28T13:55:57Z"
       },
       {
         "name": "consequence",
@@ -568,6 +581,31 @@
     "releases": [],
     "events": [
       {
+        "repo": "dj-stripe",
+        "at": "2026-08-28T14:01:00Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "dj-stripe",
+        "at": "2026-08-28T13:49:43Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "openai-python",
+        "at": "2026-08-28T13:47:00Z",
+        "url": "https://github.com/openai/openai-python/issues/3755",
+        "kind": "issue-opened",
+        "title": "Required checks lint, build and test are satisfied by a skip when dependency-locks fails"
+      },
+      {
+        "repo": "django-axes",
+        "at": "2026-08-28T13:30:42Z",
+        "url": "https://github.com/jazzband/django-axes",
+        "kind": "pr-opened"
+      },
+      {
         "repo": "social-docs",
         "at": "2026-08-25T14:49:03Z",
         "url": "https://github.com/python-social-auth/social-docs",
@@ -626,18 +664,6 @@
         "at": "2026-08-24T13:44:37Z",
         "url": "https://github.com/aviseth/consequence",
         "kind": "pr-merged"
-      },
-      {
-        "repo": "consequence",
-        "at": "2026-08-24T13:07:00Z",
-        "url": "https://github.com/aviseth/consequence",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "consequence",
-        "at": "2026-08-24T12:39:09Z",
-        "url": "https://github.com/aviseth/consequence",
-        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -649,8 +675,8 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19540,
-        "repoDescription": "How Python does AI: agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
+        "repoStars": 19554,
+        "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
         "kind": "merged",
@@ -662,6 +688,17 @@
         "state": "closed",
         "repoStars": 7617,
         "repoDescription": "Task scheduling library for Python"
+      },
+      {
+        "kind": "merged",
+        "title": "Stop system checks querying the database on every command",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2236",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2236,
+        "at": "2026-08-28T13:49:43Z",
+        "state": "closed",
+        "repoStars": 1793,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
         "kind": "merged",
@@ -737,7 +774,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31480,
+        "repoStars": 31487,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -775,13 +812,13 @@
       },
       {
         "kind": "open-pr",
-        "title": "Sort PSF sponsors by level and show the level as a badge",
+        "title": "Show the PSF sponsor tier from level_name instead of activity text",
         "url": "https://github.com/pypi/warehouse/pull/20441",
         "repo": "pypi/warehouse",
         "number": 20441,
         "at": "2026-08-24T14:59:14Z",
         "state": "open",
-        "repoStars": 4138,
+        "repoStars": 4139,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -819,22 +856,11 @@
       },
       {
         "kind": "open-pr",
-        "title": "Pin the ruff pre-commit hook to v0.16.4",
-        "url": "https://github.com/dj-stripe/dj-stripe/pull/2246",
+        "title": "Make syncing cheaper in queries and API round trips",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2247",
         "repo": "dj-stripe/dj-stripe",
-        "number": 2246,
-        "at": "2026-08-24T21:29:23Z",
-        "state": "open",
-        "repoStars": 1793,
-        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
-      },
-      {
-        "kind": "open-pr",
-        "title": "Require Django 5.2.17 as the minimum",
-        "url": "https://github.com/dj-stripe/dj-stripe/pull/2245",
-        "repo": "dj-stripe/dj-stripe",
-        "number": 2245,
-        "at": "2026-08-24T21:29:18Z",
+        "number": 2247,
+        "at": "2026-08-28T14:01:00Z",
         "state": "open",
         "repoStars": 1793,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
@@ -885,14 +911,14 @@
       },
       {
         "kind": "open-pr",
-        "title": "Stop system checks querying the database on every command",
-        "url": "https://github.com/dj-stripe/dj-stripe/pull/2236",
-        "repo": "dj-stripe/dj-stripe",
-        "number": 2236,
-        "at": "2026-08-10T11:05:56Z",
+        "title": "Handle a cache key expiring between add and incr",
+        "url": "https://github.com/jazzband/django-axes/pull/1489",
+        "repo": "jazzband/django-axes",
+        "number": 1489,
+        "at": "2026-08-28T13:30:42Z",
         "state": "open",
-        "repoStars": 1793,
-        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
+        "repoStars": 1699,
+        "repoDescription": "Keep track of failed login attempts in Django-powered sites."
       },
       {
         "kind": "open-pr",
@@ -913,7 +939,7 @@
         "number": 455,
         "at": "2026-08-13T09:47:25Z",
         "state": "open",
-        "repoStars": 109,
+        "repoStars": 110,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -924,8 +950,19 @@
         "number": 454,
         "at": "2026-08-13T09:47:23Z",
         "state": "open",
-        "repoStars": 109,
+        "repoStars": 110,
         "repoDescription": "Conformance Tests for MCP"
+      },
+      {
+        "kind": "issue",
+        "title": "Required checks lint, build and test are satisfied by a skip when dependency-locks fails",
+        "url": "https://github.com/openai/openai-python/issues/3755",
+        "repo": "openai/openai-python",
+        "number": 3755,
+        "at": "2026-08-28T13:46:58Z",
+        "state": "open",
+        "repoStars": 31487,
+        "repoDescription": "The official Python library for the OpenAI API"
       },
       {
         "kind": "issue",
@@ -935,18 +972,18 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16150,
+        "repoStars": 16156,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
     "contributionSummary": {
-      "total": 27,
-      "merged": 8,
+      "total": 28,
+      "merged": 9,
       "projects": 6,
-      "reach": 33491
+      "reach": 35298
     },
     "totals": {
-      "repos": 39,
+      "repos": 40,
       "stars": 8,
       "forks": 7,
       "releases": 0,
@@ -964,9 +1001,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 19,
-        "week": 292,
-        "month": 292
+        "day": 8,
+        "week": 300,
+        "month": 300
       }
     },
     {
@@ -978,7 +1015,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 4,
+        "week": 205,
+        "month": 205
+      }
     },
     {
       "registry": "pypi",
