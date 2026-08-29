@@ -1,7 +1,6 @@
 {
-  "generatedAt": "2026-08-28T15:22:36.172Z",
+  "generatedAt": "2026-08-29T01:45:17.354Z",
   "warnings": [
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -581,6 +580,42 @@
     "releases": [],
     "events": [
       {
+        "repo": "django-debug-toolbar",
+        "at": "2026-08-28T15:57:25Z",
+        "url": "https://github.com/django-commons/django-debug-toolbar",
+        "kind": "pr-closed"
+      },
+      {
+        "repo": "social-core",
+        "at": "2026-08-28T16:04:47Z",
+        "url": "https://github.com/python-social-auth/social-core",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "warehouse",
+        "at": "2026-08-28T15:59:20Z",
+        "url": "https://github.com/pypi/warehouse",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "warehouse",
+        "at": "2026-08-28T15:59:17Z",
+        "url": "https://github.com/pypi/warehouse",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "warehouse",
+        "at": "2026-08-28T15:59:10Z",
+        "url": "https://github.com/pypi/warehouse",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "django-debug-toolbar",
+        "at": "2026-08-28T15:57:11Z",
+        "url": "https://github.com/django-commons/django-debug-toolbar",
+        "kind": "pr-opened"
+      },
+      {
         "repo": "dj-stripe",
         "at": "2026-08-28T14:01:00Z",
         "url": "https://github.com/dj-stripe/dj-stripe",
@@ -675,7 +710,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19554,
+        "repoStars": 19566,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -774,7 +809,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31487,
+        "repoStars": 31493,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -785,7 +820,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4443,
+        "repoStars": 4444,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -796,7 +831,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4443,
+        "repoStars": 4444,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -812,11 +847,33 @@
       },
       {
         "kind": "open-pr",
-        "title": "Show the PSF sponsor tier from level_name instead of activity text",
-        "url": "https://github.com/pypi/warehouse/pull/20441",
+        "title": "Store callout block state in localStorage",
+        "url": "https://github.com/pypi/warehouse/pull/20462",
         "repo": "pypi/warehouse",
-        "number": 20441,
-        "at": "2026-08-24T14:59:14Z",
+        "number": 20462,
+        "at": "2026-08-28T15:59:20Z",
+        "state": "open",
+        "repoStars": 4139,
+        "repoDescription": "The Python Package Index"
+      },
+      {
+        "kind": "open-pr",
+        "title": "Drain the orphaned release descriptions",
+        "url": "https://github.com/pypi/warehouse/pull/20461",
+        "repo": "pypi/warehouse",
+        "number": 20461,
+        "at": "2026-08-28T15:59:17Z",
+        "state": "open",
+        "repoStars": 4139,
+        "repoDescription": "The Python Package Index"
+      },
+      {
+        "kind": "open-pr",
+        "title": "Let translators tell the 'Deleted by:' strings apart",
+        "url": "https://github.com/pypi/warehouse/pull/20460",
+        "repo": "pypi/warehouse",
+        "number": 20460,
+        "at": "2026-08-28T15:59:10Z",
         "state": "open",
         "repoStars": 4139,
         "repoDescription": "The Python Package Index"
@@ -922,6 +979,17 @@
       },
       {
         "kind": "open-pr",
+        "title": "chore: drop defunct skyrock and withings backends",
+        "url": "https://github.com/python-social-auth/social-core/pull/1939",
+        "repo": "python-social-auth/social-core",
+        "number": 1939,
+        "at": "2026-08-28T16:04:47Z",
+        "state": "open",
+        "repoStars": 919,
+        "repoDescription": "Python Social Auth - Core"
+      },
+      {
+        "kind": "open-pr",
         "title": "Keep Field in the type shim so super() calls resolve",
         "url": "https://github.com/pylint-dev/pylint-django/pull/488",
         "repo": "pylint-dev/pylint-django",
@@ -961,7 +1029,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31487,
+        "repoStars": 31493,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -972,15 +1040,15 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16156,
+        "repoStars": 16157,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
     "contributionSummary": {
-      "total": 28,
+      "total": 31,
       "merged": 9,
       "projects": 6,
-      "reach": 35298
+      "reach": 35310
     },
     "totals": {
       "repos": 40,
@@ -1001,9 +1069,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 8,
-        "week": 300,
-        "month": 300
+        "day": 20,
+        "week": 320,
+        "month": 320
       }
     },
     {
@@ -1016,9 +1084,9 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 4,
-        "week": 205,
-        "month": 205
+        "day": 6,
+        "week": 211,
+        "month": 211
       }
     },
     {
@@ -1030,7 +1098,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 4,
+        "week": 121,
+        "month": 121
+      }
     }
   ],
   "citations": [
