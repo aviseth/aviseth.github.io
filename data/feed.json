@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-29T10:03:36.257Z",
+  "generatedAt": "2026-08-29T16:43:15.057Z",
   "warnings": [
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -580,6 +581,12 @@
     "releases": [],
     "events": [
       {
+        "repo": "django-axes",
+        "at": "2026-08-29T13:02:57Z",
+        "url": "https://github.com/jazzband/django-axes",
+        "kind": "pr-merged"
+      },
+      {
         "repo": "django-debug-toolbar",
         "at": "2026-08-28T15:57:25Z",
         "url": "https://github.com/django-commons/django-debug-toolbar",
@@ -710,7 +717,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19567,
+        "repoStars": 19573,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -770,6 +777,17 @@
       },
       {
         "kind": "merged",
+        "title": "Handle a cache key expiring between add and incr",
+        "url": "https://github.com/jazzband/django-axes/pull/1489",
+        "repo": "jazzband/django-axes",
+        "number": 1489,
+        "at": "2026-08-29T13:02:57Z",
+        "state": "closed",
+        "repoStars": 1699,
+        "repoDescription": "Keep track of failed login attempts in Django-powered sites."
+      },
+      {
+        "kind": "merged",
         "title": "chore: drop defunct pocket, runkeeper, echosign, and exacttarget backends",
         "url": "https://github.com/python-social-auth/social-core/pull/1923",
         "repo": "python-social-auth/social-core",
@@ -809,7 +827,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31496,
+        "repoStars": 31500,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -820,7 +838,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4444,
+        "repoStars": 4446,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -831,7 +849,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4444,
+        "repoStars": 4446,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -968,17 +986,6 @@
       },
       {
         "kind": "open-pr",
-        "title": "Handle a cache key expiring between add and incr",
-        "url": "https://github.com/jazzband/django-axes/pull/1489",
-        "repo": "jazzband/django-axes",
-        "number": 1489,
-        "at": "2026-08-28T13:30:42Z",
-        "state": "open",
-        "repoStars": 1699,
-        "repoDescription": "Keep track of failed login attempts in Django-powered sites."
-      },
-      {
-        "kind": "open-pr",
         "title": "chore: drop defunct skyrock and withings backends",
         "url": "https://github.com/python-social-auth/social-core/pull/1939",
         "repo": "python-social-auth/social-core",
@@ -1029,7 +1036,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31496,
+        "repoStars": 31500,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1046,9 +1053,9 @@
     ],
     "contributionSummary": {
       "total": 31,
-      "merged": 9,
-      "projects": 6,
-      "reach": 35311
+      "merged": 10,
+      "projects": 7,
+      "reach": 37016
     },
     "totals": {
       "repos": 40,
@@ -1083,11 +1090,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 6,
-        "week": 211,
-        "month": 211
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
