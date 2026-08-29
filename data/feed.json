@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T01:45:17.354Z",
+  "generatedAt": "2026-08-29T10:03:36.257Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -710,7 +710,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19566,
+        "repoStars": 19567,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -809,7 +809,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31493,
+        "repoStars": 31496,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -853,7 +853,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4139,
+        "repoStars": 4140,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -864,7 +864,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4139,
+        "repoStars": 4140,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -875,7 +875,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4139,
+        "repoStars": 4140,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1029,7 +1029,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31493,
+        "repoStars": 31496,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1040,7 +1040,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16157,
+        "repoStars": 16160,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1048,7 +1048,7 @@
       "total": 31,
       "merged": 9,
       "projects": 6,
-      "reach": 35310
+      "reach": 35311
     },
     "totals": {
       "repos": 40,
