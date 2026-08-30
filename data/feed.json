@@ -1,6 +1,9 @@
 {
-  "generatedAt": "2026-08-30T21:05:49.673Z",
+  "generatedAt": "2026-08-30T23:29:57.482Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -1074,11 +1077,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 13,
-        "week": 333,
-        "month": 333
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1089,11 +1088,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 7,
-        "week": 218,
-        "month": 218
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1104,11 +1099,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 3,
-        "week": 124,
-        "month": 124
-      }
+      "downloads": null
     }
   ],
   "citations": [
