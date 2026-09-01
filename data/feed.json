@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-09-01T14:09:29.657Z",
+  "generatedAt": "2026-09-01T18:30:53.241Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -716,7 +718,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19643,
+        "repoStars": 19646,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -727,7 +729,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7618,
+        "repoStars": 7619,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -826,7 +828,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31533,
+        "repoStars": 31534,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -859,7 +861,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4364,
+        "repoStars": 4365,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -1035,7 +1037,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31533,
+        "repoStars": 31534,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1054,7 +1056,7 @@
       "total": 31,
       "merged": 10,
       "projects": 7,
-      "reach": 37087
+      "reach": 37091
     },
     "totals": {
       "repos": 40,
@@ -1074,11 +1076,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 9,
-        "week": 101,
-        "month": 368
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1089,11 +1087,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 2,
-        "week": 54,
-        "month": 234
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
