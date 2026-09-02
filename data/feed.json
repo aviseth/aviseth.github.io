@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-02T16:34:58.790Z",
+  "generatedAt": "2026-09-02T21:03:16.551Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
@@ -701,12 +702,6 @@
         "at": "2026-08-24T14:59:14Z",
         "url": "https://github.com/pypi/warehouse",
         "kind": "pr-opened"
-      },
-      {
-        "repo": "consequence",
-        "at": "2026-08-24T13:44:37Z",
-        "url": "https://github.com/aviseth/consequence",
-        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -718,7 +713,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19673,
+        "repoStars": 19678,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -828,7 +823,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31538,
+        "repoStars": 31541,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -861,7 +856,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4365,
+        "repoStars": 4366,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -1037,7 +1032,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31538,
+        "repoStars": 31541,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1056,7 +1051,7 @@
       "total": 31,
       "merged": 10,
       "projects": 7,
-      "reach": 37121
+      "reach": 37126
     },
     "totals": {
       "repos": 40,
@@ -1076,11 +1071,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 49,
-        "week": 144,
-        "month": 417
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
