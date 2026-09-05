@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-09-05T04:28:50.590Z",
+  "generatedAt": "2026-09-05T10:35:03.112Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -854,7 +855,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4366,
+        "repoStars": 4367,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -1041,7 +1042,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16189,
+        "repoStars": 16191,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1121,7 +1122,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-05",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
