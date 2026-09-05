@@ -1,9 +1,7 @@
 {
-  "generatedAt": "2026-09-05T20:21:20.942Z",
+  "generatedAt": "2026-09-05T22:54:47.428Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -712,7 +710,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19740,
+        "repoStars": 19741,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -822,7 +820,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31553,
+        "repoStars": 31554,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -855,7 +853,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4367,
+        "repoStars": 4368,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -1031,7 +1029,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31553,
+        "repoStars": 31554,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1042,7 +1040,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16193,
+        "repoStars": 16192,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1050,7 +1048,7 @@
       "total": 31,
       "merged": 10,
       "projects": 7,
-      "reach": 37191
+      "reach": 37192
     },
     "totals": {
       "repos": 40,
@@ -1070,7 +1068,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 38,
+        "week": 180,
+        "month": 500
+      }
     },
     {
       "registry": "pypi",
@@ -1081,7 +1083,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 4,
+        "week": 28,
+        "month": 239
+      }
     },
     {
       "registry": "pypi",
@@ -1092,7 +1098,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 3,
+        "week": 19,
+        "month": 140
+      }
     }
   ],
   "citations": [
@@ -1118,7 +1128,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-05",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
