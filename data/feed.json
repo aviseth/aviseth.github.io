@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-09-05T17:21:42.851Z",
+  "generatedAt": "2026-09-05T20:21:20.942Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
   ],
   "github": {
@@ -711,7 +712,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19737,
+        "repoStars": 19740,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -722,7 +723,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7624,
+        "repoStars": 7625,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -821,7 +822,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31552,
+        "repoStars": 31553,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -832,7 +833,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4454,
+        "repoStars": 4455,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -843,7 +844,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4454,
+        "repoStars": 4455,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1030,7 +1031,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31552,
+        "repoStars": 31553,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1049,7 +1050,7 @@
       "total": 31,
       "merged": 10,
       "projects": 7,
-      "reach": 37187
+      "reach": 37191
     },
     "totals": {
       "repos": 40,
@@ -1080,11 +1081,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 4,
-        "week": 28,
-        "month": 239
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
