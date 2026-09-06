@@ -1,6 +1,9 @@
 {
-  "generatedAt": "2026-09-05T22:54:47.428Z",
+  "generatedAt": "2026-09-06T04:38:33.466Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -820,7 +823,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31554,
+        "repoStars": 31562,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -831,7 +834,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4455,
+        "repoStars": 4456,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -842,7 +845,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4455,
+        "repoStars": 4456,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1029,7 +1032,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31554,
+        "repoStars": 31562,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1068,11 +1071,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 38,
-        "week": 180,
-        "month": 500
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1083,11 +1082,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 4,
-        "week": 28,
-        "month": 239
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1098,11 +1093,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 3,
-        "week": 19,
-        "month": 140
-      }
+      "downloads": null
     }
   ],
   "citations": [
