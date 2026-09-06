@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-09-06T20:24:25.087Z",
+  "generatedAt": "2026-09-06T22:53:30.163Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -723,7 +724,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19751,
+        "repoStars": 19753,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -855,7 +856,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31594,
+        "repoStars": 31597,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1042,7 +1043,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31594,
+        "repoStars": 31597,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1061,7 +1062,7 @@
       "total": 31,
       "merged": 12,
       "projects": 8,
-      "reach": 37427
+      "reach": 37429
     },
     "totals": {
       "repos": 40,
@@ -1092,11 +1093,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 0,
-        "week": 21,
-        "month": 239
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
