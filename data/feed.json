@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-07T12:32:29.513Z",
+  "generatedAt": "2026-09-07T19:09:47.418Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -729,7 +729,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19764,
+        "repoStars": 19772,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -740,7 +740,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7626,
+        "repoStars": 7627,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -817,7 +817,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 113,
+        "repoStars": 114,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -828,7 +828,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 113,
+        "repoStars": 114,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -861,7 +861,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31604,
+        "repoStars": 31605,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -905,7 +905,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4145,
+        "repoStars": 4146,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -916,7 +916,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4145,
+        "repoStars": 4146,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -927,7 +927,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4145,
+        "repoStars": 4146,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1048,7 +1048,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31604,
+        "repoStars": 31605,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1059,7 +1059,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16200,
+        "repoStars": 16202,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1067,7 +1067,7 @@
       "total": 31,
       "merged": 12,
       "projects": 8,
-      "reach": 37442
+      "reach": 37453
     },
     "totals": {
       "repos": 40,
@@ -1113,7 +1113,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 10,
+        "month": 140
+      }
     }
   ],
   "citations": [
@@ -1139,7 +1143,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-07",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
