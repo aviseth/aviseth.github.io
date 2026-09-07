@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-09-07T04:41:11.946Z",
+  "generatedAt": "2026-09-07T12:32:29.513Z",
   "warnings": [
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
   ],
   "github": {
     "profile": {
@@ -713,6 +712,12 @@
         "at": "2026-08-24T14:59:14Z",
         "url": "https://github.com/pypi/warehouse",
         "kind": "pr-opened"
+      },
+      {
+        "repo": "consequence",
+        "at": "2026-08-24T13:44:37Z",
+        "url": "https://github.com/aviseth/consequence",
+        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -724,7 +729,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19756,
+        "repoStars": 19764,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -856,7 +861,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31601,
+        "repoStars": 31604,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -889,7 +894,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4368,
+        "repoStars": 4369,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -900,7 +905,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4144,
+        "repoStars": 4145,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -911,7 +916,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4144,
+        "repoStars": 4145,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -922,7 +927,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4144,
+        "repoStars": 4145,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1043,7 +1048,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31601,
+        "repoStars": 31604,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1054,7 +1059,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16198,
+        "repoStars": 16200,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1062,7 +1067,7 @@
       "total": 31,
       "merged": 12,
       "projects": 8,
-      "reach": 37434
+      "reach": 37442
     },
     "totals": {
       "repos": 40,
@@ -1082,11 +1087,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 1,
-        "week": 145,
-        "month": 504
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1097,7 +1098,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 7,
+        "month": 239
+      }
     },
     {
       "registry": "pypi",
@@ -1134,7 +1139,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-09-07",
+    "live": true
   }
 }
