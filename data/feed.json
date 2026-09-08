@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-09-08T21:09:38.106Z",
+  "generatedAt": "2026-09-08T23:23:34.945Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -13,7 +15,7 @@
       "url": "https://github.com/aviseth",
       "followers": 13,
       "following": 9,
-      "publicRepos": 66,
+      "publicRepos": 67,
       "createdAt": "2016-05-26T15:27:38Z"
     },
     "repos": [
@@ -581,6 +583,30 @@
     "releases": [],
     "events": [
       {
+        "repo": "django-import-export",
+        "at": "2026-09-08T21:51:21Z",
+        "url": "https://github.com/django-import-export/django-import-export",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "pydantic",
+        "at": "2026-09-08T21:48:49Z",
+        "url": "https://github.com/pydantic/pydantic",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "django-debug-toolbar",
+        "at": "2026-09-08T21:45:08Z",
+        "url": "https://github.com/django-commons/django-debug-toolbar",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "social-docs",
+        "at": "2026-09-08T21:29:19Z",
+        "url": "https://github.com/python-social-auth/social-docs",
+        "kind": "pr-opened"
+      },
+      {
         "repo": "conformance",
         "at": "2026-09-06T19:14:59Z",
         "url": "https://github.com/modelcontextprotocol/conformance",
@@ -700,24 +726,6 @@
         "at": "2026-08-24T21:25:21Z",
         "url": "https://github.com/openai/openai-python",
         "kind": "pr-opened"
-      },
-      {
-        "repo": "apscheduler",
-        "at": "2026-08-24T20:26:14Z",
-        "url": "https://github.com/agronholm/apscheduler",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "warehouse",
-        "at": "2026-08-24T14:59:14Z",
-        "url": "https://github.com/pypi/warehouse",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "consequence",
-        "at": "2026-08-24T13:44:37Z",
-        "url": "https://github.com/aviseth/consequence",
-        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -729,7 +737,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19805,
+        "repoStars": 19806,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -817,7 +825,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 114,
+        "repoStars": 115,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -828,7 +836,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 114,
+        "repoStars": 115,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -861,8 +869,19 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31607,
+        "repoStars": 31602,
         "repoDescription": "The official Python library for the OpenAI API"
+      },
+      {
+        "kind": "open-pr",
+        "title": "Stop a JSON key named items breaking the History panel",
+        "url": "https://github.com/django-commons/django-debug-toolbar/pull/2469",
+        "repo": "django-commons/django-debug-toolbar",
+        "number": 2469,
+        "at": "2026-09-08T21:45:08Z",
+        "state": "open",
+        "repoStars": 8378,
+        "repoDescription": "A configurable set of panels that display various debug information about the current request/response."
       },
       {
         "kind": "open-pr",
@@ -905,7 +924,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4146,
+        "repoStars": 4147,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -916,7 +935,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4146,
+        "repoStars": 4147,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -927,7 +946,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4146,
+        "repoStars": 4147,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -951,6 +970,17 @@
         "state": "open",
         "repoStars": 3335,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
+      },
+      {
+        "kind": "open-pr",
+        "title": "Fix docstring cross-references breaking intersphinx consumers",
+        "url": "https://github.com/django-import-export/django-import-export/pull/2188",
+        "repo": "django-import-export/django-import-export",
+        "number": 2188,
+        "at": "2026-09-08T21:51:21Z",
+        "state": "open",
+        "repoStars": 3334,
+        "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
         "kind": "open-pr",
@@ -1041,6 +1071,17 @@
         "repoDescription": "Pylint plugin for improving code analysis for when using Django"
       },
       {
+        "kind": "open-pr",
+        "title": "docs: drop defunct skyrock and withings backend docs",
+        "url": "https://github.com/python-social-auth/social-docs/pull/499",
+        "repo": "python-social-auth/social-docs",
+        "number": 499,
+        "at": "2026-09-08T21:29:19Z",
+        "state": "open",
+        "repoStars": 35,
+        "repoDescription": "Python Social Auth - Docs"
+      },
+      {
         "kind": "issue",
         "title": "Required checks lint, build and test are satisfied by a skip when dependency-locks fails",
         "url": "https://github.com/openai/openai-python/issues/3755",
@@ -1048,7 +1089,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31607,
+        "repoStars": 31602,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1064,10 +1105,10 @@
       }
     ],
     "contributionSummary": {
-      "total": 31,
+      "total": 34,
       "merged": 12,
       "projects": 8,
-      "reach": 37486
+      "reach": 37489
     },
     "totals": {
       "repos": 40,
@@ -1098,11 +1139,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 3,
-        "week": 8,
-        "month": 242
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1139,7 +1176,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-08",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
