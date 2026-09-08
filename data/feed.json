@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-09-08T16:38:24.758Z",
+  "generatedAt": "2026-09-08T21:09:38.106Z",
   "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
   ],
   "github": {
     "profile": {
@@ -728,7 +729,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19803,
+        "repoStars": 19805,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -739,7 +740,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7627,
+        "repoStars": 7626,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -860,7 +861,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31606,
+        "repoStars": 31607,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1047,7 +1048,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31606,
+        "repoStars": 31607,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1058,7 +1059,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16204,
+        "repoStars": 16203,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1066,7 +1067,7 @@
       "total": 31,
       "merged": 12,
       "projects": 8,
-      "reach": 37485
+      "reach": 37486
     },
     "totals": {
       "repos": 40,
@@ -1086,11 +1087,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 23,
-        "week": 159,
-        "month": 527
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1116,11 +1113,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 2,
-        "week": 5,
-        "month": 142
-      }
+      "downloads": null
     }
   ],
   "citations": [
@@ -1146,7 +1139,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-09-08",
+    "live": true
   }
 }
