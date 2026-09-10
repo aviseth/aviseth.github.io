@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-09-10T04:42:56.479Z",
-  "warnings": [
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear"
-  ],
+  "generatedAt": "2026-09-10T11:19:28.610Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -734,7 +732,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19839,
+        "repoStars": 19845,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -833,7 +831,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 118,
+        "repoStars": 119,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -844,7 +842,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 118,
+        "repoStars": 119,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -888,7 +886,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31606,
+        "repoStars": 31609,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -899,7 +897,7 @@
         "number": 2469,
         "at": "2026-09-08T21:45:08Z",
         "state": "open",
-        "repoStars": 8380,
+        "repoStars": 8379,
         "repoDescription": "A configurable set of panels that display various debug information about the current request/response."
       },
       {
@@ -943,7 +941,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4149,
+        "repoStars": 4151,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -954,7 +952,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4149,
+        "repoStars": 4151,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -965,7 +963,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4149,
+        "repoStars": 4151,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1086,7 +1084,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31606,
+        "repoStars": 31609,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1105,7 +1103,7 @@
       "total": 34,
       "merged": 14,
       "projects": 8,
-      "reach": 38486
+      "reach": 38494
     },
     "totals": {
       "repos": 40,
@@ -1140,7 +1138,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 10,
+        "month": 244
+      }
     },
     {
       "registry": "pypi",
