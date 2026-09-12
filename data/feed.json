@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-09-12T20:33:20.297Z",
+  "generatedAt": "2026-09-12T23:03:27.711Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -735,7 +737,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19881,
+        "repoStars": 19886,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -889,7 +891,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31619,
+        "repoStars": 31620,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1076,7 +1078,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31619,
+        "repoStars": 31620,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1087,7 +1089,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16217,
+        "repoStars": 16218,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1095,7 +1097,7 @@
       "total": 33,
       "merged": 14,
       "projects": 8,
-      "reach": 38530
+      "reach": 38535
     },
     "totals": {
       "repos": 40,
@@ -1115,11 +1117,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 33,
-        "week": 221,
-        "month": 721
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1167,7 +1165,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-12",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
