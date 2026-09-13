@@ -1,9 +1,6 @@
 {
-  "generatedAt": "2026-09-12T23:03:27.711Z",
+  "generatedAt": "2026-09-13T04:47:04.380Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -737,7 +734,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19886,
+        "repoStars": 19888,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -891,7 +888,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31620,
+        "repoStars": 31621,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -902,7 +899,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4471,
+        "repoStars": 4472,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -913,7 +910,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4471,
+        "repoStars": 4472,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1078,7 +1075,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31620,
+        "repoStars": 31621,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1089,7 +1086,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16218,
+        "repoStars": 16221,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1097,7 +1094,7 @@
       "total": 33,
       "merged": 14,
       "projects": 8,
-      "reach": 38535
+      "reach": 38537
     },
     "totals": {
       "repos": 40,
@@ -1117,7 +1114,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 1,
+        "week": 219,
+        "month": 722
+      }
     },
     {
       "registry": "pypi",
@@ -1128,7 +1129,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 2,
+        "week": 7,
+        "month": 246
+      }
     },
     {
       "registry": "pypi",
@@ -1139,7 +1144,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 3,
+        "week": 5,
+        "month": 145
+      }
     }
   ],
   "citations": [
