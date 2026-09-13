@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-09-13T16:16:41.317Z",
-  "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-09-13T20:49:57.382Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -734,7 +732,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19902,
+        "repoStars": 19904,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -745,7 +743,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7625,
+        "repoStars": 7626,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -1094,7 +1092,7 @@
       "total": 33,
       "merged": 14,
       "projects": 8,
-      "reach": 38553
+      "reach": 38556
     },
     "totals": {
       "repos": 40,
@@ -1174,7 +1172,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-09-13",
+    "live": true
   }
 }
