@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-09-14T19:50:57.752Z",
+  "generatedAt": "2026-09-14T23:52:18.716Z",
   "warnings": [
     "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -736,7 +737,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19930,
+        "repoStars": 19936,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -923,7 +924,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4370,
+        "repoStars": 4371,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -967,7 +968,7 @@
         "number": 2188,
         "at": "2026-09-08T21:51:21Z",
         "state": "open",
-        "repoStars": 3335,
+        "repoStars": 3336,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -978,7 +979,7 @@
         "number": 2184,
         "at": "2026-08-24T08:56:20Z",
         "state": "open",
-        "repoStars": 3335,
+        "repoStars": 3336,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -1088,7 +1089,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16225,
+        "repoStars": 16226,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1096,7 +1097,7 @@
       "total": 33,
       "merged": 14,
       "projects": 8,
-      "reach": 38583
+      "reach": 38589
     },
     "totals": {
       "repos": 40,
@@ -1138,11 +1139,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 0,
-        "week": 5,
-        "month": 145
-      }
+      "downloads": null
     }
   ],
   "citations": [
