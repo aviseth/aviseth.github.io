@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-16T11:33:38.625Z",
+  "generatedAt": "2026-09-16T16:55:05.202Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear"
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -735,7 +735,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 19979,
+        "repoStars": 19982,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -889,7 +889,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31628,
+        "repoStars": 31629,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1076,7 +1076,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31628,
+        "repoStars": 31629,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1087,7 +1087,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16233,
+        "repoStars": 16235,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1095,7 +1095,7 @@
       "total": 33,
       "merged": 14,
       "projects": 8,
-      "reach": 38642
+      "reach": 38645
     },
     "totals": {
       "repos": 40,
@@ -1115,7 +1115,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 29,
+        "week": 210,
+        "month": 781
+      }
     },
     {
       "registry": "pypi",
@@ -1167,7 +1171,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-16",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
