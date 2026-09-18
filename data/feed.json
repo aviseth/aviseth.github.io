@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-18T16:24:12.835Z",
+  "generatedAt": "2026-09-18T20:54:20.010Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear"
+    "Scholar scrape failed (unexpected markup) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -734,7 +734,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20027,
+        "repoStars": 20032,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -745,7 +745,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7631,
+        "repoStars": 7632,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -833,7 +833,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 126,
+        "repoStars": 127,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -844,7 +844,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 126,
+        "repoStars": 127,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -879,17 +879,6 @@
         "state": "closed",
         "repoStars": 1,
         "repoDescription": null
-      },
-      {
-        "kind": "open-pr",
-        "title": "perf(lib): stop pulling openai.types.beta into every import openai",
-        "url": "https://github.com/openai/openai-python/pull/3727",
-        "repo": "openai/openai-python",
-        "number": 3727,
-        "at": "2026-08-24T21:25:21Z",
-        "state": "open",
-        "repoStars": 31642,
-        "repoDescription": "The official Python library for the OpenAI API"
       },
       {
         "kind": "open-pr",
@@ -1075,7 +1064,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31642,
+        "repoStars": 31643,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1091,10 +1080,10 @@
       }
     ],
     "contributionSummary": {
-      "total": 33,
+      "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38699
+      "reach": 38707
     },
     "totals": {
       "repos": 40,
@@ -1114,7 +1103,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 3,
+        "week": 106,
+        "month": 794
+      }
     },
     {
       "registry": "pypi",
@@ -1170,7 +1163,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-18",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
