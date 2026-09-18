@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-18T04:43:32.007Z",
+  "generatedAt": "2026-09-18T11:14:04.199Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -735,7 +735,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20021,
+        "repoStars": 20024,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -834,7 +834,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 125,
+        "repoStars": 126,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -845,7 +845,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 125,
+        "repoStars": 126,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -889,7 +889,7 @@
         "number": 3727,
         "at": "2026-08-24T21:25:21Z",
         "state": "open",
-        "repoStars": 31640,
+        "repoStars": 31642,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -900,7 +900,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4479,
+        "repoStars": 4480,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -911,7 +911,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4479,
+        "repoStars": 4480,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1076,7 +1076,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31640,
+        "repoStars": 31642,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1087,7 +1087,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16243,
+        "repoStars": 16244,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1095,7 +1095,7 @@
       "total": 33,
       "merged": 14,
       "projects": 8,
-      "reach": 38690
+      "reach": 38695
     },
     "totals": {
       "repos": 40,
@@ -1115,7 +1115,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 3,
+        "week": 106,
+        "month": 794
+      }
     },
     {
       "registry": "pypi",
@@ -1126,11 +1130,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 0,
-        "week": 9,
-        "month": 253
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
