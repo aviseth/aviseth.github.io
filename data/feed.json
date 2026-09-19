@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-09-19T20:40:02.551Z",
-  "warnings": [],
+  "generatedAt": "2026-09-19T23:04:38.989Z",
+  "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -1073,7 +1077,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16246,
+        "repoStars": 16247,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1101,11 +1105,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 21,
-        "week": 94,
-        "month": 815
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1116,11 +1116,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 4,
-        "week": 13,
-        "month": 257
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1131,11 +1127,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 0,
-        "week": 5,
-        "month": 147
-      }
+      "downloads": null
     }
   ],
   "citations": [
