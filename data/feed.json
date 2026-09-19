@@ -1,9 +1,6 @@
 {
-  "generatedAt": "2026-09-19T04:37:26.789Z",
+  "generatedAt": "2026-09-19T10:58:59.262Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -737,7 +734,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20034,
+        "repoStars": 20042,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -1067,7 +1064,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31647,
+        "repoStars": 31648,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1078,7 +1075,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16245,
+        "repoStars": 16247,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1086,7 +1083,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38709
+      "reach": 38717
     },
     "totals": {
       "repos": 40,
@@ -1106,7 +1103,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 21,
+        "week": 94,
+        "month": 815
+      }
     },
     {
       "registry": "pypi",
@@ -1117,7 +1118,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 4,
+        "week": 13,
+        "month": 257
+      }
     },
     {
       "registry": "pypi",
@@ -1128,7 +1133,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 5,
+        "month": 147
+      }
     }
   ],
   "citations": [
