@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-09-20T11:23:18.966Z",
+  "generatedAt": "2026-09-20T16:06:21.892Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -734,7 +736,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20066,
+        "repoStars": 20069,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -745,7 +747,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7634,
+        "repoStars": 7633,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -1064,7 +1066,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31654,
+        "repoStars": 31657,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1083,7 +1085,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38743
+      "reach": 38745
     },
     "totals": {
       "repos": 40,
@@ -1103,11 +1105,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 4,
-        "week": 97,
-        "month": 819
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1133,11 +1131,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 0,
-        "week": 2,
-        "month": 147
-      }
+      "downloads": null
     }
   ],
   "citations": [
