@@ -1,7 +1,9 @@
 {
-  "generatedAt": "2026-09-20T20:49:04.171Z",
+  "generatedAt": "2026-09-20T23:15:26.704Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -735,7 +737,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20075,
+        "repoStars": 20074,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -1084,7 +1086,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38752
+      "reach": 38751
     },
     "totals": {
       "repos": 40,
@@ -1104,11 +1106,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 4,
-        "week": 97,
-        "month": 819
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1130,11 +1128,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 0,
-        "week": 2,
-        "month": 147
-      }
+      "downloads": null
     }
   ],
   "citations": [
