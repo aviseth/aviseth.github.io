@@ -1,9 +1,7 @@
 {
-  "generatedAt": "2026-09-19T23:04:38.989Z",
+  "generatedAt": "2026-09-20T04:53:44.953Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -736,7 +734,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20052,
+        "repoStars": 20061,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -747,7 +745,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7632,
+        "repoStars": 7634,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -978,7 +976,7 @@
         "number": 1842,
         "at": "2026-08-23T23:45:02Z",
         "state": "open",
-        "repoStars": 3335,
+        "repoStars": 3336,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -989,7 +987,7 @@
         "number": 1808,
         "at": "2026-08-20T10:20:51Z",
         "state": "open",
-        "repoStars": 3335,
+        "repoStars": 3336,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -1066,7 +1064,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31652,
+        "repoStars": 31653,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1077,7 +1075,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16247,
+        "repoStars": 16250,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1085,7 +1083,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38727
+      "reach": 38738
     },
     "totals": {
       "repos": 40,
@@ -1105,7 +1103,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 4,
+        "week": 97,
+        "month": 819
+      }
     },
     {
       "registry": "pypi",
@@ -1116,7 +1118,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 11,
+        "month": 257
+      }
     },
     {
       "registry": "pypi",
@@ -1127,7 +1133,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 2,
+        "month": 147
+      }
     }
   ],
   "citations": [
@@ -1153,7 +1163,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-19",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
