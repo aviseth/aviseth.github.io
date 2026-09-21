@@ -1,9 +1,6 @@
 {
-  "generatedAt": "2026-09-21T12:48:07.613Z",
-  "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-09-21T19:59:32.671Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -735,7 +732,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20089,
+        "repoStars": 20101,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -746,7 +743,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7634,
+        "repoStars": 7636,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -801,7 +798,7 @@
         "number": 1489,
         "at": "2026-08-29T13:02:57Z",
         "state": "closed",
-        "repoStars": 1700,
+        "repoStars": 1699,
         "repoDescription": "Keep track of failed login attempts in Django-powered sites."
       },
       {
@@ -889,7 +886,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4483,
+        "repoStars": 4484,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -900,7 +897,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4483,
+        "repoStars": 4484,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -949,35 +946,13 @@
       },
       {
         "kind": "open-pr",
-        "title": "Fix docstring cross-references breaking intersphinx consumers",
-        "url": "https://github.com/django-import-export/django-import-export/pull/2188",
-        "repo": "django-import-export/django-import-export",
-        "number": 2188,
-        "at": "2026-09-08T21:51:21Z",
-        "state": "open",
-        "repoStars": 3336,
-        "repoDescription": "Django application and library for importing and exporting data with admin integration."
-      },
-      {
-        "kind": "open-pr",
-        "title": "feat: support update_conflicts in bulk imports",
-        "url": "https://github.com/django-import-export/django-import-export/pull/2184",
-        "repo": "django-import-export/django-import-export",
-        "number": 2184,
-        "at": "2026-08-24T08:56:20Z",
-        "state": "open",
-        "repoStars": 3336,
-        "repoDescription": "Django application and library for importing and exporting data with admin integration."
-      },
-      {
-        "kind": "open-pr",
         "title": "Add a deploy check for unreachable response types (#1756)",
         "url": "https://github.com/django-oauth/django-oauth-toolkit/pull/1842",
         "repo": "django-oauth/django-oauth-toolkit",
         "number": 1842,
         "at": "2026-08-23T23:45:02Z",
         "state": "open",
-        "repoStars": 3336,
+        "repoStars": 3337,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -988,8 +963,30 @@
         "number": 1808,
         "at": "2026-08-20T10:20:51Z",
         "state": "open",
-        "repoStars": 3336,
+        "repoStars": 3337,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
+      },
+      {
+        "kind": "open-pr",
+        "title": "Fix docstring cross-references breaking intersphinx consumers",
+        "url": "https://github.com/django-import-export/django-import-export/pull/2188",
+        "repo": "django-import-export/django-import-export",
+        "number": 2188,
+        "at": "2026-09-08T21:51:21Z",
+        "state": "open",
+        "repoStars": 3335,
+        "repoDescription": "Django application and library for importing and exporting data with admin integration."
+      },
+      {
+        "kind": "open-pr",
+        "title": "feat: support update_conflicts in bulk imports",
+        "url": "https://github.com/django-import-export/django-import-export/pull/2184",
+        "repo": "django-import-export/django-import-export",
+        "number": 2184,
+        "at": "2026-08-24T08:56:20Z",
+        "state": "open",
+        "repoStars": 3335,
+        "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
         "kind": "open-pr",
@@ -1065,7 +1062,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31669,
+        "repoStars": 31672,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1076,7 +1073,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16256,
+        "repoStars": 16258,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1084,7 +1081,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38766
+      "reach": 38779
     },
     "totals": {
       "repos": 40,
@@ -1104,7 +1101,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 4,
+        "week": 90,
+        "month": 823
+      }
     },
     {
       "registry": "pypi",
@@ -1160,7 +1161,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-09-21",
+    "live": true
   }
 }
