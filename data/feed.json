@@ -1,8 +1,7 @@
 {
-  "generatedAt": "2026-09-23T04:44:55.428Z",
+  "generatedAt": "2026-09-23T11:36:11.598Z",
   "warnings": [
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear"
   ],
   "github": {
     "profile": {
@@ -735,7 +734,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20124,
+        "repoStars": 20128,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -922,7 +921,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4159,
+        "repoStars": 4160,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -933,7 +932,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4159,
+        "repoStars": 4160,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -944,7 +943,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4159,
+        "repoStars": 4160,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1065,7 +1064,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31680,
+        "repoStars": 31684,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1076,7 +1075,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16264,
+        "repoStars": 16266,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1084,7 +1083,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38802
+      "reach": 38806
     },
     "totals": {
       "repos": 40,
@@ -1160,7 +1159,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-09-23",
+    "live": true
   }
 }
