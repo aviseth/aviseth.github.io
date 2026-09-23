@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-09-23T11:36:11.598Z",
+  "generatedAt": "2026-09-23T16:57:55.302Z",
   "warnings": [
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear"
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -734,7 +735,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20128,
+        "repoStars": 20132,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -1064,7 +1065,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31684,
+        "repoStars": 31680,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1083,7 +1084,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38806
+      "reach": 38810
     },
     "totals": {
       "repos": 40,
@@ -1118,7 +1119,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 11,
+        "month": 262
+      }
     },
     {
       "registry": "pypi",
@@ -1129,11 +1134,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 3,
-        "week": 5,
-        "month": 151
-      }
+      "downloads": null
     }
   ],
   "citations": [
@@ -1159,7 +1160,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-23",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
