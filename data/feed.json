@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-09-22T21:18:30.017Z",
+  "generatedAt": "2026-09-23T04:44:55.428Z",
   "warnings": [
-    "Scholar scrape failed (unexpected markup) — using committed snapshot from 2026-08-24"
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -734,7 +735,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20117,
+        "repoStars": 20124,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -745,7 +746,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7635,
+        "repoStars": 7636,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -888,7 +889,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4486,
+        "repoStars": 4487,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -899,7 +900,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4486,
+        "repoStars": 4487,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1064,7 +1065,7 @@
         "number": 3755,
         "at": "2026-08-28T13:46:58Z",
         "state": "open",
-        "repoStars": 31677,
+        "repoStars": 31680,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1083,7 +1084,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38794
+      "reach": 38802
     },
     "totals": {
       "repos": 40,
@@ -1104,9 +1105,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 19,
-        "week": 90,
-        "month": 842
+        "day": 13,
+        "week": 74,
+        "month": 855
       }
     },
     {
@@ -1118,11 +1119,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 0,
-        "week": 14,
-        "month": 262
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1134,9 +1131,9 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 0,
-        "week": 2,
-        "month": 148
+        "day": 3,
+        "week": 5,
+        "month": 151
       }
     }
   ],
