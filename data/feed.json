@@ -1,8 +1,7 @@
 {
-  "generatedAt": "2026-09-24T17:10:50.571Z",
+  "generatedAt": "2026-09-24T21:31:10.904Z",
   "warnings": [
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+    "Scholar scrape failed (429) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -723,7 +722,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20147,
+        "repoStars": 20156,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -888,7 +887,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4488,
+        "repoStars": 4489,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -899,7 +898,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4488,
+        "repoStars": 4489,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1053,7 +1052,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31690,
+        "repoStars": 31691,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1064,7 +1063,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16274,
+        "repoStars": 16278,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1072,7 +1071,7 @@
       "total": 32,
       "merged": 15,
       "projects": 9,
-      "reach": 42164
+      "reach": 42173
     },
     "totals": {
       "repos": 40,
@@ -1107,7 +1106,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 9,
+        "month": 82
+      }
     },
     {
       "registry": "pypi",
