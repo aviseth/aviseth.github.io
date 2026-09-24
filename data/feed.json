@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T21:30:17.193Z",
+  "generatedAt": "2026-09-24T04:50:07.534Z",
   "warnings": [],
   "github": {
     "profile": {
@@ -703,24 +703,6 @@
         "at": "2026-08-25T14:48:52Z",
         "url": "https://github.com/python-social-auth/social-core",
         "kind": "pr-merged"
-      },
-      {
-        "repo": "dj-stripe",
-        "at": "2026-08-24T21:29:23Z",
-        "url": "https://github.com/dj-stripe/dj-stripe",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "dj-stripe",
-        "at": "2026-08-24T21:29:18Z",
-        "url": "https://github.com/dj-stripe/dj-stripe",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "dj-stripe",
-        "at": "2026-08-24T21:29:13Z",
-        "url": "https://github.com/dj-stripe/dj-stripe",
-        "kind": "pr-opened"
       }
     ],
     "contributions": [
@@ -732,7 +714,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20132,
+        "repoStars": 20133,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -886,7 +868,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4486,
+        "repoStars": 4488,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -897,7 +879,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4486,
+        "repoStars": 4488,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -919,7 +901,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4160,
+        "repoStars": 4161,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -930,7 +912,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4160,
+        "repoStars": 4161,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -941,7 +923,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4160,
+        "repoStars": 4161,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1060,9 +1042,9 @@
         "url": "https://github.com/openai/openai-python/issues/3755",
         "repo": "openai/openai-python",
         "number": 3755,
-        "at": "2026-08-28T13:46:58Z",
-        "state": "open",
-        "repoStars": 31680,
+        "at": "2026-09-23T23:45:59Z",
+        "state": "closed",
+        "repoStars": 31683,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1073,7 +1055,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16266,
+        "repoStars": 16269,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1081,7 +1063,7 @@
       "total": 32,
       "merged": 14,
       "projects": 8,
-      "reach": 38810
+      "reach": 38811
     },
     "totals": {
       "repos": 40,
@@ -1102,9 +1084,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 13,
-        "week": 74,
-        "month": 855
+        "day": 21,
+        "week": 85,
+        "month": 609
       }
     },
     {
@@ -1118,8 +1100,8 @@
       "releaseCount": 2,
       "downloads": {
         "day": 0,
-        "week": 11,
-        "month": 262
+        "week": 9,
+        "month": 82
       }
     },
     {
@@ -1132,9 +1114,9 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 3,
+        "day": 1,
         "week": 5,
-        "month": 151
+        "month": 47
       }
     }
   ],
@@ -1161,7 +1143,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-23",
+    "capturedAt": "2026-09-24",
     "live": true
   }
 }
