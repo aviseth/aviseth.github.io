@@ -1,6 +1,9 @@
 {
-  "generatedAt": "2026-09-24T11:45:36.233Z",
-  "warnings": [],
+  "generatedAt": "2026-09-24T17:10:50.571Z",
+  "warnings": [
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -578,6 +581,12 @@
     "releases": [],
     "events": [
       {
+        "repo": "django-import-export",
+        "at": "2026-09-24T15:36:41Z",
+        "url": "https://github.com/django-import-export/django-import-export",
+        "kind": "pr-merged"
+      },
+      {
         "repo": "social-core",
         "at": "2026-09-09T06:40:47Z",
         "url": "https://github.com/python-social-auth/social-core",
@@ -714,7 +723,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20142,
+        "repoStars": 20147,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -730,13 +739,24 @@
       },
       {
         "kind": "merged",
+        "title": "Fix docstring cross-references breaking intersphinx consumers",
+        "url": "https://github.com/django-import-export/django-import-export/pull/2188",
+        "repo": "django-import-export/django-import-export",
+        "number": 2188,
+        "at": "2026-09-24T15:36:41Z",
+        "state": "closed",
+        "repoStars": 3335,
+        "repoDescription": "Django application and library for importing and exporting data with admin integration."
+      },
+      {
+        "kind": "merged",
         "title": "Stop system checks querying the database on every command",
         "url": "https://github.com/dj-stripe/dj-stripe/pull/2236",
         "repo": "dj-stripe/dj-stripe",
         "number": 2236,
         "at": "2026-08-28T13:49:43Z",
         "state": "closed",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -747,7 +767,7 @@
         "number": 2240,
         "at": "2026-08-22T13:00:37Z",
         "state": "closed",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -758,7 +778,7 @@
         "number": 2234,
         "at": "2026-08-08T11:33:43Z",
         "state": "closed",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -769,7 +789,7 @@
         "number": 2235,
         "at": "2026-08-07T23:22:25Z",
         "state": "closed",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -868,7 +888,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4489,
+        "repoStars": 4488,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -879,7 +899,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4489,
+        "repoStars": 4488,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -950,17 +970,6 @@
       },
       {
         "kind": "open-pr",
-        "title": "Fix docstring cross-references breaking intersphinx consumers",
-        "url": "https://github.com/django-import-export/django-import-export/pull/2188",
-        "repo": "django-import-export/django-import-export",
-        "number": 2188,
-        "at": "2026-09-08T21:51:21Z",
-        "state": "open",
-        "repoStars": 3335,
-        "repoDescription": "Django application and library for importing and exporting data with admin integration."
-      },
-      {
-        "kind": "open-pr",
         "title": "feat: support update_conflicts in bulk imports",
         "url": "https://github.com/django-import-export/django-import-export/pull/2184",
         "repo": "django-import-export/django-import-export",
@@ -978,7 +987,7 @@
         "number": 2247,
         "at": "2026-08-28T14:01:00Z",
         "state": "open",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -989,7 +998,7 @@
         "number": 2244,
         "at": "2026-08-24T21:29:13Z",
         "state": "open",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1000,7 +1009,7 @@
         "number": 2243,
         "at": "2026-08-24T21:29:08Z",
         "state": "open",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1011,7 +1020,7 @@
         "number": 2239,
         "at": "2026-08-12T20:55:42Z",
         "state": "open",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1022,7 +1031,7 @@
         "number": 2237,
         "at": "2026-08-10T11:55:14Z",
         "state": "open",
-        "repoStars": 1794,
+        "repoStars": 1795,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1044,7 +1053,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31688,
+        "repoStars": 31690,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1055,15 +1064,15 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16272,
+        "repoStars": 16274,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
     "contributionSummary": {
       "total": 32,
-      "merged": 14,
-      "projects": 8,
-      "reach": 38820
+      "merged": 15,
+      "projects": 9,
+      "reach": 42164
     },
     "totals": {
       "repos": 40,
@@ -1098,11 +1107,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 0,
-        "week": 9,
-        "month": 82
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1143,7 +1148,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-24",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
