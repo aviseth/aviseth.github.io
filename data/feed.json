@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-25T04:57:41.097Z",
+  "generatedAt": "2026-09-25T11:50:46.125Z",
   "warnings": [
+    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -710,7 +711,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20160,
+        "repoStars": 20167,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -1040,7 +1041,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31691,
+        "repoStars": 31694,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1051,7 +1052,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16278,
+        "repoStars": 16281,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1059,7 +1060,7 @@
       "total": 32,
       "merged": 15,
       "projects": 9,
-      "reach": 42178
+      "reach": 42185
     },
     "totals": {
       "repos": 40,
@@ -1079,11 +1080,7 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 22,
-        "week": 104,
-        "month": 625
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
