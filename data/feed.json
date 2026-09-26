@@ -1,7 +1,6 @@
 {
-  "generatedAt": "2026-09-26T21:10:33.403Z",
+  "generatedAt": "2026-09-26T23:38:12.662Z",
   "warnings": [
-    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -1041,7 +1040,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31699,
+        "repoStars": 31697,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1052,7 +1051,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16283,
+        "repoStars": 16284,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1095,7 +1094,11 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 0,
+        "week": 5,
+        "month": 61
+      }
     },
     {
       "registry": "pypi",
