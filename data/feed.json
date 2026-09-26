@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T16:23:49.754Z",
+  "generatedAt": "2026-09-26T21:10:33.403Z",
   "warnings": [
     "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
@@ -711,7 +711,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20190,
+        "repoStars": 20195,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -1041,7 +1041,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31697,
+        "repoStars": 31699,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1060,7 +1060,7 @@
       "total": 32,
       "merged": 15,
       "projects": 9,
-      "reach": 42209
+      "reach": 42214
     },
     "totals": {
       "repos": 40,
