@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T16:58:07.923Z",
+  "generatedAt": "2026-09-27T21:20:48.964Z",
   "warnings": [
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -674,31 +674,6 @@
         "at": "2026-08-28T15:57:11Z",
         "url": "https://github.com/django-commons/django-debug-toolbar",
         "kind": "pr-opened"
-      },
-      {
-        "repo": "dj-stripe",
-        "at": "2026-08-28T14:01:00Z",
-        "url": "https://github.com/dj-stripe/dj-stripe",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "dj-stripe",
-        "at": "2026-08-28T13:49:43Z",
-        "url": "https://github.com/dj-stripe/dj-stripe",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "openai-python",
-        "at": "2026-08-28T13:47:00Z",
-        "url": "https://github.com/openai/openai-python/issues/3755",
-        "kind": "issue-opened",
-        "title": "Required checks lint, build and test are satisfied by a skip when dependency-locks fails"
-      },
-      {
-        "repo": "django-axes",
-        "at": "2026-08-28T13:30:42Z",
-        "url": "https://github.com/jazzband/django-axes",
-        "kind": "pr-opened"
       }
     ],
     "contributions": [
@@ -710,7 +685,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20213,
+        "repoStars": 20214,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -721,7 +696,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7638,
+        "repoStars": 7639,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -875,7 +850,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4493,
+        "repoStars": 4494,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -886,7 +861,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4493,
+        "repoStars": 4494,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -897,7 +872,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4376,
+        "repoStars": 4375,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -1040,7 +1015,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31701,
+        "repoStars": 31703,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1051,7 +1026,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16289,
+        "repoStars": 16290,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1059,7 +1034,7 @@
       "total": 32,
       "merged": 15,
       "projects": 9,
-      "reach": 42232
+      "reach": 42234
     },
     "totals": {
       "repos": 40,
@@ -1109,7 +1084,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 1,
+        "week": 6,
+        "month": 35
+      }
     }
   ],
   "citations": [
@@ -1135,7 +1114,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-09-27",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
