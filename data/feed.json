@@ -1,6 +1,9 @@
 {
-  "generatedAt": "2026-09-27T05:18:48.778Z",
-  "warnings": [],
+  "generatedAt": "2026-09-27T12:02:19.984Z",
+  "warnings": [
+    "no pypistats data for portalkit yet — a newly published package takes a day or two to appear",
+    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -8,7 +11,7 @@
       "bio": "AI Software Engineer @Crispa-ai ",
       "avatar": "https://avatars.githubusercontent.com/u/19593829?v=4",
       "url": "https://github.com/aviseth",
-      "followers": 14,
+      "followers": 13,
       "following": 9,
       "publicRepos": 67,
       "createdAt": "2016-05-26T15:27:38Z"
@@ -708,7 +711,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20201,
+        "repoStars": 20209,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -895,7 +898,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4376,
+        "repoStars": 4377,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -1049,7 +1052,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16287,
+        "repoStars": 16288,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1057,7 +1060,7 @@
       "total": 32,
       "merged": 15,
       "projects": 9,
-      "reach": 42220
+      "reach": 42228
     },
     "totals": {
       "repos": 40,
@@ -1092,11 +1095,7 @@
       "registryUrl": "https://pypi.org/project/portalkit/",
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
-      "downloads": {
-        "day": 1,
-        "week": 6,
-        "month": 61
-      }
+      "downloads": null
     },
     {
       "registry": "pypi",
@@ -1107,11 +1106,7 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": {
-        "day": 1,
-        "week": 6,
-        "month": 35
-      }
+      "downloads": null
     }
   ],
   "citations": [
