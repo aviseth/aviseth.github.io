@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-09-30T05:32:12.411Z",
+  "generatedAt": "2026-09-30T12:34:21.461Z",
   "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
   "github": {
@@ -645,7 +643,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20277,
+        "repoStars": 20282,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -656,7 +654,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7643,
+        "repoStars": 7644,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -667,7 +665,7 @@
         "number": 2188,
         "at": "2026-09-24T15:36:41Z",
         "state": "closed",
-        "repoStars": 3336,
+        "repoStars": 3337,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -810,7 +808,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4497,
+        "repoStars": 4498,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -821,7 +819,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4497,
+        "repoStars": 4498,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -843,7 +841,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4163,
+        "repoStars": 4162,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -854,7 +852,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4163,
+        "repoStars": 4162,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -865,7 +863,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4163,
+        "repoStars": 4162,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -898,7 +896,7 @@
         "number": 2184,
         "at": "2026-08-24T08:56:20Z",
         "state": "open",
-        "repoStars": 3336,
+        "repoStars": 3337,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -964,7 +962,7 @@
         "number": 488,
         "at": "2026-08-13T09:47:39Z",
         "state": "open",
-        "repoStars": 623,
+        "repoStars": 624,
         "repoDescription": "Pylint plugin for improving code analysis for when using Django"
       },
       {
@@ -975,7 +973,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31723,
+        "repoStars": 31724,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -986,7 +984,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16299,
+        "repoStars": 16298,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -994,7 +992,7 @@
       "total": 32,
       "merged": 15,
       "projects": 9,
-      "reach": 42306
+      "reach": 42313
     },
     "totals": {
       "repos": 40,
@@ -1014,7 +1012,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 18,
+        "week": 82,
+        "month": 611
+      }
     },
     {
       "registry": "pypi",
@@ -1040,7 +1042,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 1,
+        "week": 4,
+        "month": 35
+      }
     }
   ],
   "citations": [
