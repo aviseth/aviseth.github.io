@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-10-02T22:14:07.433Z",
-  "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-10-03T05:18:24.804Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -655,7 +653,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20362,
+        "repoStars": 20372,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -842,7 +840,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4505,
+        "repoStars": 4506,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -853,7 +851,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4505,
+        "repoStars": 4506,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -985,7 +983,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31734,
+        "repoStars": 31735,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -996,7 +994,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16305,
+        "repoStars": 16306,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1004,7 +1002,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49082
+      "reach": 49092
     },
     "totals": {
       "repos": 40,
@@ -1025,8 +1023,8 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 24,
-        "week": 67,
+        "day": 9,
+        "week": 71,
         "month": 611
       }
     },
@@ -1040,7 +1038,7 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 1,
+        "day": 0,
         "week": 10,
         "month": 61
       }
@@ -1055,8 +1053,8 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 0,
-        "week": 3,
+        "day": 1,
+        "week": 4,
         "month": 35
       }
     }
@@ -1084,7 +1082,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-10-03",
+    "live": true
   }
 }
