@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T18:38:40.127Z",
+  "generatedAt": "2026-10-04T23:57:23.572Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -655,7 +655,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20406,
+        "repoStars": 20409,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -787,7 +787,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 128,
+        "repoStars": 129,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -798,7 +798,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 128,
+        "repoStars": 129,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -875,7 +875,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4164,
+        "repoStars": 4165,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -886,7 +886,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4164,
+        "repoStars": 4165,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -897,7 +897,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4164,
+        "repoStars": 4165,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -996,7 +996,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16317,
+        "repoStars": 16316,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1004,7 +1004,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49125
+      "reach": 49130
     },
     "totals": {
       "repos": 40,
