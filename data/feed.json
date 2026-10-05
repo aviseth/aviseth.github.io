@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T05:39:16.317Z",
+  "generatedAt": "2026-10-05T14:37:35.251Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -602,12 +602,6 @@
         "at": "2026-09-09T06:40:47Z",
         "url": "https://github.com/python-social-auth/social-core",
         "kind": "pr-merged"
-      },
-      {
-        "repo": "social-docs",
-        "at": "2026-09-09T06:40:39Z",
-        "url": "https://github.com/python-social-auth/social-docs",
-        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -619,7 +613,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20411,
+        "repoStars": 20415,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -729,7 +723,7 @@
         "number": 1939,
         "at": "2026-09-09T06:40:47Z",
         "state": "closed",
-        "repoStars": 924,
+        "repoStars": 923,
         "repoDescription": "Python Social Auth - Core"
       },
       {
@@ -740,7 +734,7 @@
         "number": 1923,
         "at": "2026-08-25T14:48:52Z",
         "state": "closed",
-        "repoStars": 924,
+        "repoStars": 923,
         "repoDescription": "Python Social Auth - Core"
       },
       {
@@ -751,7 +745,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 129,
+        "repoStars": 130,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -762,7 +756,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 129,
+        "repoStars": 130,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -949,7 +943,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31744,
+        "repoStars": 31746,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -960,7 +954,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16316,
+        "repoStars": 16315,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -968,7 +962,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49132
+      "reach": 49136
     },
     "totals": {
       "repos": 40,
