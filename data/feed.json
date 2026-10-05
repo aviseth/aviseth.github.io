@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T23:57:23.572Z",
+  "generatedAt": "2026-10-05T05:39:16.317Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -608,42 +608,6 @@
         "at": "2026-09-09T06:40:39Z",
         "url": "https://github.com/python-social-auth/social-docs",
         "kind": "pr-merged"
-      },
-      {
-        "repo": "django-import-export",
-        "at": "2026-09-08T21:51:21Z",
-        "url": "https://github.com/django-import-export/django-import-export",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "pydantic",
-        "at": "2026-09-08T21:48:49Z",
-        "url": "https://github.com/pydantic/pydantic",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "django-debug-toolbar",
-        "at": "2026-09-08T21:45:08Z",
-        "url": "https://github.com/django-commons/django-debug-toolbar",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "social-docs",
-        "at": "2026-09-08T21:29:19Z",
-        "url": "https://github.com/python-social-auth/social-docs",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "conformance",
-        "at": "2026-09-06T19:14:59Z",
-        "url": "https://github.com/modelcontextprotocol/conformance",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "conformance",
-        "at": "2026-09-06T17:59:05Z",
-        "url": "https://github.com/modelcontextprotocol/conformance",
-        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -655,7 +619,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20409,
+        "repoStars": 20411,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -1004,7 +968,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49130
+      "reach": 49132
     },
     "totals": {
       "repos": 40,
@@ -1025,9 +989,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 4,
-        "week": 65,
-        "month": 516
+        "day": 3,
+        "week": 68,
+        "month": 481
       }
     },
     {
@@ -1041,8 +1005,8 @@
       "releaseCount": 2,
       "downloads": {
         "day": 0,
-        "week": 9,
-        "month": 37
+        "week": 8,
+        "month": 33
       }
     },
     {
@@ -1055,9 +1019,9 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 1,
+        "day": 0,
         "week": 4,
-        "month": 20
+        "month": 17
       }
     }
   ],
