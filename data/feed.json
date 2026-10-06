@@ -1,10 +1,6 @@
 {
-  "generatedAt": "2026-10-06T06:20:25.899Z",
-  "warnings": [
-    "no pypistats data for importcost yet — a newly published package takes a day or two to appear",
-    "no pypistats data for flakerate yet — a newly published package takes a day or two to appear",
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-10-06T15:57:11.764Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -609,7 +605,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20424,
+        "repoStars": 20440,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -620,7 +616,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7646,
+        "repoStars": 7647,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -631,7 +627,7 @@
         "number": 1808,
         "at": "2026-10-01T14:03:17Z",
         "state": "closed",
-        "repoStars": 3340,
+        "repoStars": 3341,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -642,7 +638,7 @@
         "number": 1842,
         "at": "2026-10-01T13:20:24Z",
         "state": "closed",
-        "repoStars": 3340,
+        "repoStars": 3341,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -719,7 +715,7 @@
         "number": 1939,
         "at": "2026-09-09T06:40:47Z",
         "state": "closed",
-        "repoStars": 923,
+        "repoStars": 924,
         "repoDescription": "Python Social Auth - Core"
       },
       {
@@ -730,7 +726,7 @@
         "number": 1923,
         "at": "2026-08-25T14:48:52Z",
         "state": "closed",
-        "repoStars": 923,
+        "repoStars": 924,
         "repoDescription": "Python Social Auth - Core"
       },
       {
@@ -829,7 +825,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4164,
+        "repoStars": 4165,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -840,7 +836,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4164,
+        "repoStars": 4165,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -851,7 +847,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4164,
+        "repoStars": 4165,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -939,7 +935,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31753,
+        "repoStars": 31754,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -950,7 +946,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16318,
+        "repoStars": 16317,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -958,7 +954,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49143
+      "reach": 49164
     },
     "totals": {
       "repos": 40,
@@ -978,7 +974,11 @@
       "registryUrl": "https://pypi.org/project/importcost/",
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
-      "downloads": null
+      "downloads": {
+        "day": 9,
+        "week": 71,
+        "month": 487
+      }
     },
     {
       "registry": "pypi",
@@ -1004,7 +1004,11 @@
       "registryUrl": "https://pypi.org/project/flakerate/",
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
-      "downloads": null
+      "downloads": {
+        "day": 1,
+        "week": 4,
+        "month": 18
+      }
     }
   ],
   "citations": [
@@ -1030,7 +1034,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-10-06",
+    "live": true
   }
 }
