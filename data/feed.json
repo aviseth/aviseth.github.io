@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-10-09T18:21:16.999Z",
-  "warnings": [],
+  "generatedAt": "2026-10-10T00:50:45.891Z",
+  "warnings": [
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -605,7 +607,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20508,
+        "repoStars": 20512,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -616,7 +618,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7649,
+        "repoStars": 7650,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -627,7 +629,7 @@
         "number": 1808,
         "at": "2026-10-01T14:03:17Z",
         "state": "closed",
-        "repoStars": 3342,
+        "repoStars": 3343,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -638,7 +640,7 @@
         "number": 1842,
         "at": "2026-10-01T13:20:24Z",
         "state": "closed",
-        "repoStars": 3342,
+        "repoStars": 3343,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -792,7 +794,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4511,
+        "repoStars": 4512,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -803,7 +805,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4511,
+        "repoStars": 4512,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -935,7 +937,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31785,
+        "repoStars": 31786,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -954,7 +956,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49222
+      "reach": 49229
     },
     "totals": {
       "repos": 40,
@@ -1034,7 +1036,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-10-09",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
