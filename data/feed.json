@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:20:53.929Z",
+  "generatedAt": "2026-10-10T21:43:47.494Z",
   "warnings": [],
   "github": {
     "profile": {
@@ -605,7 +605,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20531,
+        "repoStars": 20533,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -660,7 +660,7 @@
         "number": 2236,
         "at": "2026-08-28T13:49:43Z",
         "state": "closed",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -671,7 +671,7 @@
         "number": 2240,
         "at": "2026-08-22T13:00:37Z",
         "state": "closed",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -682,7 +682,7 @@
         "number": 2234,
         "at": "2026-08-08T11:33:43Z",
         "state": "closed",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -693,7 +693,7 @@
         "number": 2235,
         "at": "2026-08-07T23:22:25Z",
         "state": "closed",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -869,7 +869,7 @@
         "number": 2247,
         "at": "2026-08-28T14:01:00Z",
         "state": "open",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -880,7 +880,7 @@
         "number": 2244,
         "at": "2026-08-24T21:29:13Z",
         "state": "open",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -891,7 +891,7 @@
         "number": 2243,
         "at": "2026-08-24T21:29:08Z",
         "state": "open",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -902,7 +902,7 @@
         "number": 2239,
         "at": "2026-08-12T20:55:42Z",
         "state": "open",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -913,7 +913,7 @@
         "number": 2237,
         "at": "2026-08-10T11:55:14Z",
         "state": "open",
-        "repoStars": 1793,
+        "repoStars": 1794,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -935,7 +935,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31794,
+        "repoStars": 31796,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -946,7 +946,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16332,
+        "repoStars": 16333,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -954,7 +954,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49250
+      "reach": 49256
     },
     "totals": {
       "repos": 40,
