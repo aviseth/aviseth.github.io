@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-10-11T12:49:28.572Z",
-  "warnings": [],
+  "generatedAt": "2026-10-11T19:33:38.389Z",
+  "warnings": [
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -605,7 +607,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20546,
+        "repoStars": 20551,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -627,7 +629,7 @@
         "number": 1808,
         "at": "2026-10-01T14:03:17Z",
         "state": "closed",
-        "repoStars": 3343,
+        "repoStars": 3344,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -638,7 +640,7 @@
         "number": 1842,
         "at": "2026-10-01T13:20:24Z",
         "state": "closed",
-        "repoStars": 3343,
+        "repoStars": 3344,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -935,7 +937,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31807,
+        "repoStars": 31812,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -954,7 +956,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49269
+      "reach": 49276
     },
     "totals": {
       "repos": 40,
@@ -1034,7 +1036,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-10-11",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
