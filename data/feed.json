@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-10-14T08:42:32.669Z",
-  "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-10-14T14:30:45.065Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -607,7 +605,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20608,
+        "repoStars": 20612,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -629,7 +627,7 @@
         "number": 1808,
         "at": "2026-10-01T14:03:17Z",
         "state": "closed",
-        "repoStars": 3343,
+        "repoStars": 3344,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -640,7 +638,7 @@
         "number": 1842,
         "at": "2026-10-01T13:20:24Z",
         "state": "closed",
-        "repoStars": 3343,
+        "repoStars": 3344,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -739,7 +737,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 132,
+        "repoStars": 133,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -750,7 +748,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 132,
+        "repoStars": 133,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -794,7 +792,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4510,
+        "repoStars": 4511,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -805,7 +803,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4510,
+        "repoStars": 4511,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -956,7 +954,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49339
+      "reach": 49347
     },
     "totals": {
       "repos": 40,
@@ -1036,7 +1034,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-10-14",
+    "live": true
   }
 }
