@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-10-14T19:23:19.037Z",
-  "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-10-14T23:55:06.328Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -12,7 +10,7 @@
       "url": "https://github.com/aviseth",
       "followers": 13,
       "following": 9,
-      "publicRepos": 67,
+      "publicRepos": 68,
       "createdAt": "2016-05-26T15:27:38Z"
     },
     "repos": [
@@ -113,6 +111,20 @@
         "license": null,
         "createdAt": "2018-04-24T14:05:50Z",
         "pushedAt": "2018-04-24T14:07:12Z"
+      },
+      {
+        "name": "gainpath",
+        "description": null,
+        "url": "https://github.com/aviseth/gainpath",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "topics": [],
+        "license": null,
+        "createdAt": "2026-10-14T19:45:40Z",
+        "pushedAt": "2026-10-14T22:25:46Z"
       },
       {
         "name": "greenwash",
@@ -580,6 +592,102 @@
     "releases": [],
     "events": [
       {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:25:46Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:25:41Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:17:04Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:16:59Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:16:54Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:16:50Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:16:45Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:16:40Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:16:27Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T22:02:14Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T21:57:14Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T21:42:34Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T21:17:06Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T21:16:59Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T21:16:54Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-14T19:46:17Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
         "repo": "django-oauth-toolkit",
         "at": "2026-10-01T14:03:17Z",
         "url": "https://github.com/django-oauth/django-oauth-toolkit",
@@ -607,7 +715,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20618,
+        "repoStars": 20619,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -629,7 +737,7 @@
         "number": 1808,
         "at": "2026-10-01T14:03:17Z",
         "state": "closed",
-        "repoStars": 3344,
+        "repoStars": 3343,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -640,7 +748,7 @@
         "number": 1842,
         "at": "2026-10-01T13:20:24Z",
         "state": "closed",
-        "repoStars": 3344,
+        "repoStars": 3343,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -739,7 +847,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 133,
+        "repoStars": 134,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -750,7 +858,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 133,
+        "repoStars": 134,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -937,7 +1045,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31840,
+        "repoStars": 31845,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -948,7 +1056,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16342,
+        "repoStars": 16343,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -956,10 +1064,10 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49353
+      "reach": 49354
     },
     "totals": {
-      "repos": 40,
+      "repos": 41,
       "stars": 8,
       "forks": 7,
       "releases": 0,
@@ -1036,7 +1144,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-10-14",
+    "live": true
   }
 }
