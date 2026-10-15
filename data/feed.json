@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-10-14T23:55:06.328Z",
-  "warnings": [],
+  "generatedAt": "2026-10-15T04:38:16.775Z",
+  "warnings": [
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -715,7 +717,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20619,
+        "repoStars": 20622,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -847,7 +849,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 134,
+        "repoStars": 135,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -858,7 +860,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 134,
+        "repoStars": 135,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -935,7 +937,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4165,
+        "repoStars": 4166,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -946,7 +948,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4165,
+        "repoStars": 4166,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -957,7 +959,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4165,
+        "repoStars": 4166,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1045,7 +1047,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31845,
+        "repoStars": 31846,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1056,7 +1058,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16343,
+        "repoStars": 16345,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1064,7 +1066,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49354
+      "reach": 49359
     },
     "totals": {
       "repos": 41,
@@ -1085,8 +1087,8 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 18,
-        "week": 93,
+        "day": 45,
+        "week": 119,
         "month": 487
       }
     },
@@ -1100,7 +1102,7 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 6,
+        "day": 0,
         "week": 9,
         "month": 33
       }
@@ -1115,7 +1117,7 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 1,
+        "day": 0,
         "week": 4,
         "month": 18
       }
@@ -1144,7 +1146,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-10-14",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
