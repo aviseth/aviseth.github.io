@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-15T21:22:35.977Z",
+  "generatedAt": "2026-10-16T04:31:37.942Z",
   "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+    "Scholar scrape failed (429) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -717,7 +717,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20644,
+        "repoStars": 20650,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -904,7 +904,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4512,
+        "repoStars": 4513,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -915,7 +915,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4512,
+        "repoStars": 4513,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1047,7 +1047,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31857,
+        "repoStars": 31858,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1066,7 +1066,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49382
+      "reach": 49388
     },
     "totals": {
       "repos": 41,
@@ -1087,8 +1087,8 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 45,
-        "week": 119,
+        "day": 79,
+        "week": 177,
         "month": 487
       }
     },
@@ -1102,8 +1102,8 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 0,
-        "week": 9,
+        "day": 5,
+        "week": 14,
         "month": 33
       }
     },
@@ -1117,8 +1117,8 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 0,
-        "week": 4,
+        "day": 6,
+        "week": 10,
         "month": 18
       }
     }
