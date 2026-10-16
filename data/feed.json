@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:23:48.256Z",
+  "generatedAt": "2026-10-16T16:39:14.959Z",
   "warnings": [
     "Scholar scrape failed (unexpected markup) — using committed snapshot from 2026-08-24"
   ],
@@ -700,12 +700,6 @@
         "at": "2026-10-01T13:20:24Z",
         "url": "https://github.com/django-oauth/django-oauth-toolkit",
         "kind": "pr-merged"
-      },
-      {
-        "repo": "django-import-export",
-        "at": "2026-09-24T15:36:41Z",
-        "url": "https://github.com/django-import-export/django-import-export",
-        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -717,7 +711,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20661,
+        "repoStars": 20665,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -904,7 +898,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4514,
+        "repoStars": 4516,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -915,7 +909,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4514,
+        "repoStars": 4516,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1066,7 +1060,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49400
+      "reach": 49404
     },
     "totals": {
       "repos": 41,
