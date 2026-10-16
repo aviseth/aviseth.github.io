@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T04:31:37.942Z",
+  "generatedAt": "2026-10-16T11:23:48.256Z",
   "warnings": [
-    "Scholar scrape failed (429) — using committed snapshot from 2026-08-24"
+    "Scholar scrape failed (unexpected markup) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -717,7 +717,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20650,
+        "repoStars": 20661,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -728,7 +728,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7656,
+        "repoStars": 7657,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -904,7 +904,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4513,
+        "repoStars": 4514,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -915,7 +915,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4513,
+        "repoStars": 4514,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1047,7 +1047,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31858,
+        "repoStars": 31861,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1058,7 +1058,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16349,
+        "repoStars": 16350,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1066,7 +1066,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49388
+      "reach": 49400
     },
     "totals": {
       "repos": 41,
