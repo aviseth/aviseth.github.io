@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:24:55.867Z",
+  "generatedAt": "2026-10-17T10:43:24.395Z",
   "warnings": [],
   "github": {
     "profile": {
@@ -709,7 +709,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20670,
+        "repoStars": 20673,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -929,7 +929,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4167,
+        "repoStars": 4168,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -940,7 +940,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4167,
+        "repoStars": 4168,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -951,7 +951,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4167,
+        "repoStars": 4168,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1039,7 +1039,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31865,
+        "repoStars": 31867,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1058,7 +1058,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49408
+      "reach": 49411
     },
     "totals": {
       "repos": 41,
