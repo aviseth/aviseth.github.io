@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T23:35:05.374Z",
+  "generatedAt": "2026-10-17T04:24:55.867Z",
   "warnings": [],
   "github": {
     "profile": {
@@ -709,7 +709,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20669,
+        "repoStars": 20670,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -720,7 +720,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7657,
+        "repoStars": 7656,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -1079,8 +1079,8 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 79,
-        "week": 177,
+        "day": 23,
+        "week": 187,
         "month": 487
       }
     },
@@ -1094,8 +1094,8 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 5,
-        "week": 14,
+        "day": 0,
+        "week": 13,
         "month": 33
       }
     },
@@ -1109,7 +1109,7 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 6,
+        "day": 0,
         "week": 10,
         "month": 18
       }
@@ -1138,7 +1138,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-10-16",
+    "capturedAt": "2026-10-17",
     "live": true
   }
 }
