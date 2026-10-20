@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T08:31:51.702Z",
+  "generatedAt": "2026-10-20T14:18:26.291Z",
   "warnings": [],
   "github": {
     "profile": {
@@ -703,7 +703,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20748,
+        "repoStars": 20754,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -714,7 +714,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7661,
+        "repoStars": 7662,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -912,7 +912,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4384,
+        "repoStars": 4383,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -1033,7 +1033,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31891,
+        "repoStars": 31892,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1044,7 +1044,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16356,
+        "repoStars": 16359,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1052,7 +1052,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49499
+      "reach": 49506
     },
     "totals": {
       "repos": 41,
