@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T17:06:32.184Z",
+  "generatedAt": "2026-10-23T21:24:23.497Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -725,7 +725,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20819,
+        "repoStars": 20823,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -912,7 +912,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4520,
+        "repoStars": 4521,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -923,7 +923,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4520,
+        "repoStars": 4521,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1055,7 +1055,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31919,
+        "repoStars": 31924,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1074,7 +1074,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49575
+      "reach": 49579
     },
     "totals": {
       "repos": 42,
