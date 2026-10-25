@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-10-25T11:27:58.824Z",
-  "warnings": [],
+  "generatedAt": "2026-10-25T16:18:21.914Z",
+  "warnings": [
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -723,7 +725,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20856,
+        "repoStars": 20860,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -1053,7 +1055,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31944,
+        "repoStars": 31947,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1064,7 +1066,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16376,
+        "repoStars": 16377,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1072,7 +1074,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49616
+      "reach": 49620
     },
     "totals": {
       "repos": 42,
@@ -1152,7 +1154,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-10-25",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
