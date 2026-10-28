@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-10-28T05:42:04.513Z",
-  "warnings": [
-    "Scholar scrape failed (unexpected markup) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-10-28T12:54:12.129Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -725,7 +723,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20916,
+        "repoStars": 20926,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -736,7 +734,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7672,
+        "repoStars": 7673,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -934,7 +932,7 @@
         "number": 1198,
         "at": "2026-08-10T13:25:35Z",
         "state": "open",
-        "repoStars": 4385,
+        "repoStars": 4384,
         "repoDescription": "Prometheus instrumentation library for Python applications"
       },
       {
@@ -1055,7 +1053,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31977,
+        "repoStars": 31979,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1066,7 +1064,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16387,
+        "repoStars": 16389,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1074,7 +1072,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49676
+      "reach": 49687
     },
     "totals": {
       "repos": 42,
@@ -1154,7 +1152,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-10-28",
+    "live": true
   }
 }
