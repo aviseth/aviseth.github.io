@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-10-27T22:13:53.629Z",
-  "warnings": [],
+  "generatedAt": "2026-10-28T05:42:04.513Z",
+  "warnings": [
+    "Scholar scrape failed (unexpected markup) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -723,7 +725,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20907,
+        "repoStars": 20916,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -745,7 +747,7 @@
         "number": 1808,
         "at": "2026-10-01T14:03:17Z",
         "state": "closed",
-        "repoStars": 3341,
+        "repoStars": 3342,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -756,7 +758,7 @@
         "number": 1842,
         "at": "2026-10-01T13:20:24Z",
         "state": "closed",
-        "repoStars": 3341,
+        "repoStars": 3342,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -822,7 +824,7 @@
         "number": 1489,
         "at": "2026-08-29T13:02:57Z",
         "state": "closed",
-        "repoStars": 1700,
+        "repoStars": 1701,
         "repoDescription": "Keep track of failed login attempts in Django-powered sites."
       },
       {
@@ -833,7 +835,7 @@
         "number": 1939,
         "at": "2026-09-09T06:40:47Z",
         "state": "closed",
-        "repoStars": 923,
+        "repoStars": 924,
         "repoDescription": "Python Social Auth - Core"
       },
       {
@@ -844,7 +846,7 @@
         "number": 1923,
         "at": "2026-08-25T14:48:52Z",
         "state": "closed",
-        "repoStars": 923,
+        "repoStars": 924,
         "repoDescription": "Python Social Auth - Core"
       },
       {
@@ -910,7 +912,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4522,
+        "repoStars": 4523,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -921,7 +923,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4522,
+        "repoStars": 4523,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1053,7 +1055,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31975,
+        "repoStars": 31977,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1064,7 +1066,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16384,
+        "repoStars": 16387,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1072,7 +1074,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49662
+      "reach": 49676
     },
     "totals": {
       "repos": 42,
@@ -1093,7 +1095,7 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 23,
+        "day": 18,
         "week": 230,
         "month": 487
       }
@@ -1123,7 +1125,7 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 2,
+        "day": 0,
         "week": 7,
         "month": 18
       }
@@ -1152,7 +1154,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-10-27",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
