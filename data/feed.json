@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-10-28T20:16:18.542Z",
-  "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-10-29T00:55:54.143Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -725,7 +723,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20929,
+        "repoStars": 20932,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -736,7 +734,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7674,
+        "repoStars": 7675,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -912,7 +910,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4523,
+        "repoStars": 4525,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -923,7 +921,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4523,
+        "repoStars": 4525,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -945,7 +943,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4177,
+        "repoStars": 4178,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -956,7 +954,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4177,
+        "repoStars": 4178,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -967,7 +965,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4177,
+        "repoStars": 4178,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1055,7 +1053,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31982,
+        "repoStars": 31990,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1066,7 +1064,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16392,
+        "repoStars": 16393,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1074,7 +1072,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49692
+      "reach": 49696
     },
     "totals": {
       "repos": 42,
@@ -1154,7 +1152,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-10-29",
+    "live": true
   }
 }
