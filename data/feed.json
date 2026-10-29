@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-10-29T09:57:34.500Z",
-  "warnings": [],
+  "generatedAt": "2026-10-29T18:28:16.534Z",
+  "warnings": [
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -723,7 +725,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20941,
+        "repoStars": 20946,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -855,7 +857,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 138,
+        "repoStars": 139,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -866,7 +868,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 138,
+        "repoStars": 139,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -910,7 +912,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4525,
+        "repoStars": 4526,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -921,7 +923,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4525,
+        "repoStars": 4526,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1053,7 +1055,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31993,
+        "repoStars": 31990,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1064,7 +1066,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16395,
+        "repoStars": 16397,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1072,7 +1074,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49705
+      "reach": 49712
     },
     "totals": {
       "repos": 42,
@@ -1152,7 +1154,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-10-29",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
