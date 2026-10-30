@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-30T00:58:45.106Z",
+  "generatedAt": "2026-10-30T10:00:03.421Z",
   "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+    "Scholar scrape failed (unexpected markup) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -725,7 +725,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20947,
+        "repoStars": 20953,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -736,7 +736,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7675,
+        "repoStars": 7676,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -912,7 +912,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4527,
+        "repoStars": 4526,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -923,7 +923,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4527,
+        "repoStars": 4526,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -945,7 +945,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4180,
+        "repoStars": 4181,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -956,7 +956,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4180,
+        "repoStars": 4181,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -967,7 +967,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4180,
+        "repoStars": 4181,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1055,7 +1055,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 31977,
+        "repoStars": 31983,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1074,7 +1074,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49713
+      "reach": 49720
     },
     "totals": {
       "repos": 42,
@@ -1095,8 +1095,8 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 17,
-        "week": 230,
+        "day": 15,
+        "week": 158,
         "month": 487
       }
     },
@@ -1110,8 +1110,8 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 1,
-        "week": 3,
+        "day": 0,
+        "week": 1,
         "month": 33
       }
     },
@@ -1125,8 +1125,8 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 1,
-        "week": 7,
+        "day": 0,
+        "week": 6,
         "month": 18
       }
     }
