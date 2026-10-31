@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T22:19:13.884Z",
+  "generatedAt": "2026-10-31T05:39:54.692Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -115,6 +115,20 @@
         "pushedAt": "2018-04-24T14:07:12Z"
       },
       {
+        "name": "gainpath",
+        "description": null,
+        "url": "https://github.com/aviseth/gainpath",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 0,
+        "forks": 0,
+        "openIssues": 0,
+        "topics": [],
+        "license": null,
+        "createdAt": "2026-10-14T19:45:40Z",
+        "pushedAt": "2026-10-31T00:15:35Z"
+      },
+      {
         "name": "policy2upskill",
         "description": null,
         "url": "https://github.com/aviseth/policy2upskill",
@@ -127,20 +141,6 @@
         "license": null,
         "createdAt": "2026-10-21T15:36:31Z",
         "pushedAt": "2026-10-21T17:42:41Z"
-      },
-      {
-        "name": "gainpath",
-        "description": null,
-        "url": "https://github.com/aviseth/gainpath",
-        "homepage": null,
-        "language": "TypeScript",
-        "stars": 0,
-        "forks": 0,
-        "openIssues": 0,
-        "topics": [],
-        "license": null,
-        "createdAt": "2026-10-14T19:45:40Z",
-        "pushedAt": "2026-10-18T16:49:36Z"
       },
       {
         "name": "greenwash",
@@ -609,6 +609,30 @@
     "events": [
       {
         "repo": "gainpath",
+        "at": "2026-10-31T00:15:35Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-31T00:08:12Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-30T23:36:08Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-10-30T23:25:49Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
         "at": "2026-10-18T16:49:36Z",
         "url": "https://github.com/aviseth/gainpath",
         "kind": "pr-merged"
@@ -725,7 +749,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20959,
+        "repoStars": 20965,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -912,7 +936,7 @@
         "number": 2259,
         "at": "2026-08-14T09:14:09Z",
         "state": "open",
-        "repoStars": 4528,
+        "repoStars": 4527,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -923,7 +947,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4528,
+        "repoStars": 4527,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1074,7 +1098,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49723
+      "reach": 49729
     },
     "totals": {
       "repos": 42,
@@ -1095,8 +1119,8 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 15,
-        "week": 158,
+        "day": 14,
+        "week": 111,
         "month": 487
       }
     },
