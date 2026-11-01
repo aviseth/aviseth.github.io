@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-11-01T06:03:14.753Z",
-  "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-11-01T13:23:31.997Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -126,7 +124,7 @@
         "topics": [],
         "license": null,
         "createdAt": "2026-10-14T19:45:40Z",
-        "pushedAt": "2026-10-31T08:20:39Z"
+        "pushedAt": "2026-11-01T13:11:20Z"
       },
       {
         "name": "policy2upskill",
@@ -609,6 +607,18 @@
     "events": [
       {
         "repo": "gainpath",
+        "at": "2026-11-01T13:11:20Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "gainpath",
+        "at": "2026-11-01T13:11:15Z",
+        "url": "https://github.com/aviseth/gainpath",
+        "kind": "pr-opened"
+      },
+      {
+        "repo": "gainpath",
         "at": "2026-10-31T08:20:39Z",
         "url": "https://github.com/aviseth/gainpath",
         "kind": "pr-merged"
@@ -738,18 +748,6 @@
         "at": "2026-10-14T21:16:59Z",
         "url": "https://github.com/aviseth/gainpath",
         "kind": "pr-opened"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T21:16:54Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T19:46:17Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-opened"
       }
     ],
     "contributions": [
@@ -761,7 +759,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 20974,
+        "repoStars": 20978,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -860,7 +858,7 @@
         "number": 1489,
         "at": "2026-08-29T13:02:57Z",
         "state": "closed",
-        "repoStars": 1702,
+        "repoStars": 1703,
         "repoDescription": "Keep track of failed login attempts in Django-powered sites."
       },
       {
@@ -1091,7 +1089,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32000,
+        "repoStars": 32002,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1102,7 +1100,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16409,
+        "repoStars": 16408,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1110,7 +1108,7 @@
       "total": 32,
       "merged": 17,
       "projects": 10,
-      "reach": 49740
+      "reach": 49745
     },
     "totals": {
       "repos": 42,
@@ -1190,7 +1188,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-11-01",
+    "live": true
   }
 }
