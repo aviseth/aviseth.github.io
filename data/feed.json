@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T06:43:57.876Z",
+  "generatedAt": "2026-11-19T02:34:01.681Z",
   "warnings": [],
   "github": {
     "profile": {
@@ -688,66 +688,6 @@
         "at": "2026-10-30T23:25:49Z",
         "url": "https://github.com/aviseth/gainpath",
         "kind": "pr-opened"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-18T16:49:36Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-18T16:43:11Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T22:25:46Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T22:25:41Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-opened"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T22:17:04Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T22:16:59Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T22:16:54Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T22:16:50Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T22:16:45Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-merged"
-      },
-      {
-        "repo": "gainpath",
-        "at": "2026-10-14T22:16:40Z",
-        "url": "https://github.com/aviseth/gainpath",
-        "kind": "pr-merged"
       }
     ],
     "contributions": [
@@ -759,7 +699,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21049,
+        "repoStars": 21279,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -770,7 +710,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7686,
+        "repoStars": 7714,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -781,7 +721,7 @@
         "number": 1808,
         "at": "2026-10-01T14:03:17Z",
         "state": "closed",
-        "repoStars": 3344,
+        "repoStars": 3347,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -792,7 +732,7 @@
         "number": 1842,
         "at": "2026-10-01T13:20:24Z",
         "state": "closed",
-        "repoStars": 3344,
+        "repoStars": 3347,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -814,7 +754,7 @@
         "number": 2236,
         "at": "2026-08-28T13:49:43Z",
         "state": "closed",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -825,7 +765,7 @@
         "number": 2240,
         "at": "2026-08-22T13:00:37Z",
         "state": "closed",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -836,7 +776,7 @@
         "number": 2234,
         "at": "2026-08-08T11:33:43Z",
         "state": "closed",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -847,7 +787,7 @@
         "number": 2235,
         "at": "2026-08-07T23:22:25Z",
         "state": "closed",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -858,7 +798,7 @@
         "number": 1489,
         "at": "2026-08-29T13:02:57Z",
         "state": "closed",
-        "repoStars": 1704,
+        "repoStars": 1707,
         "repoDescription": "Keep track of failed login attempts in Django-powered sites."
       },
       {
@@ -869,7 +809,7 @@
         "number": 1939,
         "at": "2026-09-09T06:40:47Z",
         "state": "closed",
-        "repoStars": 926,
+        "repoStars": 928,
         "repoDescription": "Python Social Auth - Core"
       },
       {
@@ -880,7 +820,7 @@
         "number": 1923,
         "at": "2026-08-25T14:48:52Z",
         "state": "closed",
-        "repoStars": 926,
+        "repoStars": 928,
         "repoDescription": "Python Social Auth - Core"
       },
       {
@@ -891,7 +831,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 140,
+        "repoStars": 148,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -902,7 +842,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 140,
+        "repoStars": 148,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -913,7 +853,7 @@
         "number": 499,
         "at": "2026-09-09T06:40:39Z",
         "state": "closed",
-        "repoStars": 35,
+        "repoStars": 36,
         "repoDescription": "Python Social Auth - Docs"
       },
       {
@@ -924,7 +864,7 @@
         "number": 484,
         "at": "2026-08-25T14:49:03Z",
         "state": "closed",
-        "repoStars": 35,
+        "repoStars": 36,
         "repoDescription": "Python Social Auth - Docs"
       },
       {
@@ -940,24 +880,13 @@
       },
       {
         "kind": "open-pr",
-        "title": "Document that extra_patterns are matched on the calling thread",
-        "url": "https://github.com/pydantic/logfire/pull/2259",
-        "repo": "pydantic/logfire",
-        "number": 2259,
-        "at": "2026-08-14T09:14:09Z",
-        "state": "open",
-        "repoStars": 4537,
-        "repoDescription": "AI observability platform for production LLM and agent systems."
-      },
-      {
-        "kind": "open-pr",
         "title": "Check extra_patterns at configuration time",
         "url": "https://github.com/pydantic/logfire/pull/2258",
         "repo": "pydantic/logfire",
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4537,
+        "repoStars": 4560,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -979,7 +908,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4186,
+        "repoStars": 4198,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -990,7 +919,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4186,
+        "repoStars": 4198,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1001,7 +930,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4186,
+        "repoStars": 4198,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1023,7 +952,7 @@
         "number": 2247,
         "at": "2026-08-28T14:01:00Z",
         "state": "open",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1034,7 +963,7 @@
         "number": 2244,
         "at": "2026-08-24T21:29:13Z",
         "state": "open",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1045,7 +974,7 @@
         "number": 2243,
         "at": "2026-08-24T21:29:08Z",
         "state": "open",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1056,7 +985,7 @@
         "number": 2239,
         "at": "2026-08-12T20:55:42Z",
         "state": "open",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1067,7 +996,7 @@
         "number": 2237,
         "at": "2026-08-10T11:55:14Z",
         "state": "open",
-        "repoStars": 1796,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -1078,7 +1007,7 @@
         "number": 488,
         "at": "2026-08-13T09:47:39Z",
         "state": "open",
-        "repoStars": 623,
+        "repoStars": 624,
         "repoDescription": "Pylint plugin for improving code analysis for when using Django"
       },
       {
@@ -1089,7 +1018,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32051,
+        "repoStars": 32189,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1100,15 +1029,15 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16416,
+        "repoStars": 16465,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
     "contributionSummary": {
-      "total": 32,
+      "total": 31,
       "merged": 17,
       "projects": 10,
-      "reach": 49848
+      "reach": 50153
     },
     "totals": {
       "repos": 42,
@@ -1129,9 +1058,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 10,
-        "week": 129,
-        "month": 487
+        "day": 34,
+        "week": 208,
+        "month": 729
       }
     },
     {
@@ -1145,8 +1074,8 @@
       "releaseCount": 2,
       "downloads": {
         "day": 0,
-        "week": 7,
-        "month": 33
+        "week": 4,
+        "month": 18
       }
     },
     {
@@ -1159,9 +1088,9 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 0,
+        "day": 2,
         "week": 6,
-        "month": 18
+        "month": 22
       }
     }
   ],
@@ -1188,7 +1117,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-11-06",
+    "capturedAt": "2026-11-19",
     "live": true
   }
 }
