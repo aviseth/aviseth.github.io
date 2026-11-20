@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:36:06.890Z",
+  "generatedAt": "2026-11-20T02:19:21.022Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -701,7 +701,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21294,
+        "repoStars": 21295,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -1020,7 +1020,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32203,
+        "repoStars": 32201,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1031,7 +1031,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16470,
+        "repoStars": 16471,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1039,7 +1039,7 @@
       "total": 31,
       "merged": 17,
       "projects": 10,
-      "reach": 50167
+      "reach": 50168
     },
     "totals": {
       "repos": 42,
@@ -1060,9 +1060,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 34,
-        "week": 208,
-        "month": 729
+        "day": 13,
+        "week": 204,
+        "month": 662
       }
     },
     {
@@ -1077,7 +1077,7 @@
       "downloads": {
         "day": 0,
         "week": 4,
-        "month": 18
+        "month": 16
       }
     },
     {
@@ -1090,9 +1090,9 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 2,
+        "day": 0,
         "week": 6,
-        "month": 22
+        "month": 21
       }
     }
   ],
