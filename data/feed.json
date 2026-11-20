@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T11:38:45.149Z",
+  "generatedAt": "2026-11-20T20:17:51.824Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -701,7 +701,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21310,
+        "repoStars": 21316,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -745,7 +745,7 @@
         "number": 2188,
         "at": "2026-09-24T15:36:41Z",
         "state": "closed",
-        "repoStars": 3333,
+        "repoStars": 3334,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -888,7 +888,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4561,
+        "repoStars": 4562,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -910,7 +910,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4197,
+        "repoStars": 4198,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -921,7 +921,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4197,
+        "repoStars": 4198,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -932,7 +932,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4197,
+        "repoStars": 4198,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -943,7 +943,7 @@
         "number": 2184,
         "at": "2026-08-24T08:56:20Z",
         "state": "open",
-        "repoStars": 3333,
+        "repoStars": 3334,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -1020,7 +1020,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32202,
+        "repoStars": 32203,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1031,7 +1031,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16473,
+        "repoStars": 16476,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1039,7 +1039,7 @@
       "total": 31,
       "merged": 17,
       "projects": 10,
-      "reach": 50186
+      "reach": 50193
     },
     "totals": {
       "repos": 42,
@@ -1102,7 +1102,7 @@
       "title": "Task-Driven Privacy-Preserving Data-Sharing Framework for the Industrial Internet",
       "venue": "2022 IEEE International Conference on Big Data (Big Data)",
       "year": 2022,
-      "citations": 5,
+      "citations": 6,
       "url": "https://doi.org/10.1109/bigdata55660.2022.10020861"
     },
     {
