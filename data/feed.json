@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T02:13:30.747Z",
+  "generatedAt": "2026-11-21T11:00:05.416Z",
   "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+    "Scholar scrape failed (unexpected markup) — using committed snapshot from 2026-08-24"
   ],
   "github": {
     "profile": {
@@ -701,7 +701,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21318,
+        "repoStars": 21325,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -745,7 +745,7 @@
         "number": 2188,
         "at": "2026-09-24T15:36:41Z",
         "state": "closed",
-        "repoStars": 3334,
+        "repoStars": 3335,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -943,7 +943,7 @@
         "number": 2184,
         "at": "2026-08-24T08:56:20Z",
         "state": "open",
-        "repoStars": 3334,
+        "repoStars": 3335,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -1020,7 +1020,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32207,
+        "repoStars": 32208,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1031,7 +1031,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16476,
+        "repoStars": 16478,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1039,7 +1039,7 @@
       "total": 31,
       "merged": 17,
       "projects": 10,
-      "reach": 50195
+      "reach": 50203
     },
     "totals": {
       "repos": 42,
