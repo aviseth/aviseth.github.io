@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-11-22T11:23:47.370Z",
-  "warnings": [],
+  "generatedAt": "2026-11-22T19:39:05.576Z",
+  "warnings": [
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -699,7 +701,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21332,
+        "repoStars": 21337,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -710,7 +712,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7718,
+        "repoStars": 7719,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -908,7 +910,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4199,
+        "repoStars": 4201,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -919,7 +921,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4199,
+        "repoStars": 4201,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -930,7 +932,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4199,
+        "repoStars": 4201,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1018,7 +1020,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32211,
+        "repoStars": 32213,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1029,7 +1031,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16484,
+        "repoStars": 16487,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1037,7 +1039,7 @@
       "total": 31,
       "merged": 17,
       "projects": 10,
-      "reach": 50213
+      "reach": 50219
     },
     "totals": {
       "repos": 42,
@@ -1117,7 +1119,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-11-22",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
