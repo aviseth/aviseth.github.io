@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-11-24T13:41:45.690Z",
-  "warnings": [],
+  "generatedAt": "2026-11-24T23:53:48.978Z",
+  "warnings": [
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -606,6 +608,36 @@
     "releases": [],
     "events": [
       {
+        "repo": "dj-stripe",
+        "at": "2026-11-24T14:31:37Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "dj-stripe",
+        "at": "2026-11-24T14:28:44Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "dj-stripe",
+        "at": "2026-11-24T14:22:30Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "dj-stripe",
+        "at": "2026-11-24T14:19:26Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-merged"
+      },
+      {
+        "repo": "dj-stripe",
+        "at": "2026-11-24T14:17:35Z",
+        "url": "https://github.com/dj-stripe/dj-stripe",
+        "kind": "pr-merged"
+      },
+      {
         "repo": "gainpath",
         "at": "2026-11-02T08:51:24Z",
         "url": "https://github.com/aviseth/gainpath",
@@ -699,7 +731,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21363,
+        "repoStars": 21369,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -745,6 +777,61 @@
         "state": "closed",
         "repoStars": 3335,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
+      },
+      {
+        "kind": "merged",
+        "title": "Ask Stripe whether a key can read the platform account",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2237",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2237,
+        "at": "2026-11-24T14:31:37Z",
+        "state": "closed",
+        "repoStars": 1799,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
+      },
+      {
+        "kind": "merged",
+        "title": "Make syncing cheaper in queries and API round trips",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2247",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2247,
+        "at": "2026-11-24T14:28:44Z",
+        "state": "closed",
+        "repoStars": 1799,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
+      },
+      {
+        "kind": "merged",
+        "title": "Cover foreign key and related object updates on sync",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2239",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2239,
+        "at": "2026-11-24T14:22:30Z",
+        "state": "closed",
+        "repoStars": 1799,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
+      },
+      {
+        "kind": "merged",
+        "title": "Stop enums raising KeyError on values Stripe has added",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2243",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2243,
+        "at": "2026-11-24T14:19:26Z",
+        "state": "closed",
+        "repoStars": 1799,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
+      },
+      {
+        "kind": "merged",
+        "title": "Fall back to dj-stripe's own default Stripe API version",
+        "url": "https://github.com/dj-stripe/dj-stripe/pull/2244",
+        "repo": "dj-stripe/dj-stripe",
+        "number": 2244,
+        "at": "2026-11-24T14:17:35Z",
+        "state": "closed",
+        "repoStars": 1799,
+        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
         "kind": "merged",
@@ -946,61 +1033,6 @@
       },
       {
         "kind": "open-pr",
-        "title": "Make syncing cheaper in queries and API round trips",
-        "url": "https://github.com/dj-stripe/dj-stripe/pull/2247",
-        "repo": "dj-stripe/dj-stripe",
-        "number": 2247,
-        "at": "2026-08-28T14:01:00Z",
-        "state": "open",
-        "repoStars": 1799,
-        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
-      },
-      {
-        "kind": "open-pr",
-        "title": "Fall back to dj-stripe's own default Stripe API version",
-        "url": "https://github.com/dj-stripe/dj-stripe/pull/2244",
-        "repo": "dj-stripe/dj-stripe",
-        "number": 2244,
-        "at": "2026-08-24T21:29:13Z",
-        "state": "open",
-        "repoStars": 1799,
-        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
-      },
-      {
-        "kind": "open-pr",
-        "title": "Stop enums raising KeyError on values Stripe has added",
-        "url": "https://github.com/dj-stripe/dj-stripe/pull/2243",
-        "repo": "dj-stripe/dj-stripe",
-        "number": 2243,
-        "at": "2026-08-24T21:29:08Z",
-        "state": "open",
-        "repoStars": 1799,
-        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
-      },
-      {
-        "kind": "open-pr",
-        "title": "Cover foreign key and related object updates on sync",
-        "url": "https://github.com/dj-stripe/dj-stripe/pull/2239",
-        "repo": "dj-stripe/dj-stripe",
-        "number": 2239,
-        "at": "2026-08-12T20:55:42Z",
-        "state": "open",
-        "repoStars": 1799,
-        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
-      },
-      {
-        "kind": "open-pr",
-        "title": "Ask Stripe whether a key can read the platform account",
-        "url": "https://github.com/dj-stripe/dj-stripe/pull/2237",
-        "repo": "dj-stripe/dj-stripe",
-        "number": 2237,
-        "at": "2026-08-10T11:55:14Z",
-        "state": "open",
-        "repoStars": 1799,
-        "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
-      },
-      {
-        "kind": "open-pr",
         "title": "Keep Field in the type shim so super() calls resolve",
         "url": "https://github.com/pylint-dev/pylint-django/pull/488",
         "repo": "pylint-dev/pylint-django",
@@ -1018,7 +1050,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32228,
+        "repoStars": 32234,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1035,9 +1067,9 @@
     ],
     "contributionSummary": {
       "total": 31,
-      "merged": 17,
+      "merged": 22,
       "projects": 10,
-      "reach": 50249
+      "reach": 59250
     },
     "totals": {
       "repos": 42,
@@ -1117,7 +1149,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-11-24",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
