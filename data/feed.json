@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T23:53:48.978Z",
+  "generatedAt": "2026-11-25T08:32:45.641Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -731,7 +731,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21369,
+        "repoStars": 21375,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -742,7 +742,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7722,
+        "repoStars": 7723,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -918,7 +918,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 150,
+        "repoStars": 151,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -929,7 +929,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 150,
+        "repoStars": 151,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -1050,7 +1050,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32234,
+        "repoStars": 32236,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1061,7 +1061,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16494,
+        "repoStars": 16497,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1069,7 +1069,7 @@
       "total": 31,
       "merged": 22,
       "projects": 10,
-      "reach": 59250
+      "reach": 59259
     },
     "totals": {
       "repos": 42,
@@ -1090,9 +1090,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 13,
-        "week": 134,
-        "month": 580
+        "day": 23,
+        "week": 101,
+        "month": 589
       }
     },
     {
@@ -1105,9 +1105,9 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 1,
-        "week": 4,
-        "month": 19
+        "day": 3,
+        "week": 7,
+        "month": 22
       }
     },
     {
@@ -1120,9 +1120,9 @@
       "releasedAt": "2026-08-24T10:53:31.889507Z",
       "releaseCount": 1,
       "downloads": {
-        "day": 1,
-        "week": 9,
-        "month": 22
+        "day": 0,
+        "week": 6,
+        "month": 21
       }
     }
   ],
