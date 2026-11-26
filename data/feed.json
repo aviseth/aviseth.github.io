@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T19:15:13.083Z",
+  "generatedAt": "2026-11-26T03:34:10.090Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -731,7 +731,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21387,
+        "repoStars": 21393,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -742,7 +742,7 @@
         "number": 1134,
         "at": "2026-08-24T20:26:14Z",
         "state": "closed",
-        "repoStars": 7723,
+        "repoStars": 7724,
         "repoDescription": "Task scheduling library for Python"
       },
       {
@@ -973,7 +973,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4567,
+        "repoStars": 4568,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1050,7 +1050,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32238,
+        "repoStars": 32247,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1061,7 +1061,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16501,
+        "repoStars": 16504,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1069,7 +1069,7 @@
       "total": 31,
       "merged": 22,
       "projects": 10,
-      "reach": 59272
+      "reach": 59279
     },
     "totals": {
       "repos": 42,
@@ -1090,9 +1090,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 23,
-        "week": 101,
-        "month": 589
+        "day": 10,
+        "week": 77,
+        "month": 576
       }
     },
     {
@@ -1105,9 +1105,9 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 3,
-        "week": 7,
-        "month": 22
+        "day": 1,
+        "week": 8,
+        "month": 23
       }
     },
     {
@@ -1121,8 +1121,8 @@
       "releaseCount": 1,
       "downloads": {
         "day": 0,
-        "week": 6,
-        "month": 21
+        "week": 4,
+        "month": 19
       }
     }
   ],
