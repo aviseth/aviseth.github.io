@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-11-26T03:34:10.090Z",
-  "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-11-26T16:53:15.336Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -731,7 +729,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21393,
+        "repoStars": 21412,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -786,7 +784,7 @@
         "number": 2237,
         "at": "2026-11-24T14:31:37Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -797,7 +795,7 @@
         "number": 2247,
         "at": "2026-11-24T14:28:44Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -808,7 +806,7 @@
         "number": 2239,
         "at": "2026-11-24T14:22:30Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -819,7 +817,7 @@
         "number": 2243,
         "at": "2026-11-24T14:19:26Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -830,7 +828,7 @@
         "number": 2244,
         "at": "2026-11-24T14:17:35Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -841,7 +839,7 @@
         "number": 2236,
         "at": "2026-08-28T13:49:43Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -852,7 +850,7 @@
         "number": 2240,
         "at": "2026-08-22T13:00:37Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -863,7 +861,7 @@
         "number": 2234,
         "at": "2026-08-08T11:33:43Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -874,7 +872,7 @@
         "number": 2235,
         "at": "2026-08-07T23:22:25Z",
         "state": "closed",
-        "repoStars": 1799,
+        "repoStars": 1800,
         "repoDescription": "dj-stripe automatically syncs your Stripe Data to your local database as pre-implemented Django Models allowing you to use the Django ORM, in your code, to work with the data making it easier and faster."
       },
       {
@@ -918,7 +916,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 151,
+        "repoStars": 152,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -929,7 +927,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 151,
+        "repoStars": 152,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -973,7 +971,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4568,
+        "repoStars": 4569,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1050,7 +1048,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32247,
+        "repoStars": 32252,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1061,7 +1059,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16504,
+        "repoStars": 16506,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1069,7 +1067,7 @@
       "total": 31,
       "merged": 22,
       "projects": 10,
-      "reach": 59279
+      "reach": 59309
     },
     "totals": {
       "repos": 42,
@@ -1149,7 +1147,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-11-26",
+    "live": true
   }
 }
