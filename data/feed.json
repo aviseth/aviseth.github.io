@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-11-27T12:18:29.996Z",
-  "warnings": [
-    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
-  ],
+  "generatedAt": "2026-11-27T23:27:26.091Z",
+  "warnings": [],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -731,7 +729,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21426,
+        "repoStars": 21431,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -753,7 +751,7 @@
         "number": 1808,
         "at": "2026-10-01T14:03:17Z",
         "state": "closed",
-        "repoStars": 3349,
+        "repoStars": 3348,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -764,7 +762,7 @@
         "number": 1842,
         "at": "2026-10-01T13:20:24Z",
         "state": "closed",
-        "repoStars": 3349,
+        "repoStars": 3348,
         "repoDescription": "OAuth2 goodies for the Djangonauts!"
       },
       {
@@ -885,7 +883,7 @@
         "number": 1489,
         "at": "2026-08-29T13:02:57Z",
         "state": "closed",
-        "repoStars": 1710,
+        "repoStars": 1709,
         "repoDescription": "Keep track of failed login attempts in Django-powered sites."
       },
       {
@@ -973,7 +971,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4570,
+        "repoStars": 4572,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1050,7 +1048,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32261,
+        "repoStars": 32269,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1069,7 +1067,7 @@
       "total": 31,
       "merged": 22,
       "projects": 10,
-      "reach": 59338
+      "reach": 59340
     },
     "totals": {
       "repos": 42,
@@ -1149,7 +1147,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-08-24",
-    "live": false
+    "capturedAt": "2026-11-27",
+    "live": true
   }
 }
