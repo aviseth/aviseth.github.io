@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-11-27T23:27:26.091Z",
-  "warnings": [],
+  "generatedAt": "2026-11-28T07:47:41.840Z",
+  "warnings": [
+    "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
+  ],
   "github": {
     "profile": {
       "login": "aviseth",
@@ -729,7 +731,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21431,
+        "repoStars": 21436,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -773,7 +775,7 @@
         "number": 2188,
         "at": "2026-09-24T15:36:41Z",
         "state": "closed",
-        "repoStars": 3335,
+        "repoStars": 3336,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -971,7 +973,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4572,
+        "repoStars": 4573,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -993,7 +995,7 @@
         "number": 20462,
         "at": "2026-08-28T15:59:20Z",
         "state": "open",
-        "repoStars": 4203,
+        "repoStars": 4204,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1004,7 +1006,7 @@
         "number": 20461,
         "at": "2026-08-28T15:59:17Z",
         "state": "open",
-        "repoStars": 4203,
+        "repoStars": 4204,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1015,7 +1017,7 @@
         "number": 20460,
         "at": "2026-08-28T15:59:10Z",
         "state": "open",
-        "repoStars": 4203,
+        "repoStars": 4204,
         "repoDescription": "The Python Package Index"
       },
       {
@@ -1026,7 +1028,7 @@
         "number": 2184,
         "at": "2026-08-24T08:56:20Z",
         "state": "open",
-        "repoStars": 3335,
+        "repoStars": 3336,
         "repoDescription": "Django application and library for importing and exporting data with admin integration."
       },
       {
@@ -1048,7 +1050,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32269,
+        "repoStars": 32265,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1059,7 +1061,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16507,
+        "repoStars": 16508,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
@@ -1067,7 +1069,7 @@
       "total": 31,
       "merged": 22,
       "projects": 10,
-      "reach": 59340
+      "reach": 59346
     },
     "totals": {
       "repos": 42,
@@ -1088,9 +1090,9 @@
       "releasedAt": "2026-08-24T09:08:03.721291Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 22,
-        "week": 86,
-        "month": 580
+        "day": 28,
+        "week": 109,
+        "month": 591
       }
     },
     {
@@ -1103,8 +1105,8 @@
       "releasedAt": "2026-08-24T09:08:02.370000Z",
       "releaseCount": 2,
       "downloads": {
-        "day": 3,
-        "week": 11,
+        "day": 1,
+        "week": 12,
         "month": 26
       }
     },
@@ -1119,8 +1121,8 @@
       "releaseCount": 1,
       "downloads": {
         "day": 2,
-        "week": 6,
-        "month": 21
+        "week": 8,
+        "month": 22
       }
     }
   ],
@@ -1147,7 +1149,7 @@
     "citations": 53,
     "hIndex": 2,
     "i10Index": 2,
-    "capturedAt": "2026-11-27",
-    "live": true
+    "capturedAt": "2026-08-24",
+    "live": false
   }
 }
