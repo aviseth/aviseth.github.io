@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T07:47:41.840Z",
+  "generatedAt": "2026-11-28T17:31:51.927Z",
   "warnings": [
     "Scholar scrape failed (403) — using committed snapshot from 2026-08-24"
   ],
@@ -731,7 +731,7 @@
         "number": 7465,
         "at": "2026-08-20T23:26:23Z",
         "state": "closed",
-        "repoStars": 21436,
+        "repoStars": 21438,
         "repoDescription": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
       },
       {
@@ -918,7 +918,7 @@
         "number": 454,
         "at": "2026-09-06T19:14:59Z",
         "state": "closed",
-        "repoStars": 154,
+        "repoStars": 153,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -929,7 +929,7 @@
         "number": 455,
         "at": "2026-09-06T17:59:05Z",
         "state": "closed",
-        "repoStars": 154,
+        "repoStars": 153,
         "repoDescription": "Conformance Tests for MCP"
       },
       {
@@ -973,7 +973,7 @@
         "number": 2258,
         "at": "2026-08-14T09:12:26Z",
         "state": "open",
-        "repoStars": 4573,
+        "repoStars": 4574,
         "repoDescription": "AI observability platform for production LLM and agent systems."
       },
       {
@@ -1050,7 +1050,7 @@
         "number": 3755,
         "at": "2026-09-23T23:45:59Z",
         "state": "closed",
-        "repoStars": 32265,
+        "repoStars": 32268,
         "repoDescription": "The official Python library for the OpenAI API"
       },
       {
@@ -1061,7 +1061,7 @@
         "number": 835,
         "at": "2025-03-30T16:32:24Z",
         "state": "closed",
-        "repoStars": 16508,
+        "repoStars": 16511,
         "repoDescription": "Automatic headphone equalization from frequency responses"
       }
     ],
